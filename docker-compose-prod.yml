@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: . 
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on: 
+      - postgres
+    networks:
+      - backend
+  postgres:
+    container_name: postgres
+    image: postgres
+    user: ${USERID}:${GROUPIP}
+    secrets:
+     - POSTGRES_PASSWORD
+    environment:
+     - POSTGRES_USER=${POSTGRES_USER}
+     - POSTGRES_PASSWORD_FILE=/run/secrets/POSTGRES_PASSWORD
+     - POSTGRES_DB=${POSTGRES_DB}
+    volumes: 
+     - pgdata:/var/lib/postgresql/data:rw
+     - ./config/postgres/config.conf:/etc/postgresql/postgresql.conf
+    networks:
+      - backend
+
+volumes:
+ pgdata:
+
+networks:
+  backend:

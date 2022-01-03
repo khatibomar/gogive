@@ -1,0 +1,6 @@
+.git/
+.github/
+ui/
+Dockerfile
+.dockerignore
+.gitignore
