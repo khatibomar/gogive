@@ -1,21 +1,52 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"net/http"
+	"os"
+	"time"
 )
 
-func main() {
-	http.HandleFunc("/", Home)
-	log.Println("starting server on port :8080")
+const version = "1.0.0"
 
-	err := http.ListenAndServe(":8080", nil)
-	if err != nil {
-		log.Fatal(err)
-	}
+type Config struct {
+	port int
+	env  string
 }
 
-func Home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, World!")
+type application struct {
+	config Config
+	logger *log.Logger
+}
+
+func main() {
+	var cfg Config
+
+	flag.IntVar(&cfg.port, "port", 4000, "API server port")
+	flag.StringVar(&cfg.env, "env", "development", "Environment (development|staging|production)")
+	flag.Parse()
+
+	logger := log.New(os.Stdout, "", log.Ldate|log.Ltime)
+
+	app := &application{
+		config: cfg,
+		logger: logger,
+	}
+
+	mux := http.NewServeMux()
+	mux.HandleFunc("/v1/healthcheck", app.healthcheckHandler)
+
+	srv := &http.Server{
+		Addr:         fmt.Sprintf(":%d", cfg.port),
+		Handler:      mux,
+		IdleTimeout:  time.Minute,
+		ReadTimeout:  10 * time.Second,
+		WriteTimeout: 30 * time.Second,
+	}
+
+	logger.Printf("starting %s server on %s", cfg.env, srv.Addr)
+	err := srv.ListenAndServe()
+	logger.Fatal(err)
 }

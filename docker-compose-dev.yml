@@ -5,8 +5,11 @@ services:
     build:
       context: . 
       dockerfile: Dockerfile
+      args:
+        GO_PORT: ${go_port:-4000} 
+        GO_ENV: "development" 
     ports:
-      - "8080:8080" 
+      - ${go_port:-4000}:${go_port:-4000}
     restart: unless-stopped
     depends_on: 
       - postgres
