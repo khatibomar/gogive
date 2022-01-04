@@ -26,12 +26,10 @@ list:
 # Docker support
 
 docker-dev-build-up:
-	docker-compose -f docker-compose-dev.yml build && docker-compose -f docker-compose-dev.yml up
+	docker-compose -f docker-compose-dev.yml build && docker-compose -f docker-compose-dev.yml up -d
 docker-dev-up:
-	docker-compose -f docker-compose-dev.yml up
-docker-dev-up-d:
 	docker-compose -f docker-compose-dev.yml up -d
 docker-dev-down:
 	docker-compose -f docker-compose-dev.yml down
 docker-clean:
-	docker system prune -f	
+	docker system prune -f

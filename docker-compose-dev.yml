@@ -22,6 +22,19 @@ services:
     volumes: 
      - pgdata:/var/lib/postgresql/data:rw
     restart: unless-stopped
-
+  demo-pgadmin4:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: test@test.com 
+      PGADMIN_DEFAULT_PASSWORD: test1234 
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    ports:
+    - "8889:80"
+    restart: unless-stopped
+    volumes:
+      - pgadmin:/var/lib/pgadmin 
+    depends_on:
+      - postgres
 volumes:
  pgdata:
+ pgadmin:
