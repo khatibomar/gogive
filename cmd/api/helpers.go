@@ -9,6 +9,9 @@ import (
 	"github.com/julienschmidt/httprouter"
 )
 
+// https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#envelope
+type envelope map[string]interface{}
+
 func (app *application) readIDParam(r *http.Request) (int64, error) {
 	params := httprouter.ParamsFromContext(r.Context())
 
