@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"net/http"
 	"time"
@@ -9,7 +10,18 @@ import (
 )
 
 func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "create a new item")
+	var input struct {
+		Name       string   `json:"name"`
+		Categories []string `json:"categories"`
+	}
+
+	err := json.NewDecoder(r.Body).Decode(&input)
+	if err != nil {
+		app.errorResponse(w, r, http.StatusBadRequest, err.Error())
+		return
+	}
+
+	fmt.Fprintf(w, "%+v\n", input)
 }
 
 func (app *application) showItemHandler(w http.ResponseWriter, r *http.Request) {
@@ -21,7 +33,7 @@ func (app *application) showItemHandler(w http.ResponseWriter, r *http.Request) 
 	item := data.Item{
 		ID:         id,
 		CreatedAt:  time.Now(),
-		Title:      "chohata",
+		Name:       "chohata",
 		Categories: []string{"albisa", "weapon", "mom tools"},
 		Version:    1,
 	}
