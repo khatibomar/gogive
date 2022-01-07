@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/khatibomar/gogive/internal/data"
+	"github.com/khatibomar/gogive/internal/validator"
 )
 
 func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request) {
@@ -17,6 +18,20 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 	err := app.readJSON(w, r, &input)
 	if err != nil {
 		app.badRequestResponse(w, r, err)
+		return
+	}
+
+	v := validator.New()
+
+	v.Check(input.Name != "", "name", "must be provided")
+
+	v.Check(input.Categories != nil, "categories", "must be provided")
+	v.Check(len(input.Categories) >= 1, "categories", "must contain at least 1 genre")
+	v.Check(len(input.Categories) <= 5, "categories", "must not contain more than 5 genres")
+	v.Check(validator.Unique(input.Categories), "categories", "must not contain duplicate values")
+
+	if !v.Valid() {
+		app.failedValidationResponse(w, r, v.Errors)
 		return
 	}
 
