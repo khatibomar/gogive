@@ -10,6 +10,11 @@ import (
 )
 
 func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request) {
+	// The problem with decoding directly into a Item struct
+	// is that a client could provide the keys id and version in their JSON request,
+	// and the corresponding values would be decoded without any error
+	// into the ID and Version fields of the Item struct
+	// even though we don’t want them to be.
 	var input struct {
 		Name       string   `json:"name"`
 		Categories []string `json:"categories"`
@@ -21,16 +26,16 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 		return
 	}
 
+	item := &data.Item{
+		Name:       input.Name,
+		Categories: input.Categories,
+	}
+
 	v := validator.New()
 
-	v.Check(input.Name != "", "name", "must be provided")
-
-	v.Check(input.Categories != nil, "categories", "must be provided")
-	v.Check(len(input.Categories) >= 1, "categories", "must contain at least 1 genre")
-	v.Check(len(input.Categories) <= 5, "categories", "must not contain more than 5 genres")
-	v.Check(validator.Unique(input.Categories), "categories", "must not contain duplicate values")
-
-	if !v.Valid() {
+	// Here we are passing validator as dependency instead of decleare it
+	// in the function itself because we may re-use this validator later
+	if data.ValidateItem(v, item); !v.Valid() {
 		app.failedValidationResponse(w, r, v.Errors)
 		return
 	}
