@@ -6,6 +6,13 @@ services:
       context: . 
       dockerfile: Dockerfile
     restart: unless-stopped
+    secrets:
+      - GOGIVE_DB_DSN
+    args:
+        GO_PORT: ${go_port:-4000} 
+        GO_ENV: "production" 
+    environment:
+      GOGIVE_DB_DSN: GOGIVE_DB_DSN
     depends_on: 
       - postgres
     networks:

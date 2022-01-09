@@ -13,9 +13,12 @@ FROM alpine:3.14
 ENV APP_NAME gogive-backend 
 ARG GO_PORT=4000
 ARG GO_ENV="development"
+
+
 # https://stackoverflow.com/questions/35560894/is-docker-arg-allowed-within-cmd-instruction/35562189#35562189
 ENV GO_PORT=${GO_PORT}
 ENV GO_ENV=${GO_ENV}
+ENV GOGIVE_DB_DSN=${GO_DSN}
 ENV APP_PATH=./${APP_NAME}
 
 COPY --from=build-env /$APP_NAME .
