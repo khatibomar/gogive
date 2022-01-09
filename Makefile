@@ -33,3 +33,10 @@ docker-dev-down:
 	docker-compose -f docker-compose-dev.yml down
 docker-clean:
 	docker system prune -f
+
+# ===============================================================================
+# Migrate
+migrate-up:
+	migrate -path=./migrations -database="${GOGIVE_DB_DSN}" up
+migrate-down:
+	migrate -path=./migrations -database="${GOGIVE_DB_DSN}" down 
