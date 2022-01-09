@@ -9,6 +9,9 @@ services:
       args:
         GO_PORT: ${go_port:-4000} 
         GO_ENV: "development" 
+        GO_DB_MAX_OPEN_CONNS: ${GO_DB_MAX_OPEN_CONNS:-25}
+        GO_DB_MAX_IDLE_CONNS: ${GO_DB_MAX_IDLE_CONNS:-25}
+        GO_DB_MAX_IDLE_TIME: ${GO_DB_MAX_IDLE_TIME:-15m}
     ports:
       - ${go_port:-4000}:${go_port:-4000}
     environment:
