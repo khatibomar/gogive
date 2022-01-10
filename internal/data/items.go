@@ -1,10 +1,31 @@
 package data
 
 import (
+	"database/sql"
 	"time"
 
 	"github.com/khatibomar/gogive/internal/validator"
 )
+
+type ItemModel struct {
+	DB *sql.DB
+}
+
+func (i ItemModel) Insert(item *Item) error {
+	return nil
+}
+
+func (i ItemModel) Get(id int64) (*Item, error) {
+	return nil, nil
+}
+
+func (i ItemModel) Update(item *Item) error {
+	return nil
+}
+
+func (i ItemModel) Delete(id int64) error {
+	return nil
+}
 
 type Item struct {
 	ID         int64     `json:"id"`
