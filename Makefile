@@ -33,6 +33,8 @@ docker-dev-down:
 	docker-compose -f docker-compose-dev.yml down
 docker-clean:
 	docker system prune -f
+docker-build-run-backend:
+	docker compose -f docker-compose-dev.yml up backend -d --build
 
 # ===============================================================================
 # Migrate

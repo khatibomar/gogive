@@ -40,7 +40,23 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 		return
 	}
 
-	fmt.Fprintf(w, "%+v\n", input)
+	err = app.models.Items.Insert(item)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+		return
+	}
+
+	headers := make(http.Header)
+	// When sending a HTTP response, we want to include a Location header to let the
+	// client know which URL they can find the newly-created resource at. We make an
+	// empty http.Header map and then use the Set() method to add a new Location header,
+	// interpolating the system-generated ID for our new movie in the URL.
+	headers.Set("Location", fmt.Sprintf("/v1/items/%d", item.ID))
+
+	err = app.writeJSON(w, http.StatusCreated, envelope{"item": item}, headers)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+	}
 }
 
 func (app *application) showItemHandler(w http.ResponseWriter, r *http.Request) {

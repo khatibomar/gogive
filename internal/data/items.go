@@ -5,6 +5,7 @@ import (
 	"time"
 
 	"github.com/khatibomar/gogive/internal/validator"
+	"github.com/lib/pq"
 )
 
 type ItemModel struct {
@@ -12,7 +13,14 @@ type ItemModel struct {
 }
 
 func (i ItemModel) Insert(item *Item) error {
-	return nil
+	query := `
+	INSERT INTO items (name, categories)
+	VALUES ($1,$2)
+	RETURNING id,created_at,version`
+
+	args := []interface{}{item.Name, pq.Array(item.Categories)}
+
+	return i.DB.QueryRow(query, args...).Scan(&item.ID, &item.CreatedAt, &item.Version)
 }
 
 func (i ItemModel) Get(id int64) (*Item, error) {
