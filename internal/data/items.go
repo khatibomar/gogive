@@ -54,7 +54,19 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 }
 
 func (i ItemModel) Update(item *Item) error {
-	return nil
+	query := `
+        UPDATE items
+        SET name = $1, categories = $2, version = version + 1
+        WHERE id = $3
+        RETURNING version`
+
+	args := []interface{}{
+		item.Name,
+		pq.Array(item.Categories),
+		item.ID,
+	}
+
+	return i.DB.QueryRow(query, args...).Scan(&item.Version)
 }
 
 func (i ItemModel) Delete(id int64) error {

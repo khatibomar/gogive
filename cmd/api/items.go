@@ -81,3 +81,53 @@ func (app *application) showItemHandler(w http.ResponseWriter, r *http.Request) 
 		app.serverErrorResponse(w, r, err)
 	}
 }
+
+func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request) {
+	id, err := app.readIDParam(r)
+	if err != nil {
+		app.notFoundResponse(w, r)
+		return
+	}
+
+	item, err := app.models.Items.Get(id)
+	if err != nil {
+		switch {
+		case errors.Is(err, data.ErrRecordNotFound):
+			app.notFoundResponse(w, r)
+		default:
+			app.serverErrorResponse(w, r, err)
+		}
+		return
+	}
+
+	var input struct {
+		Name       string   `json:"name"`
+		Categories []string `json:"categories"`
+	}
+
+	err = app.readJSON(w, r, &input)
+	if err != nil {
+		app.badRequestResponse(w, r, err)
+		return
+	}
+
+	item.Name = input.Name
+	item.Categories = input.Categories
+
+	v := validator.New()
+
+	if data.ValidateItem(v, item); !v.Valid() {
+		app.failedValidationResponse(w, r, v.Errors)
+	}
+
+	err = app.models.Items.Update(item)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+		return
+	}
+
+	err = app.writeJSON(w, http.StatusOK, envelope{"item": item}, nil)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+	}
+}
