@@ -2,6 +2,7 @@ package data
 
 import (
 	"database/sql"
+	"errors"
 	"time"
 
 	"github.com/khatibomar/gogive/internal/validator"
@@ -24,7 +25,32 @@ func (i ItemModel) Insert(item *Item) error {
 }
 
 func (i ItemModel) Get(id int64) (*Item, error) {
-	return nil, nil
+	if id < 1 {
+		return nil, ErrRecordNotFound
+	}
+	query := `
+		SELECT id , created_at , name , categories,version
+		FROM items
+		WHERE id=$1`
+
+	var item Item
+
+	err := i.DB.QueryRow(query, id).Scan(
+		&item.ID,
+		&item.CreatedAt,
+		&item.Name,
+		pq.Array(&item.Categories),
+		&item.Version,
+	)
+	if err != nil {
+		switch {
+		case errors.Is(err, sql.ErrNoRows):
+			return nil, ErrRecordNotFound
+		default:
+			return nil, err
+		}
+	}
+	return &item, nil
 }
 
 func (i ItemModel) Update(item *Item) error {

@@ -1,9 +1,9 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"net/http"
-	"time"
 
 	"github.com/khatibomar/gogive/internal/data"
 	"github.com/khatibomar/gogive/internal/validator"
@@ -65,12 +65,15 @@ func (app *application) showItemHandler(w http.ResponseWriter, r *http.Request) 
 		app.notFoundResponse(w, r)
 		return
 	}
-	item := data.Item{
-		ID:         id,
-		CreatedAt:  time.Now(),
-		Name:       "chohata",
-		Categories: []string{"albisa", "weapon", "mom tools"},
-		Version:    1,
+	item, err := app.models.Items.Get(id)
+	if err != nil {
+		switch {
+		case errors.Is(err, data.ErrRecordNotFound):
+			app.notFoundResponse(w, r)
+		default:
+			app.serverErrorResponse(w, r, err)
+		}
+		return
 	}
 
 	err = app.writeJSON(w, http.StatusOK, envelope{"item": item}, nil)
