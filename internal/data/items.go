@@ -1,6 +1,7 @@
 package data
 
 import (
+	"context"
 	"database/sql"
 	"errors"
 	"time"
@@ -21,7 +22,10 @@ func (i ItemModel) Insert(item *Item) error {
 
 	args := []interface{}{item.Name, pq.Array(item.Categories)}
 
-	return i.DB.QueryRow(query, args...).Scan(&item.ID, &item.CreatedAt, &item.Version)
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	return i.DB.QueryRowContext(ctx, query, args...).Scan(&item.ID, &item.CreatedAt, &item.Version)
 }
 
 func (i ItemModel) Get(id int64) (*Item, error) {
@@ -35,7 +39,10 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 
 	var item Item
 
-	err := i.DB.QueryRow(query, id).Scan(
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	err := i.DB.QueryRowContext(ctx, query, id).Scan(
 		&item.ID,
 		&item.CreatedAt,
 		&item.Name,
@@ -67,7 +74,10 @@ func (i ItemModel) Update(item *Item) error {
 		item.Version,
 	}
 
-	err := i.DB.QueryRow(query, args...).Scan(&item.Version)
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	err := i.DB.QueryRowContext(ctx, query, args...).Scan(&item.Version)
 	if err != nil {
 		switch {
 		case errors.Is(err, sql.ErrNoRows):
@@ -89,7 +99,10 @@ func (i ItemModel) Delete(id int64) error {
 	DELETE FROM items
 	where id = $1`
 
-	result, err := i.DB.Exec(query, id)
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	result, err := i.DB.ExecContext(ctx, query, id)
 	if err != nil {
 		return err
 	}
