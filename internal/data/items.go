@@ -57,16 +57,27 @@ func (i ItemModel) Update(item *Item) error {
 	query := `
         UPDATE items
         SET name = $1, categories = $2, version = version + 1
-        WHERE id = $3
+        WHERE id = $3 AND version = $4
         RETURNING version`
 
 	args := []interface{}{
 		item.Name,
 		pq.Array(item.Categories),
 		item.ID,
+		item.Version,
 	}
 
-	return i.DB.QueryRow(query, args...).Scan(&item.Version)
+	err := i.DB.QueryRow(query, args...).Scan(&item.Version)
+	if err != nil {
+		switch {
+		case errors.Is(err, sql.ErrNoRows):
+			return ErrEditConflict
+		default:
+			return err
+		}
+	}
+
+	return nil
 }
 
 func (i ItemModel) Delete(id int64) error {
