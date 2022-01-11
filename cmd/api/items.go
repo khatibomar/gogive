@@ -100,8 +100,11 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 		return
 	}
 
+	// here using a pointer to a string because in case of partially
+	// we need to differentiate between the user send zero values
+	// or provided nothing at all
 	var input struct {
-		Name       string   `json:"name"`
+		Name       *string  `json:"name"`
 		Categories []string `json:"categories"`
 	}
 
@@ -111,8 +114,13 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 		return
 	}
 
-	item.Name = input.Name
-	item.Categories = input.Categories
+	if input.Name != nil {
+		item.Name = *input.Name
+	}
+
+	if input.Categories != nil {
+		item.Categories = input.Categories
+	}
 
 	v := validator.New()
 
