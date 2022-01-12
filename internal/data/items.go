@@ -121,13 +121,15 @@ func (i ItemModel) Delete(id int64) error {
 func (i ItemModel) GetAll(name string, categories []string, filters Filters) ([]*Item, error) {
 	query := `
 	SELECT id, created_at, name, categories, version
-	FROM items
-	ORDER BY id`
+        FROM items
+        WHERE (LOWER(name) = LOWER($1) OR $1 = '')
+        AND (categories @> $2 OR $2 = '{}')
+        ORDER BY id`
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
-	rows, err := i.DB.QueryContext(ctx, query)
+	rows, err := i.DB.QueryContext(ctx, query, name, pq.Array(categories))
 	if err != nil {
 		return nil, err
 	}
