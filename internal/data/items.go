@@ -118,6 +118,48 @@ func (i ItemModel) Delete(id int64) error {
 	return nil
 }
 
+func (i ItemModel) GetAll(name string, categories []string, filters Filters) ([]*Item, error) {
+	query := `
+	SELECT id, created_at, name, categories, version
+	FROM items
+	ORDER BY id`
+
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	rows, err := i.DB.QueryContext(ctx, query)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	items := []*Item{}
+
+	for rows.Next() {
+		var item Item
+
+		err := rows.Scan(
+			&item.ID,
+			&item.CreatedAt,
+			&item.Name,
+			pq.Array(&item.Categories),
+			&item.Version,
+		)
+
+		if err != nil {
+			return nil, err
+		}
+
+		items = append(items, &item)
+	}
+
+	if err = rows.Err(); err != nil {
+		return nil, err
+	}
+
+	return items, nil
+}
+
 type Item struct {
 	ID         int64     `json:"id"`
 	CreatedAt  time.Time `json:"-"`

@@ -193,5 +193,13 @@ func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request)
 		return
 	}
 
-	fmt.Fprintf(w, "%+v\n", input)
+	items, err := app.models.Items.GetAll(input.Name, input.Categories, input.Filters)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+	}
+
+	err = app.writeJSON(w, http.StatusOK, envelope{"items": items}, nil)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+	}
 }
