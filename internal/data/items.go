@@ -119,10 +119,11 @@ func (i ItemModel) Delete(id int64) error {
 }
 
 func (i ItemModel) GetAll(name string, categories []string, filters Filters) ([]*Item, error) {
+	// http://rachbelaid.com/postgres-full-text-search-is-good-enough
 	query := `
 	SELECT id, created_at, name, categories, version
         FROM items
-        WHERE (LOWER(name) = LOWER($1) OR $1 = '')
+		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
         AND (categories @> $2 OR $2 = '{}')
         ORDER BY id`
 
