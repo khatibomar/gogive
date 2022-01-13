@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"errors"
+	"fmt"
 	"time"
 
 	"github.com/khatibomar/gogive/internal/validator"
@@ -120,12 +121,12 @@ func (i ItemModel) Delete(id int64) error {
 
 func (i ItemModel) GetAll(name string, categories []string, filters Filters) ([]*Item, error) {
 	// http://rachbelaid.com/postgres-full-text-search-is-good-enough
-	query := `
+	query := fmt.Sprintf(`
 	SELECT id, created_at, name, categories, version
         FROM items
 		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
         AND (categories @> $2 OR $2 = '{}')
-        ORDER BY id`
+		ORDER BY %s %s, id ASC`, filters.sortColumn(), filters.sortDirection())
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
