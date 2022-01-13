@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
+	"strings"
 	"time"
 
 	"github.com/khatibomar/gogive/internal/validator"
@@ -119,23 +120,57 @@ func (i ItemModel) Delete(id int64) error {
 	return nil
 }
 
-func (i ItemModel) GetAll(name string, categories []string, filters Filters) ([]*Item, error) {
+func (i ItemModel) GetAll(name string, categories []string, filters Filters, cursor Cursor) ([]*Item, Metadata, error) {
 	// http://rachbelaid.com/postgres-full-text-search-is-good-enough
-	query := fmt.Sprintf(`
-	SELECT id, created_at, name, categories, version
-        FROM items
+	// NOTE(khatibomar): I strongly feel that my implementation is not safe at all and buggy
+	// first I am using interface{} also there may be many edge cases when api
+	// grows more and more , so maybe drop performance and use slow offset pagination instead
+	// performance is not critical here I know because it's just for fun and no large data
+	// will be used :)
+	query := `
+		SELECT count(*) OVER(),id, created_at, name, categories, version
+		FROM items
 		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
-        AND (categories @> $2 OR $2 = '{}')
-		ORDER BY %s %s, id ASC`, filters.sortColumn(), filters.sortDirection())
+		AND (categories @> $2 OR $2 = '{}')
+	`
+	op := ">"
+	if strings.HasPrefix(filters.Sort, "-") {
+		op = "<"
+	}
+	if op == ">" {
+		if filters.sortColumn() == "id" {
+			query += fmt.Sprintf(`AND id > %d `, cursor.LastID)
+		} else {
+			query += fmt.Sprintf(`AND row(%s,id) > ('%s,%d)' `, op, cursor.LastSortVal, cursor.LastID)
+		}
+	} else {
+		if filters.sortColumn() == "id" {
+			if cursor.LastID == 0 {
+				cursor.LastID = 10_000_000
+			}
+			query += fmt.Sprintf(`AND id < %d `, cursor.LastID)
+		} else {
+			if cursor.LastSortVal == "" {
+				cursor.LastSortVal = "zzzzzzzzzz"
+			}
+			query += fmt.Sprintf(`AND %s < '%s' `, filters.sortColumn(), cursor.LastSortVal)
+		}
+	}
+
+	query += fmt.Sprintf(`
+		ORDER BY %s %s, id ASC
+		fetch first $3 rows only`, filters.sortColumn(), filters.sortDirection())
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
-	rows, err := i.DB.QueryContext(ctx, query, name, pq.Array(categories))
+	rows, err := i.DB.QueryContext(ctx, query, name, pq.Array(categories), filters.PageSize)
 	if err != nil {
-		return nil, err
+		return nil, Metadata{}, err
 	}
 	defer rows.Close()
+
+	totalRecords := 0
 
 	items := []*Item{}
 
@@ -143,6 +178,7 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters) ([]
 		var item Item
 
 		err := rows.Scan(
+			&totalRecords,
 			&item.ID,
 			&item.CreatedAt,
 			&item.Name,
@@ -151,17 +187,28 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters) ([]
 		)
 
 		if err != nil {
-			return nil, err
+			return nil, Metadata{}, err
 		}
 
 		items = append(items, &item)
 	}
 
 	if err = rows.Err(); err != nil {
-		return nil, err
+		return nil, Metadata{}, err
 	}
 
-	return items, nil
+	if len(items) > 0 {
+		cursor.LastID = items[len(items)-1].ID
+		if filters.sortColumn() == "id" {
+			cursor.LastSortVal = items[len(items)-1].ID
+		} else {
+			cursor.LastSortVal = items[len(items)-1].Name
+		}
+	}
+
+	metadata := newMetadata(totalRecords, filters.PageSize, cursor)
+
+	return items, metadata, nil
 }
 
 type Item struct {

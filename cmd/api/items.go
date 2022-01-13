@@ -174,7 +174,9 @@ func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request)
 		Name       string
 		Categories []string
 		data.Filters
+		Cursor data.Cursor
 	}
+
 	v := validator.New()
 
 	qs := r.URL.Query()
@@ -188,17 +190,20 @@ func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request)
 	input.Filters.Sort = app.readString(qs, "sort", "id")
 	input.Filters.SortSafelist = []string{"id", "name", "-id", "-name"}
 
+	input.Cursor.LastSortVal = app.readString(qs, "last_sort_val", "")
+	input.Cursor.LastID = app.readInt64(qs, "last_id", 0, v)
+
 	if data.ValidateFilters(v, input.Filters); !v.Valid() {
 		app.failedValidationResponse(w, r, v.Errors)
 		return
 	}
 
-	items, err := app.models.Items.GetAll(input.Name, input.Categories, input.Filters)
+	items, metadata, err := app.models.Items.GetAll(input.Name, input.Categories, input.Filters, input.Cursor)
 	if err != nil {
 		app.serverErrorResponse(w, r, err)
 	}
 
-	err = app.writeJSON(w, http.StatusOK, envelope{"items": items}, nil)
+	err = app.writeJSON(w, http.StatusOK, envelope{"items": items, "metadata": metadata}, nil)
 	if err != nil {
 		app.serverErrorResponse(w, r, err)
 	}

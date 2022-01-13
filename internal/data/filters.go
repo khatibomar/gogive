@@ -13,6 +13,29 @@ type Filters struct {
 	SortSafelist []string
 }
 
+type Metadata struct {
+	PageSize     int    `json:"page_size,omitempty"`
+	TotalRecords int    `json:"total_records,omitempty"`
+	Cursor       Cursor `json:"cursor,omitempty"`
+}
+
+type Cursor struct {
+	LastSortVal interface{} `json:"last_sort_val,omitempty"`
+	LastID      int64       `json:"last_id,omitempty"`
+}
+
+func newMetadata(totalRecords, pageSize int, cursor Cursor) Metadata {
+	if totalRecords == 0 {
+		return Metadata{}
+	}
+
+	return Metadata{
+		PageSize:     pageSize,
+		TotalRecords: totalRecords,
+		Cursor:       cursor,
+	}
+}
+
 func (f Filters) sortColumn() string {
 	for _, safeValue := range f.SortSafelist {
 		if f.Sort == safeValue {
