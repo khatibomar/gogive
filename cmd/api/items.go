@@ -173,8 +173,8 @@ func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request)
 	var input struct {
 		Name       string
 		Categories []string
-		data.Filters
-		Cursor data.Cursor
+		Filters    data.Filters
+		Cursor     *data.Cursor
 	}
 
 	v := validator.New()
@@ -184,16 +184,22 @@ func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request)
 	input.Name = app.readString(qs, "name", "")
 	input.Categories = app.readCSV(qs, "categories", []string{})
 
-	input.Filters.Page = app.readInt(qs, "page", 1, v)
 	input.Filters.PageSize = app.readInt(qs, "page_size", 20, v)
 
 	input.Filters.Sort = app.readString(qs, "sort", "id")
 	input.Filters.SortSafelist = []string{"id", "name", "-id", "-name"}
 
-	input.Cursor.LastSortVal = app.readString(qs, "last_sort_val", "")
-	input.Cursor.LastID = app.readInt64(qs, "last_id", 0, v)
+	if qs.Has("last_sort_val") || qs.Has("last_id") {
+		input.Cursor = &data.Cursor{}
+		input.Cursor.LastSortVal = app.readString(qs, "last_sort_val", "")
+		input.Cursor.LastID = app.readInt64(qs, "last_id", 0, v)
+	}
 
-	if data.ValidateFilters(v, input.Filters); !v.Valid() {
+	data.ValidateFilters(v, input.Filters)
+	if input.Cursor != nil {
+		data.ValidateCursors(v, *input.Cursor)
+	}
+	if !v.Valid() {
 		app.failedValidationResponse(w, r, v.Errors)
 		return
 	}

@@ -120,7 +120,7 @@ func (i ItemModel) Delete(id int64) error {
 	return nil
 }
 
-func (i ItemModel) GetAll(name string, categories []string, filters Filters, cursor Cursor) ([]*Item, Metadata, error) {
+func (i ItemModel) GetAll(name string, categories []string, filters Filters, cursor *Cursor) ([]*Item, Metadata, error) {
 	// http://rachbelaid.com/postgres-full-text-search-is-good-enough
 	// NOTE(khatibomar): I strongly feel that my implementation is not safe at all and buggy
 	// first I am using interface{} also there may be many edge cases when api
@@ -133,27 +133,29 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters, cur
 		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
 		AND (categories @> $2 OR $2 = '{}')
 	`
-	op := ">"
-	if strings.HasPrefix(filters.Sort, "-") {
-		op = "<"
-	}
-	if op == ">" {
-		if filters.sortColumn() == "id" {
-			query += fmt.Sprintf(`AND id > %d `, cursor.LastID)
-		} else {
-			query += fmt.Sprintf(`AND row(%s,id) > ('%s,%d)' `, op, cursor.LastSortVal, cursor.LastID)
+	if cursor != nil {
+		op := ">"
+		if strings.HasPrefix(filters.Sort, "-") {
+			op = "<"
 		}
-	} else {
-		if filters.sortColumn() == "id" {
-			if cursor.LastID == 0 {
-				cursor.LastID = 10_000_000
+		if op == ">" {
+			if filters.sortColumn() == "id" {
+				query += fmt.Sprintf(`AND id > %d `, cursor.LastID)
+			} else {
+				query += fmt.Sprintf(`AND row(%s,id) > ('%s',%d) `, filters.sortColumn(), cursor.LastSortVal, cursor.LastID)
 			}
-			query += fmt.Sprintf(`AND id < %d `, cursor.LastID)
 		} else {
-			if cursor.LastSortVal == "" {
-				cursor.LastSortVal = "zzzzzzzzzz"
+			if filters.sortColumn() == "id" {
+				if cursor.LastID == 0 {
+					cursor.LastID = 10_000_000
+				}
+				query += fmt.Sprintf(`AND id < %d `, cursor.LastID)
+			} else {
+				if cursor.LastSortVal == "" {
+					cursor.LastSortVal = "zzzzzzzzzz"
+				}
+				query += fmt.Sprintf(`AND %s < '%s' `, filters.sortColumn(), cursor.LastSortVal)
 			}
-			query += fmt.Sprintf(`AND %s < '%s' `, filters.sortColumn(), cursor.LastSortVal)
 		}
 	}
 
@@ -198,6 +200,9 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters, cur
 	}
 
 	if len(items) > 0 {
+		if cursor == nil {
+			cursor = &Cursor{}
+		}
 		cursor.LastID = items[len(items)-1].ID
 		if filters.sortColumn() == "id" {
 			cursor.LastSortVal = items[len(items)-1].ID
