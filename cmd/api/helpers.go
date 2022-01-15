@@ -125,6 +125,12 @@ func (app *application) readCSV(qs url.Values, key string, defaultValue []string
 	return strings.Split(csv, ",")
 }
 
+// NOTE(khatibomar): this is requiring the v as dependency but if the validator
+// is nil I am not cheking error so it may panic in wrong use case
+// as a suggestion from slack I should make it return (int , error)
+// and remove the validator from args and let caller do that
+// because in both cases I need that.
+// Same for readInt64 and any future function that use same logic
 func (app *application) readInt(qs url.Values, key string, defaultValue int, v *validator.Validator) int {
 	s := qs.Get(key)
 
@@ -150,7 +156,7 @@ func (app *application) readInt64(qs url.Values, key string, defaultValue int64,
 
 	i, err := strconv.ParseInt(s, 10, 64)
 	if err != nil {
-		v.AddError(key, "must be an integer value")
+		v.AddError(key, "must be an integer64 value")
 		return defaultValue
 	}
 

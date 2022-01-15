@@ -146,15 +146,13 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters, cur
 			}
 		} else {
 			if filters.sortColumn() == "id" {
-				if cursor.LastID == 0 {
-					cursor.LastID = 10_000_000
+				if cursor.LastID != 0 {
+					query += fmt.Sprintf(`AND id < %d `, cursor.LastID)
 				}
-				query += fmt.Sprintf(`AND id < %d `, cursor.LastID)
 			} else {
-				if cursor.LastSortVal == "" {
-					cursor.LastSortVal = "zzzzzzzzzz"
+				if cursor.LastSortVal != "" {
+					query += fmt.Sprintf(`AND %s < '%s' `, filters.sortColumn(), cursor.LastSortVal)
 				}
-				query += fmt.Sprintf(`AND %s < '%s' `, filters.sortColumn(), cursor.LastSortVal)
 			}
 		}
 	}
@@ -166,7 +164,12 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters, cur
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
-	rows, err := i.DB.QueryContext(ctx, query, name, pq.Array(categories), filters.PageSize)
+	// using statement instead to help from sql injection
+	stmt, err := i.DB.PrepareContext(ctx, query)
+	if err != nil {
+		return nil, Metadata{}, err
+	}
+	rows, err := stmt.QueryContext(ctx, name, pq.Array(categories), filters.PageSize)
 	if err != nil {
 		return nil, Metadata{}, err
 	}
