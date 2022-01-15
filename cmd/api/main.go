@@ -77,7 +77,9 @@ func main() {
 		"env":  cfg.env,
 	})
 	err = srv.ListenAndServe()
-	logger.PrintFatal(err, nil)
+	if err != nil {
+		logger.PrintFatal(err, nil)
+	}
 }
 
 func openDB(cfg Config) (*sql.DB, error) {
