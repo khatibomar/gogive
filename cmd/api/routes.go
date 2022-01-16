@@ -22,6 +22,5 @@ func (app *application) routes() http.Handler {
 
 	rl, cleanup := NewRateLimiter()
 	go cleanup(rl)
-
 	return app.recoverPanic(rl.RateLimit(app, router))
 }

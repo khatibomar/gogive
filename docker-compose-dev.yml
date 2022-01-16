@@ -12,6 +12,9 @@ services:
         GO_DB_MAX_OPEN_CONNS: ${GO_DB_MAX_OPEN_CONNS:-25}
         GO_DB_MAX_IDLE_CONNS: ${GO_DB_MAX_IDLE_CONNS:-25}
         GO_DB_MAX_IDLE_TIME: ${GO_DB_MAX_IDLE_TIME:-15m}
+        GO_RATE_LIMITER_RPS: ${GO_RATE_LIMITER_RPS:-2}
+        GO_RATE_LIMITER_BURST: ${GO_RATE_LIMITER_BURST:-4}
+        GO_RATE_LIMITER_ENABLED: ${GO_RATE_LIMITER_ENABLED:-false}
     ports:
       - ${go_port:-4000}:${go_port:-4000}
     environment:

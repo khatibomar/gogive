@@ -57,26 +57,28 @@ func NewRateLimiter() (*RateLimiter, func(*RateLimiter)) {
 
 func (rl *RateLimiter) RateLimit(app *application, next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		ip, _, err := net.SplitHostPort(r.RemoteAddr)
-		if err != nil {
-			app.serverErrorResponse(w, r, err)
-			return
-		}
+		if app.config.limiter.enabled {
+			ip, _, err := net.SplitHostPort(r.RemoteAddr)
+			if err != nil {
+				app.serverErrorResponse(w, r, err)
+				return
+			}
 
-		rl.mu.Lock()
-		defer rl.mu.Unlock()
+			rl.mu.Lock()
+			defer rl.mu.Unlock()
 
-		if _, found := rl.Clients[ip]; !found {
-			rl.Clients[ip] = &Client{limiter: rate.NewLimiter(2, 4)}
-		}
+			if _, found := rl.Clients[ip]; !found {
+				rl.Clients[ip] = &Client{limiter: rate.NewLimiter(2, 4)}
+			}
 
-		rl.Clients[ip].mu.Lock()
-		rl.Clients[ip].lastSeen = time.Now()
-		rl.Clients[ip].mu.Unlock()
+			rl.Clients[ip].mu.Lock()
+			rl.Clients[ip].lastSeen = time.Now()
+			rl.Clients[ip].mu.Unlock()
 
-		if !rl.Clients[ip].limiter.Allow() {
-			app.rateLimitExceededResponse(w, r)
-			return
+			if !rl.Clients[ip].limiter.Allow() {
+				app.rateLimitExceededResponse(w, r)
+				return
+			}
 		}
 
 		next.ServeHTTP(w, r)
