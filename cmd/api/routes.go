@@ -23,6 +23,8 @@ func (app *application) routes() http.Handler {
 	router.HandlerFunc(http.MethodPatch, "/v1/items/:id", app.updateItemHandler)
 	router.HandlerFunc(http.MethodDelete, "/v1/items/:id", app.deleteItemHandler)
 
+	router.HandlerFunc(http.MethodPost, "/v1/users", app.registerUserHandler)
+
 	if app.config.limiter.enabled {
 		rl, cleanup := NewRateLimiter()
 		go cleanup(rl)
