@@ -47,6 +47,13 @@ services:
       - pgadmin:/var/lib/pgadmin 
     depends_on:
       - postgres
+  mailcatcher: # https://mailcatcher.me
+    container_name: mailcatcher
+    image: jeanberu/mailcatcher
+    ports:
+      - "1025:1025" # SMTP server
+      - "1080:1080" # UI
+    restart: unless-stopped
 volumes:
  pgdata:
  pgadmin:
