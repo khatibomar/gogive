@@ -22,6 +22,7 @@ services:
     restart: unless-stopped
     depends_on: 
       - postgres
+      - mailhog
   postgres:
     container_name: postgres
     image: postgres
@@ -47,13 +48,18 @@ services:
       - pgadmin:/var/lib/pgadmin 
     depends_on:
       - postgres
-  mailcatcher: # https://mailcatcher.me
-    container_name: mailcatcher
-    image: jeanberu/mailcatcher
+  mailhog:
+    user: root
+    container_name: mailhog 
+    image: mailhog/mailhog 
     ports:
       - "1025:1025" # SMTP server
-      - "1080:1080" # UI
+      - "8025:8025" # UI
+    command: ["-storage=maildir", "-maildir-path=/maildir"]
+    volumes:
+      - mailhog:/maildir
     restart: unless-stopped
 volumes:
  pgdata:
  pgadmin:
+ mailhog:
