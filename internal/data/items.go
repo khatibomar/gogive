@@ -134,17 +134,7 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters, cur
 		AND (categories @> $2 OR $2 = '{}')
 	`
 	if cursor != nil {
-		op := ">"
 		if strings.HasPrefix(filters.Sort, "-") {
-			op = "<"
-		}
-		if op == ">" {
-			if filters.sortColumn() == "id" {
-				query += fmt.Sprintf(`AND id > %d `, cursor.LastID)
-			} else {
-				query += fmt.Sprintf(`AND row(%s,id) > ('%s',%d) `, filters.sortColumn(), cursor.LastSortVal, cursor.LastID)
-			}
-		} else {
 			if filters.sortColumn() == "id" {
 				if cursor.LastID != 0 {
 					query += fmt.Sprintf(`AND id < %d `, cursor.LastID)
@@ -153,6 +143,12 @@ func (i ItemModel) GetAll(name string, categories []string, filters Filters, cur
 				if cursor.LastSortVal != "" {
 					query += fmt.Sprintf(`AND %s < '%s' `, filters.sortColumn(), cursor.LastSortVal)
 				}
+			}
+		} else {
+			if filters.sortColumn() == "id" {
+				query += fmt.Sprintf(`AND id > %d `, cursor.LastID)
+			} else {
+				query += fmt.Sprintf(`AND row(%s,id) > ('%s',%d) `, filters.sortColumn(), cursor.LastSortVal, cursor.LastID)
 			}
 		}
 	}
