@@ -8,6 +8,8 @@ services:
     restart: unless-stopped
     secrets:
       - GOGIVE_DB_DSN
+      - GO_SMTP_USERNAME
+      - GO_SMTP_PASSWORD
     args:
         GO_PORT: ${go_port:-4000} 
         GO_ENV: "production" 
@@ -17,6 +19,11 @@ services:
         GO_RATE_LIMITER_RPS: ${GO_RATE_LIMITER_RPS:-2}
         GO_RATE_LIMITER_BURST: ${GO_RATE_LIMITER_BURST:-4}
         GO_RATE_LIMITER_ENABLED: ${GO_RATE_LIMITER_ENABLED:-true}
+        GO_SMTP_HOST: ${GO_SMTP_HOST:-localhost}
+        GO_SMTP_PORT: ${GO_SMTP_PORT:-1025}
+        GO_SMTP_USERNAME: ${GO_SMTP_USERNAME}
+        GO_SMTP_PASSWORD: ${GO_SMTP_PASSWORD}
+        GO_SMTP_SENDER: ${GO_SMTP_SENDER:-"GoGive <no-reply@gogive.com>"}
     environment:
       GOGIVE_DB_DSN: GOGIVE_DB_DSN
     depends_on: 

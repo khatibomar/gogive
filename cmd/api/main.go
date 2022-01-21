@@ -4,11 +4,13 @@ import (
 	"context"
 	"database/sql"
 	"flag"
+	"log"
 	"os"
 	"time"
 
 	"github.com/khatibomar/gogive/internal/data"
 	"github.com/khatibomar/gogive/internal/jsonlog"
+	"github.com/khatibomar/gogive/internal/mailer"
 	_ "github.com/lib/pq"
 )
 
@@ -28,12 +30,20 @@ type Config struct {
 		burst   int
 		enabled bool
 	}
+	smtp struct {
+		host     string
+		port     int
+		username string
+		password string
+		sender   string
+	}
 }
 
 type application struct {
 	config Config
 	logger *jsonlog.Logger
 	models data.Models
+	mailer mailer.Mailer
 }
 
 func main() {
@@ -51,6 +61,12 @@ func main() {
 	flag.IntVar(&cfg.limiter.burst, "limiter-burst", 4, "Rate limiter maximum burst")
 	flag.BoolVar(&cfg.limiter.enabled, "limiter-enabled", true, "Enable rate limiter")
 
+	flag.StringVar(&cfg.smtp.host, "smtp-host", "localhost", "SMTP host")
+	flag.IntVar(&cfg.smtp.port, "smtp-port", 1025, "SMTP port")
+	flag.StringVar(&cfg.smtp.username, "smtp-username", "", "SMTP username")
+	flag.StringVar(&cfg.smtp.password, "smtp-password", "", "SMTP password")
+	flag.StringVar(&cfg.smtp.sender, "smtp-sender", "GoGive <no-reply@gogive.com>", "SMTP sender")
+
 	flag.Parse()
 
 	logger := jsonlog.New(os.Stdout, jsonlog.LevelInfo)
@@ -62,10 +78,19 @@ func main() {
 	defer db.Close()
 	logger.PrintInfo("database connection pool established", nil)
 
+	log.Println(cfg.smtp)
+
 	app := &application{
 		config: cfg,
 		logger: logger,
 		models: data.NewModels(db),
+		// I faced a problem here while connecting to docker container
+		// passing an empty username solve it as mentioned in
+		// https://github.com/go-gomail/gomail/issues/113 , how ever I faced another
+		// problem here passing in docker should be like ${NAME:-} for empty string not
+		// ${NAME:-""} this will pass a string "" not empty string so be carefull
+		// Mr future me
+		mailer: mailer.New(cfg.smtp.host, cfg.smtp.port, cfg.smtp.username, cfg.smtp.password, cfg.smtp.sender),
 	}
 
 	err = app.serve()

@@ -1,0 +1,32 @@
+{{define "subject"}}Welcome to GoGive!{{end}}
+
+{{define "plainBody"}}
+Dear {{.Name}},
+
+Thanks for signing up for a GoGive account.
+For future reference, your user ID number is {{.ID}}.
+
+Thanks,
+
+The GoGive Team
+{{end}}
+
+{{define "htmlBody"}}
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+	<p>Dear {{.Name}},</p>
+    <p>Thanks for signing up for a GoGive account.</p>
+    <p>For future reference, your user ID number is {{.ID}}.</p>
+    <p>Thanks,</p>
+    <p>The GoGive Team</p>
+</body>
+
+</html>
+{{end}}

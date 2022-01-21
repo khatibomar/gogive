@@ -15,6 +15,11 @@ services:
         GO_RATE_LIMITER_RPS: ${GO_RATE_LIMITER_RPS:-2}
         GO_RATE_LIMITER_BURST: ${GO_RATE_LIMITER_BURST:-4}
         GO_RATE_LIMITER_ENABLED: ${GO_RATE_LIMITER_ENABLED:-false}
+        GO_SMTP_HOST: ${GO_SMTP_HOST:-mailhog} 
+        GO_SMTP_PORT: ${GO_SMTP_PORT:-1025}
+        GO_SMTP_USERNAME: ${GO_SMTP_USERNAME:-}
+        GO_SMTP_PASSWORD: ${GO_SMTP_PASSWORD:-}
+        GO_SMTP_SENDER: ${GO_SMTP_SENDER:-GoGive <no-reply@gogive.com>}
     ports:
       - ${go_port:-4000}:${go_port:-4000}
     environment:
