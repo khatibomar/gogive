@@ -164,6 +164,8 @@ func (app *application) readInt64(qs url.Values, key string, defaultValue int64,
 }
 
 func (app *application) background(fn func()) {
+	app.wg.Add(1)
+
 	go func() {
 		// Recover any panic.
 		defer func() {
