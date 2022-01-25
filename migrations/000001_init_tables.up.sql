@@ -64,7 +64,7 @@ create table BANS (
    USER_ID              bigint               not null,
    EMAIL                Citext               UNIQUE not null,
    BAN_REASON           TEXT                 not null,
-   BAN_EXPIRY           TIMESTAMP            not null,
+   BAN_EXPIRY           TIMESTAMP with time zone            not null,
    VERSION              INT4                 not null default 1
       constraint CKC_VERSION_BANS check (VERSION >= 1),
    constraint PK_BANS primary key (BANNED_BY_ID),
@@ -136,7 +136,7 @@ create table ITEMS (
 create table TOKENS (
    HASH                 bytea                not null,
    USER_ID              bigint               UNIQUE not null,
-   EXPIRY               DATE                 not null,
+   EXPIRY               TIMESTAMP			 not null,
    SCOPE                TEXT                 not null,
    constraint PK_TOKENS primary key (HASH),
    constraint FK_TOKENS_HAVE_TOKE_USERS foreign key (USER_ID)
