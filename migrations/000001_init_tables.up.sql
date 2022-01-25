@@ -35,8 +35,8 @@ create table IF NOT EXISTS ROLES (
 /*==============================================================*/
 create table IF NOT EXISTS USERS (
    USER_ID              Bigserial            not null,
-   ROLE_ID              bigint               not null,
-   PCODE                TEXT                 not null,
+   ROLE_ID              bigint               null,
+   PCODE                TEXT                 null,
    CREATED_AT           TIMESTAMP(0) with time zone not null DEFAULT NOW(),
    ACTIVATED            BOOL                 not null,
    PHOTO_URL            TEXT                 null,
@@ -50,10 +50,10 @@ create table IF NOT EXISTS USERS (
    constraint PK_USERS primary key (USER_ID),
    constraint FK_USERS_LIVES_IN_LOCATION foreign key (PCODE)
       references LOCATIONS (PCODE)
-      on delete restrict on update restrict,
+	  on delete set NULL on update cascade,
    constraint FK_USERS_HAVE_ROLE_ROLES foreign key (ROLE_ID)
       references ROLES (ROLE_ID)
-      on delete restrict on update restrict
+	  on delete set NULL on update cascade
 );
 
 /*==============================================================*/
@@ -61,7 +61,7 @@ create table IF NOT EXISTS USERS (
 /*==============================================================*/
 create table IF NOT EXISTS BANS (
    BANNED_BY_ID         bigserial            not null,
-   USER_ID              bigint               not null,
+   USER_ID              bigint               null,
    EMAIL                Citext               UNIQUE not null,
    BAN_REASON           TEXT                 not null,
    BAN_EXPIRY           TIMESTAMP with time zone            not null,
@@ -70,8 +70,8 @@ create table IF NOT EXISTS BANS (
    constraint PK_BANS primary key (BANNED_BY_ID),
    constraint FK_BANS_BAN_USERS foreign key (USER_ID)
       references USERS (USER_ID)
-      on delete restrict on update restrict
-);
+	  on delete set NULL on update cascade
+	);
 
 /*==============================================================*/
 /* Table: CATEGORIES                                            */
@@ -100,10 +100,10 @@ create table IF NOT EXISTS HAVE_PERMISSION (
    constraint PK_HAVE_PERMISSION primary key (PERM_ID, ROLE_ID),
    constraint FK_HAVE_PER_HAVE_PERM_PERMISSI foreign key (PERM_ID)
       references PERMISSIONS (PERM_ID)
-      on delete restrict on update restrict,
+      on delete cascade on update cascade,
    constraint FK_HAVE_PER_HAVE_PERM_ROLES foreign key (ROLE_ID)
       references ROLES (ROLE_ID)
-      on delete restrict on update restrict
+	  on delete cascade on update cascade 
 );
 
 /*==============================================================*/
@@ -112,9 +112,9 @@ create table IF NOT EXISTS HAVE_PERMISSION (
 create table IF NOT EXISTS ITEMS (
    NAME					TEXT			     not null,
    ITEM_ID              Bigserial            not null,
-   PCODE                TEXT                 not null,
-   USER_ID              bigint               not null,
-   CATEGORY_ID          bigint               not null,
+   PCODE                TEXT                 null,
+   USER_ID              bigint               null,
+   CATEGORY_ID          bigint               null,
    CREATED_AT           TIMESTAMP(0) with time zone not null DEFAULT NOW(),
    VERSION              INT4                 not null default 1
       constraint CKC_VERSION_ITEMS check (VERSION >= 1),
@@ -122,13 +122,13 @@ create table IF NOT EXISTS ITEMS (
    constraint PK_ITEMS primary key (ITEM_ID),
    constraint FK_ITEMS_CREATE_USERS foreign key (USER_ID)
       references USERS (USER_ID)
-      on delete restrict on update restrict,
+	  on delete set NULL on update cascade,
    constraint FK_ITEMS_EXIST_IN_LOCATION foreign key (PCODE)
       references LOCATIONS (PCODE)
-      on delete restrict on update restrict,
+	  on delete set NULL on update cascade,
    constraint FK_ITEMS_CONTAINS_CATEGORI foreign key (CATEGORY_ID)
       references CATEGORIES (CATEGORY_ID)
-      on delete restrict on update restrict
+	  on delete set NULL on update cascade
 );
 
 /*==============================================================*/
@@ -136,13 +136,13 @@ create table IF NOT EXISTS ITEMS (
 /*==============================================================*/
 create table IF NOT EXISTS TOKENS (
    HASH                 bytea                not null,
-   USER_ID              bigint               UNIQUE not null,
+   USER_ID              bigint               null,
    EXPIRY               TIMESTAMP			 not null,
    SCOPE                TEXT                 not null,
-   constraint PK_TOKENS primary key (HASH),
+   constraint PK_TOKENS primary key (HASH , USER_ID),
    constraint FK_TOKENS_HAVE_TOKE_USERS foreign key (USER_ID)
       references USERS (USER_ID)
-      on delete restrict on update restrict
+	  on delete set NULL on update cascade
 );
 
 /*==============================================================*/
