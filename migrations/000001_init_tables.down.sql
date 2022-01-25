@@ -12,8 +12,6 @@ drop table BANS;
 
 drop index CATEGORIES_PK;
 
-drop table CATEGORIES;
-
 drop index HAVE_PERMISSION2_FK;
 
 drop index HAVE_PERMISSION_FK;
@@ -30,17 +28,15 @@ drop index ITEMS_PK;
 
 drop table ITEMS;
 
-drop index LOCATIONS_PK;
+drop table CATEGORIES;
 
-drop table LOCATIONS;
+drop index USERS_PK;
+
+drop table USERS;
 
 drop index PERMISSIONS_PK;
 
 drop table PERMISSIONS;
-
-drop index ROLES_PK;
-
-drop table ROLES;
 
 drop index HAVE_TOKEN_FK;
 
@@ -52,6 +48,10 @@ drop index HAVE_ROLE_FK;
 
 drop index LIVES_IN_FK;
 
-drop index USERS_PK;
+drop index ROLES_PK;
 
-drop table USERS;
+drop table ROLES;
+
+drop index LOCATIONS_PK;
+
+drop table LOCATIONS;

@@ -1,0 +1,16277 @@
+/* DELETE QUERY NO: 1 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51001';
+
+/* DELETE QUERY NO: 2 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51002';
+
+/* DELETE QUERY NO: 3 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51003';
+
+/* DELETE QUERY NO: 4 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51004';
+
+/* DELETE QUERY NO: 5 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51260';
+
+/* DELETE QUERY NO: 6 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51009';
+
+/* DELETE QUERY NO: 7 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51010';
+
+/* DELETE QUERY NO: 8 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51011';
+
+/* DELETE QUERY NO: 9 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51078';
+
+/* DELETE QUERY NO: 10 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51012';
+
+/* DELETE QUERY NO: 11 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51262';
+
+/* DELETE QUERY NO: 12 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51013';
+
+/* DELETE QUERY NO: 13 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51072';
+
+/* DELETE QUERY NO: 14 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51015';
+
+/* DELETE QUERY NO: 15 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51016';
+
+/* DELETE QUERY NO: 16 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51333';
+
+/* DELETE QUERY NO: 17 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51017';
+
+/* DELETE QUERY NO: 18 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51018';
+
+/* DELETE QUERY NO: 19 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51019';
+
+/* DELETE QUERY NO: 20 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51102';
+
+/* DELETE QUERY NO: 21 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51006';
+
+/* DELETE QUERY NO: 22 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51074';
+
+/* DELETE QUERY NO: 23 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51007';
+
+/* DELETE QUERY NO: 24 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51021';
+
+/* DELETE QUERY NO: 25 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51008';
+
+/* DELETE QUERY NO: 26 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51267';
+
+/* DELETE QUERY NO: 27 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51022';
+
+/* DELETE QUERY NO: 28 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51023';
+
+/* DELETE QUERY NO: 29 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51024';
+
+/* DELETE QUERY NO: 30 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51268';
+
+/* DELETE QUERY NO: 31 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51025';
+
+/* DELETE QUERY NO: 32 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51026';
+
+/* DELETE QUERY NO: 33 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51027';
+
+/* DELETE QUERY NO: 34 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51028';
+
+/* DELETE QUERY NO: 35 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51029';
+
+/* DELETE QUERY NO: 36 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51030';
+
+/* DELETE QUERY NO: 37 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51031';
+
+/* DELETE QUERY NO: 38 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51032';
+
+/* DELETE QUERY NO: 39 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51189';
+
+/* DELETE QUERY NO: 40 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51033';
+
+/* DELETE QUERY NO: 41 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51034';
+
+/* DELETE QUERY NO: 42 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51035';
+
+/* DELETE QUERY NO: 43 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51036';
+
+/* DELETE QUERY NO: 44 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51037';
+
+/* DELETE QUERY NO: 45 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51038';
+
+/* DELETE QUERY NO: 46 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51039';
+
+/* DELETE QUERY NO: 47 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51040';
+
+/* DELETE QUERY NO: 48 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51041';
+
+/* DELETE QUERY NO: 49 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51344';
+
+/* DELETE QUERY NO: 50 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51271';
+
+/* DELETE QUERY NO: 51 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51042';
+
+/* DELETE QUERY NO: 52 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51043';
+
+/* DELETE QUERY NO: 53 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51044';
+
+/* DELETE QUERY NO: 54 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51045';
+
+/* DELETE QUERY NO: 55 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51046';
+
+/* DELETE QUERY NO: 56 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51272';
+
+/* DELETE QUERY NO: 57 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51047';
+
+/* DELETE QUERY NO: 58 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51237';
+
+/* DELETE QUERY NO: 59 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51064';
+
+/* DELETE QUERY NO: 60 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51273';
+
+/* DELETE QUERY NO: 61 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51274';
+
+/* DELETE QUERY NO: 62 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51275';
+
+/* DELETE QUERY NO: 63 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51048';
+
+/* DELETE QUERY NO: 64 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51049';
+
+/* DELETE QUERY NO: 65 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51050';
+
+/* DELETE QUERY NO: 66 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51051';
+
+/* DELETE QUERY NO: 67 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51052';
+
+/* DELETE QUERY NO: 68 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51065';
+
+/* DELETE QUERY NO: 69 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51053';
+
+/* DELETE QUERY NO: 70 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51054';
+
+/* DELETE QUERY NO: 71 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51055';
+
+/* DELETE QUERY NO: 72 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51278';
+
+/* DELETE QUERY NO: 73 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51279';
+
+/* DELETE QUERY NO: 74 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51280';
+
+/* DELETE QUERY NO: 75 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51057';
+
+/* DELETE QUERY NO: 76 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51281';
+
+/* DELETE QUERY NO: 77 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51058';
+
+/* DELETE QUERY NO: 78 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51059';
+
+/* DELETE QUERY NO: 79 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51060';
+
+/* DELETE QUERY NO: 80 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51061';
+
+/* DELETE QUERY NO: 81 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51282';
+
+/* DELETE QUERY NO: 82 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51062';
+
+/* DELETE QUERY NO: 83 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51284';
+
+/* DELETE QUERY NO: 84 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51063';
+
+/* DELETE QUERY NO: 85 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51066';
+
+/* DELETE QUERY NO: 86 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51067';
+
+/* DELETE QUERY NO: 87 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51068';
+
+/* DELETE QUERY NO: 88 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51069';
+
+/* DELETE QUERY NO: 89 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51071';
+
+/* DELETE QUERY NO: 90 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51075';
+
+/* DELETE QUERY NO: 91 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51076';
+
+/* DELETE QUERY NO: 92 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51077';
+
+/* DELETE QUERY NO: 93 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51079';
+
+/* DELETE QUERY NO: 94 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51081';
+
+/* DELETE QUERY NO: 95 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51082';
+
+/* DELETE QUERY NO: 96 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51083';
+
+/* DELETE QUERY NO: 97 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51084';
+
+/* DELETE QUERY NO: 98 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51085';
+
+/* DELETE QUERY NO: 99 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51086';
+
+/* DELETE QUERY NO: 100 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51088';
+
+/* DELETE QUERY NO: 101 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51089';
+
+/* DELETE QUERY NO: 102 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51092';
+
+/* DELETE QUERY NO: 103 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51091';
+
+/* DELETE QUERY NO: 104 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51090';
+
+/* DELETE QUERY NO: 105 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51093';
+
+/* DELETE QUERY NO: 106 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51094';
+
+/* DELETE QUERY NO: 107 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51336';
+
+/* DELETE QUERY NO: 108 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51097';
+
+/* DELETE QUERY NO: 109 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51098';
+
+/* DELETE QUERY NO: 110 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51100';
+
+/* DELETE QUERY NO: 111 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51101';
+
+/* DELETE QUERY NO: 112 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51104';
+
+/* DELETE QUERY NO: 113 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51106';
+
+/* DELETE QUERY NO: 114 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51108';
+
+/* DELETE QUERY NO: 115 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51109';
+
+/* DELETE QUERY NO: 116 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51110';
+
+/* DELETE QUERY NO: 117 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51111';
+
+/* DELETE QUERY NO: 118 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51112';
+
+/* DELETE QUERY NO: 119 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51114';
+
+/* DELETE QUERY NO: 120 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51117';
+
+/* DELETE QUERY NO: 121 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51115';
+
+/* DELETE QUERY NO: 122 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51118';
+
+/* DELETE QUERY NO: 123 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51121';
+
+/* DELETE QUERY NO: 124 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51340';
+
+/* DELETE QUERY NO: 125 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51126';
+
+/* DELETE QUERY NO: 126 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51129';
+
+/* DELETE QUERY NO: 127 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51285';
+
+/* DELETE QUERY NO: 128 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51130';
+
+/* DELETE QUERY NO: 129 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51131';
+
+/* DELETE QUERY NO: 130 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51132';
+
+/* DELETE QUERY NO: 131 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51133';
+
+/* DELETE QUERY NO: 132 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51286';
+
+/* DELETE QUERY NO: 133 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51134';
+
+/* DELETE QUERY NO: 134 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51135';
+
+/* DELETE QUERY NO: 135 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51137';
+
+/* DELETE QUERY NO: 136 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51138';
+
+/* DELETE QUERY NO: 137 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51139';
+
+/* DELETE QUERY NO: 138 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51140';
+
+/* DELETE QUERY NO: 139 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51141';
+
+/* DELETE QUERY NO: 140 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51335';
+
+/* DELETE QUERY NO: 141 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51142';
+
+/* DELETE QUERY NO: 142 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51143';
+
+/* DELETE QUERY NO: 143 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51289';
+
+/* DELETE QUERY NO: 144 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51087';
+
+/* DELETE QUERY NO: 145 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51144';
+
+/* DELETE QUERY NO: 146 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51145';
+
+/* DELETE QUERY NO: 147 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51146';
+
+/* DELETE QUERY NO: 148 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51147';
+
+/* DELETE QUERY NO: 149 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51148';
+
+/* DELETE QUERY NO: 150 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51149';
+
+/* DELETE QUERY NO: 151 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51150';
+
+/* DELETE QUERY NO: 152 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51151';
+
+/* DELETE QUERY NO: 153 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51152';
+
+/* DELETE QUERY NO: 154 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51153';
+
+/* DELETE QUERY NO: 155 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51154';
+
+/* DELETE QUERY NO: 156 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51155';
+
+/* DELETE QUERY NO: 157 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51070';
+
+/* DELETE QUERY NO: 158 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51156';
+
+/* DELETE QUERY NO: 159 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51157';
+
+/* DELETE QUERY NO: 160 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51158';
+
+/* DELETE QUERY NO: 161 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51159';
+
+/* DELETE QUERY NO: 162 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51292';
+
+/* DELETE QUERY NO: 163 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51020';
+
+/* DELETE QUERY NO: 164 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51338';
+
+/* DELETE QUERY NO: 165 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51341';
+
+/* DELETE QUERY NO: 166 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51160';
+
+/* DELETE QUERY NO: 167 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51161';
+
+/* DELETE QUERY NO: 168 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51294';
+
+/* DELETE QUERY NO: 169 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51162';
+
+/* DELETE QUERY NO: 170 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51163';
+
+/* DELETE QUERY NO: 171 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51164';
+
+/* DELETE QUERY NO: 172 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51165';
+
+/* DELETE QUERY NO: 173 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51166';
+
+/* DELETE QUERY NO: 174 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51167';
+
+/* DELETE QUERY NO: 175 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51298';
+
+/* DELETE QUERY NO: 176 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51170';
+
+/* DELETE QUERY NO: 177 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51168';
+
+/* DELETE QUERY NO: 178 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51169';
+
+/* DELETE QUERY NO: 179 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51171';
+
+/* DELETE QUERY NO: 180 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51343';
+
+/* DELETE QUERY NO: 181 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51172';
+
+/* DELETE QUERY NO: 182 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51173';
+
+/* DELETE QUERY NO: 183 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51174';
+
+/* DELETE QUERY NO: 184 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51095';
+
+/* DELETE QUERY NO: 185 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51175';
+
+/* DELETE QUERY NO: 186 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51176';
+
+/* DELETE QUERY NO: 187 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51177';
+
+/* DELETE QUERY NO: 188 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51178';
+
+/* DELETE QUERY NO: 189 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51179';
+
+/* DELETE QUERY NO: 190 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51180';
+
+/* DELETE QUERY NO: 191 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51181';
+
+/* DELETE QUERY NO: 192 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51182';
+
+/* DELETE QUERY NO: 193 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51183';
+
+/* DELETE QUERY NO: 194 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51184';
+
+/* DELETE QUERY NO: 195 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51185';
+
+/* DELETE QUERY NO: 196 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51186';
+
+/* DELETE QUERY NO: 197 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51187';
+
+/* DELETE QUERY NO: 198 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51188';
+
+/* DELETE QUERY NO: 199 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51103';
+
+/* DELETE QUERY NO: 200 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51136';
+
+/* DELETE QUERY NO: 201 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51193';
+
+/* DELETE QUERY NO: 202 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51307';
+
+/* DELETE QUERY NO: 203 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51190';
+
+/* DELETE QUERY NO: 204 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51191';
+
+/* DELETE QUERY NO: 205 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56026';
+
+/* DELETE QUERY NO: 206 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51342';
+
+/* DELETE QUERY NO: 207 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51308';
+
+/* DELETE QUERY NO: 208 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51107';
+
+/* DELETE QUERY NO: 209 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51194';
+
+/* DELETE QUERY NO: 210 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51195';
+
+/* DELETE QUERY NO: 211 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51310';
+
+/* DELETE QUERY NO: 212 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51196';
+
+/* DELETE QUERY NO: 213 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51198';
+
+/* DELETE QUERY NO: 214 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51339';
+
+/* DELETE QUERY NO: 215 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51197';
+
+/* DELETE QUERY NO: 216 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51199';
+
+/* DELETE QUERY NO: 217 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51200';
+
+/* DELETE QUERY NO: 218 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51311';
+
+/* DELETE QUERY NO: 219 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51202';
+
+/* DELETE QUERY NO: 220 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51203';
+
+/* DELETE QUERY NO: 221 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51204';
+
+/* DELETE QUERY NO: 222 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51205';
+
+/* DELETE QUERY NO: 223 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51116';
+
+/* DELETE QUERY NO: 224 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51206';
+
+/* DELETE QUERY NO: 225 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51315';
+
+/* DELETE QUERY NO: 226 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51207';
+
+/* DELETE QUERY NO: 227 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51208';
+
+/* DELETE QUERY NO: 228 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51211';
+
+/* DELETE QUERY NO: 229 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51212';
+
+/* DELETE QUERY NO: 230 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51318';
+
+/* DELETE QUERY NO: 231 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51213';
+
+/* DELETE QUERY NO: 232 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51214';
+
+/* DELETE QUERY NO: 233 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51216';
+
+/* DELETE QUERY NO: 234 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51217';
+
+/* DELETE QUERY NO: 235 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51218';
+
+/* DELETE QUERY NO: 236 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51219';
+
+/* DELETE QUERY NO: 237 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51220';
+
+/* DELETE QUERY NO: 238 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51221';
+
+/* DELETE QUERY NO: 239 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51222';
+
+/* DELETE QUERY NO: 240 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51215';
+
+/* DELETE QUERY NO: 241 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51223';
+
+/* DELETE QUERY NO: 242 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51113';
+
+/* DELETE QUERY NO: 243 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51224';
+
+/* DELETE QUERY NO: 244 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51225';
+
+/* DELETE QUERY NO: 245 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51323';
+
+/* DELETE QUERY NO: 246 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51226';
+
+/* DELETE QUERY NO: 247 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51119';
+
+/* DELETE QUERY NO: 248 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51227';
+
+/* DELETE QUERY NO: 249 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51326';
+
+/* DELETE QUERY NO: 250 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51228';
+
+/* DELETE QUERY NO: 251 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51327';
+
+/* DELETE QUERY NO: 252 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51122';
+
+/* DELETE QUERY NO: 253 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51229';
+
+/* DELETE QUERY NO: 254 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51230';
+
+/* DELETE QUERY NO: 255 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51231';
+
+/* DELETE QUERY NO: 256 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51232';
+
+/* DELETE QUERY NO: 257 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51233';
+
+/* DELETE QUERY NO: 258 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51123';
+
+/* DELETE QUERY NO: 259 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51330';
+
+/* DELETE QUERY NO: 260 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51234';
+
+/* DELETE QUERY NO: 261 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51125';
+
+/* DELETE QUERY NO: 262 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51236';
+
+/* DELETE QUERY NO: 263 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51238';
+
+/* DELETE QUERY NO: 264 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51239';
+
+/* DELETE QUERY NO: 265 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51251';
+
+/* DELETE QUERY NO: 266 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51332';
+
+/* DELETE QUERY NO: 267 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51240';
+
+/* DELETE QUERY NO: 268 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51245';
+
+/* DELETE QUERY NO: 269 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51247';
+
+/* DELETE QUERY NO: 270 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51248';
+
+/* DELETE QUERY NO: 271 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51241';
+
+/* DELETE QUERY NO: 272 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51242';
+
+/* DELETE QUERY NO: 273 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51243';
+
+/* DELETE QUERY NO: 274 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51246';
+
+/* DELETE QUERY NO: 275 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51334';
+
+/* DELETE QUERY NO: 276 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51337';
+
+/* DELETE QUERY NO: 277 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51249';
+
+/* DELETE QUERY NO: 278 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51250';
+
+/* DELETE QUERY NO: 279 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51127';
+
+/* DELETE QUERY NO: 280 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51209';
+
+/* DELETE QUERY NO: 281 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51252';
+
+/* DELETE QUERY NO: 282 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51253';
+
+/* DELETE QUERY NO: 283 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51128';
+
+/* DELETE QUERY NO: 284 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51254';
+
+/* DELETE QUERY NO: 285 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51256';
+
+/* DELETE QUERY NO: 286 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51257';
+
+/* DELETE QUERY NO: 287 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51255';
+
+/* DELETE QUERY NO: 288 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21173';
+
+/* DELETE QUERY NO: 289 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21001';
+
+/* DELETE QUERY NO: 290 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21009';
+
+/* DELETE QUERY NO: 291 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21002';
+
+/* DELETE QUERY NO: 292 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21003';
+
+/* DELETE QUERY NO: 293 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21004';
+
+/* DELETE QUERY NO: 294 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21005';
+
+/* DELETE QUERY NO: 295 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21006';
+
+/* DELETE QUERY NO: 296 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21007';
+
+/* DELETE QUERY NO: 297 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21008';
+
+/* DELETE QUERY NO: 298 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21192';
+
+/* DELETE QUERY NO: 299 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21010';
+
+/* DELETE QUERY NO: 300 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21011';
+
+/* DELETE QUERY NO: 301 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21012';
+
+/* DELETE QUERY NO: 302 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21013';
+
+/* DELETE QUERY NO: 303 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21014';
+
+/* DELETE QUERY NO: 304 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21015';
+
+/* DELETE QUERY NO: 305 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21016';
+
+/* DELETE QUERY NO: 306 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21017';
+
+/* DELETE QUERY NO: 307 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21018';
+
+/* DELETE QUERY NO: 308 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21019';
+
+/* DELETE QUERY NO: 309 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21020';
+
+/* DELETE QUERY NO: 310 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21021';
+
+/* DELETE QUERY NO: 311 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21022';
+
+/* DELETE QUERY NO: 312 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21023';
+
+/* DELETE QUERY NO: 313 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21024';
+
+/* DELETE QUERY NO: 314 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21025';
+
+/* DELETE QUERY NO: 315 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21026';
+
+/* DELETE QUERY NO: 316 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21027';
+
+/* DELETE QUERY NO: 317 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21028';
+
+/* DELETE QUERY NO: 318 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21029';
+
+/* DELETE QUERY NO: 319 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21030';
+
+/* DELETE QUERY NO: 320 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21031';
+
+/* DELETE QUERY NO: 321 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21032';
+
+/* DELETE QUERY NO: 322 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21033';
+
+/* DELETE QUERY NO: 323 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21034';
+
+/* DELETE QUERY NO: 324 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21035';
+
+/* DELETE QUERY NO: 325 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21036';
+
+/* DELETE QUERY NO: 326 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21037';
+
+/* DELETE QUERY NO: 327 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21038';
+
+/* DELETE QUERY NO: 328 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21039';
+
+/* DELETE QUERY NO: 329 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21040';
+
+/* DELETE QUERY NO: 330 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21135';
+
+/* DELETE QUERY NO: 331 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21041';
+
+/* DELETE QUERY NO: 332 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21042';
+
+/* DELETE QUERY NO: 333 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21043';
+
+/* DELETE QUERY NO: 334 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21044';
+
+/* DELETE QUERY NO: 335 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21045';
+
+/* DELETE QUERY NO: 336 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21046';
+
+/* DELETE QUERY NO: 337 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21047';
+
+/* DELETE QUERY NO: 338 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21048';
+
+/* DELETE QUERY NO: 339 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21049';
+
+/* DELETE QUERY NO: 340 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21050';
+
+/* DELETE QUERY NO: 341 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21051';
+
+/* DELETE QUERY NO: 342 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21052';
+
+/* DELETE QUERY NO: 343 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21053';
+
+/* DELETE QUERY NO: 344 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21054';
+
+/* DELETE QUERY NO: 345 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21056';
+
+/* DELETE QUERY NO: 346 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21057';
+
+/* DELETE QUERY NO: 347 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21058';
+
+/* DELETE QUERY NO: 348 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21059';
+
+/* DELETE QUERY NO: 349 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21060';
+
+/* DELETE QUERY NO: 350 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21061';
+
+/* DELETE QUERY NO: 351 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21062';
+
+/* DELETE QUERY NO: 352 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21063';
+
+/* DELETE QUERY NO: 353 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21064';
+
+/* DELETE QUERY NO: 354 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21065';
+
+/* DELETE QUERY NO: 355 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21066';
+
+/* DELETE QUERY NO: 356 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21067';
+
+/* DELETE QUERY NO: 357 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21068';
+
+/* DELETE QUERY NO: 358 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21069';
+
+/* DELETE QUERY NO: 359 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21070';
+
+/* DELETE QUERY NO: 360 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21071';
+
+/* DELETE QUERY NO: 361 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21072';
+
+/* DELETE QUERY NO: 362 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21073';
+
+/* DELETE QUERY NO: 363 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21074';
+
+/* DELETE QUERY NO: 364 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21075';
+
+/* DELETE QUERY NO: 365 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21076';
+
+/* DELETE QUERY NO: 366 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21077';
+
+/* DELETE QUERY NO: 367 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21078';
+
+/* DELETE QUERY NO: 368 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21079';
+
+/* DELETE QUERY NO: 369 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21080';
+
+/* DELETE QUERY NO: 370 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21081';
+
+/* DELETE QUERY NO: 371 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21082';
+
+/* DELETE QUERY NO: 372 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21083';
+
+/* DELETE QUERY NO: 373 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN51300';
+
+/* DELETE QUERY NO: 374 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21084';
+
+/* DELETE QUERY NO: 375 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21085';
+
+/* DELETE QUERY NO: 376 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21086';
+
+/* DELETE QUERY NO: 377 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21087';
+
+/* DELETE QUERY NO: 378 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21088';
+
+/* DELETE QUERY NO: 379 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21089';
+
+/* DELETE QUERY NO: 380 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21090';
+
+/* DELETE QUERY NO: 381 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21191';
+
+/* DELETE QUERY NO: 382 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21091';
+
+/* DELETE QUERY NO: 383 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21092';
+
+/* DELETE QUERY NO: 384 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21093';
+
+/* DELETE QUERY NO: 385 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21094';
+
+/* DELETE QUERY NO: 386 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21095';
+
+/* DELETE QUERY NO: 387 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21096';
+
+/* DELETE QUERY NO: 388 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21097';
+
+/* DELETE QUERY NO: 389 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21098';
+
+/* DELETE QUERY NO: 390 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21099';
+
+/* DELETE QUERY NO: 391 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21100';
+
+/* DELETE QUERY NO: 392 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21101';
+
+/* DELETE QUERY NO: 393 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21102';
+
+/* DELETE QUERY NO: 394 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21103';
+
+/* DELETE QUERY NO: 395 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21104';
+
+/* DELETE QUERY NO: 396 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21105';
+
+/* DELETE QUERY NO: 397 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21106';
+
+/* DELETE QUERY NO: 398 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21107';
+
+/* DELETE QUERY NO: 399 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21108';
+
+/* DELETE QUERY NO: 400 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21109';
+
+/* DELETE QUERY NO: 401 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21110';
+
+/* DELETE QUERY NO: 402 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21111';
+
+/* DELETE QUERY NO: 403 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21112';
+
+/* DELETE QUERY NO: 404 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21113';
+
+/* DELETE QUERY NO: 405 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21114';
+
+/* DELETE QUERY NO: 406 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21116';
+
+/* DELETE QUERY NO: 407 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21117';
+
+/* DELETE QUERY NO: 408 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21118';
+
+/* DELETE QUERY NO: 409 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21119';
+
+/* DELETE QUERY NO: 410 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21120';
+
+/* DELETE QUERY NO: 411 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21121';
+
+/* DELETE QUERY NO: 412 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21122';
+
+/* DELETE QUERY NO: 413 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21123';
+
+/* DELETE QUERY NO: 414 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21124';
+
+/* DELETE QUERY NO: 415 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21125';
+
+/* DELETE QUERY NO: 416 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21126';
+
+/* DELETE QUERY NO: 417 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21127';
+
+/* DELETE QUERY NO: 418 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21193';
+
+/* DELETE QUERY NO: 419 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21128';
+
+/* DELETE QUERY NO: 420 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21129';
+
+/* DELETE QUERY NO: 421 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21130';
+
+/* DELETE QUERY NO: 422 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21131';
+
+/* DELETE QUERY NO: 423 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21132';
+
+/* DELETE QUERY NO: 424 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21190';
+
+/* DELETE QUERY NO: 425 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21184';
+
+/* DELETE QUERY NO: 426 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21136';
+
+/* DELETE QUERY NO: 427 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21137';
+
+/* DELETE QUERY NO: 428 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21138';
+
+/* DELETE QUERY NO: 429 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21139';
+
+/* DELETE QUERY NO: 430 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21140';
+
+/* DELETE QUERY NO: 431 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21141';
+
+/* DELETE QUERY NO: 432 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21142';
+
+/* DELETE QUERY NO: 433 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21143';
+
+/* DELETE QUERY NO: 434 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21144';
+
+/* DELETE QUERY NO: 435 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21185';
+
+/* DELETE QUERY NO: 436 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21186';
+
+/* DELETE QUERY NO: 437 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21145';
+
+/* DELETE QUERY NO: 438 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21146';
+
+/* DELETE QUERY NO: 439 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21147';
+
+/* DELETE QUERY NO: 440 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21148';
+
+/* DELETE QUERY NO: 441 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21149';
+
+/* DELETE QUERY NO: 442 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21150';
+
+/* DELETE QUERY NO: 443 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21151';
+
+/* DELETE QUERY NO: 444 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21152';
+
+/* DELETE QUERY NO: 445 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21153';
+
+/* DELETE QUERY NO: 446 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21154';
+
+/* DELETE QUERY NO: 447 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21155';
+
+/* DELETE QUERY NO: 448 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21156';
+
+/* DELETE QUERY NO: 449 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21157';
+
+/* DELETE QUERY NO: 450 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21158';
+
+/* DELETE QUERY NO: 451 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21159';
+
+/* DELETE QUERY NO: 452 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21160';
+
+/* DELETE QUERY NO: 453 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21161';
+
+/* DELETE QUERY NO: 454 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21162';
+
+/* DELETE QUERY NO: 455 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21163';
+
+/* DELETE QUERY NO: 456 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21164';
+
+/* DELETE QUERY NO: 457 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21133';
+
+/* DELETE QUERY NO: 458 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21134';
+
+/* DELETE QUERY NO: 459 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21165';
+
+/* DELETE QUERY NO: 460 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21166';
+
+/* DELETE QUERY NO: 461 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21167';
+
+/* DELETE QUERY NO: 462 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21168';
+
+/* DELETE QUERY NO: 463 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21169';
+
+/* DELETE QUERY NO: 464 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21170';
+
+/* DELETE QUERY NO: 465 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21171';
+
+/* DELETE QUERY NO: 466 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN21172';
+
+/* DELETE QUERY NO: 467 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22001';
+
+/* DELETE QUERY NO: 468 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22002';
+
+/* DELETE QUERY NO: 469 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22091';
+
+/* DELETE QUERY NO: 470 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22003';
+
+/* DELETE QUERY NO: 471 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22004';
+
+/* DELETE QUERY NO: 472 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22005';
+
+/* DELETE QUERY NO: 473 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22006';
+
+/* DELETE QUERY NO: 474 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22007';
+
+/* DELETE QUERY NO: 475 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22008';
+
+/* DELETE QUERY NO: 476 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22009';
+
+/* DELETE QUERY NO: 477 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22010';
+
+/* DELETE QUERY NO: 478 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22011';
+
+/* DELETE QUERY NO: 479 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22012';
+
+/* DELETE QUERY NO: 480 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22013';
+
+/* DELETE QUERY NO: 481 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22014';
+
+/* DELETE QUERY NO: 482 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22015';
+
+/* DELETE QUERY NO: 483 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22017';
+
+/* DELETE QUERY NO: 484 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22018';
+
+/* DELETE QUERY NO: 485 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22019';
+
+/* DELETE QUERY NO: 486 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22020';
+
+/* DELETE QUERY NO: 487 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22021';
+
+/* DELETE QUERY NO: 488 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22023';
+
+/* DELETE QUERY NO: 489 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22016';
+
+/* DELETE QUERY NO: 490 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22024';
+
+/* DELETE QUERY NO: 491 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22025';
+
+/* DELETE QUERY NO: 492 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22026';
+
+/* DELETE QUERY NO: 493 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22027';
+
+/* DELETE QUERY NO: 494 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22028';
+
+/* DELETE QUERY NO: 495 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22029';
+
+/* DELETE QUERY NO: 496 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22030';
+
+/* DELETE QUERY NO: 497 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22031';
+
+/* DELETE QUERY NO: 498 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22032';
+
+/* DELETE QUERY NO: 499 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22033';
+
+/* DELETE QUERY NO: 500 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22034';
+
+/* DELETE QUERY NO: 501 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22035';
+
+/* DELETE QUERY NO: 502 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22088';
+
+/* DELETE QUERY NO: 503 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22036';
+
+/* DELETE QUERY NO: 504 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22037';
+
+/* DELETE QUERY NO: 505 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22038';
+
+/* DELETE QUERY NO: 506 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22039';
+
+/* DELETE QUERY NO: 507 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22040';
+
+/* DELETE QUERY NO: 508 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22041';
+
+/* DELETE QUERY NO: 509 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22042';
+
+/* DELETE QUERY NO: 510 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22043';
+
+/* DELETE QUERY NO: 511 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22044';
+
+/* DELETE QUERY NO: 512 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22047';
+
+/* DELETE QUERY NO: 513 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22045';
+
+/* DELETE QUERY NO: 514 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22046';
+
+/* DELETE QUERY NO: 515 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22048';
+
+/* DELETE QUERY NO: 516 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22049';
+
+/* DELETE QUERY NO: 517 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22050';
+
+/* DELETE QUERY NO: 518 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22051';
+
+/* DELETE QUERY NO: 519 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22052';
+
+/* DELETE QUERY NO: 520 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22053';
+
+/* DELETE QUERY NO: 521 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22054';
+
+/* DELETE QUERY NO: 522 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22055';
+
+/* DELETE QUERY NO: 523 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22056';
+
+/* DELETE QUERY NO: 524 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22057';
+
+/* DELETE QUERY NO: 525 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22058';
+
+/* DELETE QUERY NO: 526 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22059';
+
+/* DELETE QUERY NO: 527 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22060';
+
+/* DELETE QUERY NO: 528 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22061';
+
+/* DELETE QUERY NO: 529 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22062';
+
+/* DELETE QUERY NO: 530 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22063';
+
+/* DELETE QUERY NO: 531 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22064';
+
+/* DELETE QUERY NO: 532 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22065';
+
+/* DELETE QUERY NO: 533 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22066';
+
+/* DELETE QUERY NO: 534 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22067';
+
+/* DELETE QUERY NO: 535 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22068';
+
+/* DELETE QUERY NO: 536 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22069';
+
+/* DELETE QUERY NO: 537 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22070';
+
+/* DELETE QUERY NO: 538 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22071';
+
+/* DELETE QUERY NO: 539 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22072';
+
+/* DELETE QUERY NO: 540 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22073';
+
+/* DELETE QUERY NO: 541 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22074';
+
+/* DELETE QUERY NO: 542 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22075';
+
+/* DELETE QUERY NO: 543 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22077';
+
+/* DELETE QUERY NO: 544 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22078';
+
+/* DELETE QUERY NO: 545 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22080';
+
+/* DELETE QUERY NO: 546 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22089';
+
+/* DELETE QUERY NO: 547 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22090';
+
+/* DELETE QUERY NO: 548 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22081';
+
+/* DELETE QUERY NO: 549 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22082';
+
+/* DELETE QUERY NO: 550 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22083';
+
+/* DELETE QUERY NO: 551 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22084';
+
+/* DELETE QUERY NO: 552 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22079';
+
+/* DELETE QUERY NO: 553 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22076';
+
+/* DELETE QUERY NO: 554 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22085';
+
+/* DELETE QUERY NO: 555 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22086';
+
+/* DELETE QUERY NO: 556 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN22087';
+
+/* DELETE QUERY NO: 557 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11001';
+
+/* DELETE QUERY NO: 558 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11002';
+
+/* DELETE QUERY NO: 559 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11004';
+
+/* DELETE QUERY NO: 560 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11003';
+
+/* DELETE QUERY NO: 561 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11059';
+
+/* DELETE QUERY NO: 562 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11005';
+
+/* DELETE QUERY NO: 563 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11006';
+
+/* DELETE QUERY NO: 564 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11007';
+
+/* DELETE QUERY NO: 565 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11060';
+
+/* DELETE QUERY NO: 566 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11009';
+
+/* DELETE QUERY NO: 567 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11061';
+
+/* DELETE QUERY NO: 568 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11010';
+
+/* DELETE QUERY NO: 569 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11011';
+
+/* DELETE QUERY NO: 570 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11062';
+
+/* DELETE QUERY NO: 571 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11013';
+
+/* DELETE QUERY NO: 572 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11014';
+
+/* DELETE QUERY NO: 573 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11016';
+
+/* DELETE QUERY NO: 574 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11017';
+
+/* DELETE QUERY NO: 575 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11018';
+
+/* DELETE QUERY NO: 576 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11064';
+
+/* DELETE QUERY NO: 577 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11019';
+
+/* DELETE QUERY NO: 578 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11020';
+
+/* DELETE QUERY NO: 579 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11021';
+
+/* DELETE QUERY NO: 580 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11026';
+
+/* DELETE QUERY NO: 581 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11027';
+
+/* DELETE QUERY NO: 582 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11066';
+
+/* DELETE QUERY NO: 583 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11028';
+
+/* DELETE QUERY NO: 584 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11029';
+
+/* DELETE QUERY NO: 585 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11071';
+
+/* DELETE QUERY NO: 586 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11072';
+
+/* DELETE QUERY NO: 587 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11030';
+
+/* DELETE QUERY NO: 588 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11074';
+
+/* DELETE QUERY NO: 589 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11031';
+
+/* DELETE QUERY NO: 590 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11077';
+
+/* DELETE QUERY NO: 591 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11078';
+
+/* DELETE QUERY NO: 592 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11032';
+
+/* DELETE QUERY NO: 593 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11033';
+
+/* DELETE QUERY NO: 594 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11034';
+
+/* DELETE QUERY NO: 595 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11035';
+
+/* DELETE QUERY NO: 596 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11036';
+
+/* DELETE QUERY NO: 597 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11081';
+
+/* DELETE QUERY NO: 598 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11037';
+
+/* DELETE QUERY NO: 599 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11038';
+
+/* DELETE QUERY NO: 600 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11039';
+
+/* DELETE QUERY NO: 601 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11040';
+
+/* DELETE QUERY NO: 602 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11041';
+
+/* DELETE QUERY NO: 603 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11082';
+
+/* DELETE QUERY NO: 604 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11083';
+
+/* DELETE QUERY NO: 605 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11084';
+
+/* DELETE QUERY NO: 606 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11085';
+
+/* DELETE QUERY NO: 607 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11086';
+
+/* DELETE QUERY NO: 608 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11042';
+
+/* DELETE QUERY NO: 609 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11044';
+
+/* DELETE QUERY NO: 610 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11022';
+
+/* DELETE QUERY NO: 611 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11045';
+
+/* DELETE QUERY NO: 612 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11091';
+
+/* DELETE QUERY NO: 613 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11087';
+
+/* DELETE QUERY NO: 614 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11047';
+
+/* DELETE QUERY NO: 615 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11048';
+
+/* DELETE QUERY NO: 616 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11049';
+
+/* DELETE QUERY NO: 617 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11050';
+
+/* DELETE QUERY NO: 618 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11051';
+
+/* DELETE QUERY NO: 619 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11088';
+
+/* DELETE QUERY NO: 620 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11089';
+
+/* DELETE QUERY NO: 621 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11090';
+
+/* DELETE QUERY NO: 622 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11053';
+
+/* DELETE QUERY NO: 623 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11054';
+
+/* DELETE QUERY NO: 624 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11055';
+
+/* DELETE QUERY NO: 625 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11056';
+
+/* DELETE QUERY NO: 626 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11057';
+
+/* DELETE QUERY NO: 627 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN11058';
+
+/* DELETE QUERY NO: 628 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23001';
+
+/* DELETE QUERY NO: 629 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23002';
+
+/* DELETE QUERY NO: 630 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23003';
+
+/* DELETE QUERY NO: 631 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23004';
+
+/* DELETE QUERY NO: 632 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23005';
+
+/* DELETE QUERY NO: 633 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23006';
+
+/* DELETE QUERY NO: 634 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23007';
+
+/* DELETE QUERY NO: 635 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23008';
+
+/* DELETE QUERY NO: 636 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23009';
+
+/* DELETE QUERY NO: 637 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23010';
+
+/* DELETE QUERY NO: 638 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23011';
+
+/* DELETE QUERY NO: 639 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23012';
+
+/* DELETE QUERY NO: 640 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23013';
+
+/* DELETE QUERY NO: 641 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23014';
+
+/* DELETE QUERY NO: 642 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23015';
+
+/* DELETE QUERY NO: 643 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23016';
+
+/* DELETE QUERY NO: 644 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23017';
+
+/* DELETE QUERY NO: 645 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23018';
+
+/* DELETE QUERY NO: 646 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23019';
+
+/* DELETE QUERY NO: 647 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23020';
+
+/* DELETE QUERY NO: 648 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23021';
+
+/* DELETE QUERY NO: 649 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23022';
+
+/* DELETE QUERY NO: 650 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23023';
+
+/* DELETE QUERY NO: 651 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23024';
+
+/* DELETE QUERY NO: 652 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23025';
+
+/* DELETE QUERY NO: 653 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23026';
+
+/* DELETE QUERY NO: 654 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23027';
+
+/* DELETE QUERY NO: 655 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23028';
+
+/* DELETE QUERY NO: 656 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23029';
+
+/* DELETE QUERY NO: 657 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23031';
+
+/* DELETE QUERY NO: 658 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23032';
+
+/* DELETE QUERY NO: 659 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23033';
+
+/* DELETE QUERY NO: 660 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23034';
+
+/* DELETE QUERY NO: 661 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23035';
+
+/* DELETE QUERY NO: 662 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23036';
+
+/* DELETE QUERY NO: 663 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23037';
+
+/* DELETE QUERY NO: 664 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23038';
+
+/* DELETE QUERY NO: 665 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23039';
+
+/* DELETE QUERY NO: 666 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23030';
+
+/* DELETE QUERY NO: 667 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23040';
+
+/* DELETE QUERY NO: 668 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN23041';
+
+/* DELETE QUERY NO: 669 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24001';
+
+/* DELETE QUERY NO: 670 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24002';
+
+/* DELETE QUERY NO: 671 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24003';
+
+/* DELETE QUERY NO: 672 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24004';
+
+/* DELETE QUERY NO: 673 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24005';
+
+/* DELETE QUERY NO: 674 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24014';
+
+/* DELETE QUERY NO: 675 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24006';
+
+/* DELETE QUERY NO: 676 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24007';
+
+/* DELETE QUERY NO: 677 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24008';
+
+/* DELETE QUERY NO: 678 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24009';
+
+/* DELETE QUERY NO: 679 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24010';
+
+/* DELETE QUERY NO: 680 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24011';
+
+/* DELETE QUERY NO: 681 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24012';
+
+/* DELETE QUERY NO: 682 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24013';
+
+/* DELETE QUERY NO: 683 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24015';
+
+/* DELETE QUERY NO: 684 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24030';
+
+/* DELETE QUERY NO: 685 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24046';
+
+/* DELETE QUERY NO: 686 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24016';
+
+/* DELETE QUERY NO: 687 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24017';
+
+/* DELETE QUERY NO: 688 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24018';
+
+/* DELETE QUERY NO: 689 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24020';
+
+/* DELETE QUERY NO: 690 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24021';
+
+/* DELETE QUERY NO: 691 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24022';
+
+/* DELETE QUERY NO: 692 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24023';
+
+/* DELETE QUERY NO: 693 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24024';
+
+/* DELETE QUERY NO: 694 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24025';
+
+/* DELETE QUERY NO: 695 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24026';
+
+/* DELETE QUERY NO: 696 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24027';
+
+/* DELETE QUERY NO: 697 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24028';
+
+/* DELETE QUERY NO: 698 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24029';
+
+/* DELETE QUERY NO: 699 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24031';
+
+/* DELETE QUERY NO: 700 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24032';
+
+/* DELETE QUERY NO: 701 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24033';
+
+/* DELETE QUERY NO: 702 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24034';
+
+/* DELETE QUERY NO: 703 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24035';
+
+/* DELETE QUERY NO: 704 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24019';
+
+/* DELETE QUERY NO: 705 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24036';
+
+/* DELETE QUERY NO: 706 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24037';
+
+/* DELETE QUERY NO: 707 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24038';
+
+/* DELETE QUERY NO: 708 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24047';
+
+/* DELETE QUERY NO: 709 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24039';
+
+/* DELETE QUERY NO: 710 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24040';
+
+/* DELETE QUERY NO: 711 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24041';
+
+/* DELETE QUERY NO: 712 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24042';
+
+/* DELETE QUERY NO: 713 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24043';
+
+/* DELETE QUERY NO: 714 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24044';
+
+/* DELETE QUERY NO: 715 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN24045';
+
+/* DELETE QUERY NO: 716 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25001';
+
+/* DELETE QUERY NO: 717 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25003';
+
+/* DELETE QUERY NO: 718 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25004';
+
+/* DELETE QUERY NO: 719 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25005';
+
+/* DELETE QUERY NO: 720 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25019';
+
+/* DELETE QUERY NO: 721 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25002';
+
+/* DELETE QUERY NO: 722 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25006';
+
+/* DELETE QUERY NO: 723 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25007';
+
+/* DELETE QUERY NO: 724 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25008';
+
+/* DELETE QUERY NO: 725 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25009';
+
+/* DELETE QUERY NO: 726 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25011';
+
+/* DELETE QUERY NO: 727 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25010';
+
+/* DELETE QUERY NO: 728 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25012';
+
+/* DELETE QUERY NO: 729 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25013';
+
+/* DELETE QUERY NO: 730 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25014';
+
+/* DELETE QUERY NO: 731 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25015';
+
+/* DELETE QUERY NO: 732 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25016';
+
+/* DELETE QUERY NO: 733 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25017';
+
+/* DELETE QUERY NO: 734 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25018';
+
+/* DELETE QUERY NO: 735 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25020';
+
+/* DELETE QUERY NO: 736 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25021';
+
+/* DELETE QUERY NO: 737 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25022';
+
+/* DELETE QUERY NO: 738 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25024';
+
+/* DELETE QUERY NO: 739 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25025';
+
+/* DELETE QUERY NO: 740 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25026';
+
+/* DELETE QUERY NO: 741 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25027';
+
+/* DELETE QUERY NO: 742 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25028';
+
+/* DELETE QUERY NO: 743 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25077';
+
+/* DELETE QUERY NO: 744 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25023';
+
+/* DELETE QUERY NO: 745 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25029';
+
+/* DELETE QUERY NO: 746 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25030';
+
+/* DELETE QUERY NO: 747 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25031';
+
+/* DELETE QUERY NO: 748 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25032';
+
+/* DELETE QUERY NO: 749 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25033';
+
+/* DELETE QUERY NO: 750 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25034';
+
+/* DELETE QUERY NO: 751 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25035';
+
+/* DELETE QUERY NO: 752 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25036';
+
+/* DELETE QUERY NO: 753 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25037';
+
+/* DELETE QUERY NO: 754 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25038';
+
+/* DELETE QUERY NO: 755 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25039';
+
+/* DELETE QUERY NO: 756 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25041';
+
+/* DELETE QUERY NO: 757 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25042';
+
+/* DELETE QUERY NO: 758 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25043';
+
+/* DELETE QUERY NO: 759 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25044';
+
+/* DELETE QUERY NO: 760 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25045';
+
+/* DELETE QUERY NO: 761 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25046';
+
+/* DELETE QUERY NO: 762 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25076';
+
+/* DELETE QUERY NO: 763 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25047';
+
+/* DELETE QUERY NO: 764 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25048';
+
+/* DELETE QUERY NO: 765 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25051';
+
+/* DELETE QUERY NO: 766 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25049';
+
+/* DELETE QUERY NO: 767 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25052';
+
+/* DELETE QUERY NO: 768 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25050';
+
+/* DELETE QUERY NO: 769 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25053';
+
+/* DELETE QUERY NO: 770 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25054';
+
+/* DELETE QUERY NO: 771 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25055';
+
+/* DELETE QUERY NO: 772 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25056';
+
+/* DELETE QUERY NO: 773 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25057';
+
+/* DELETE QUERY NO: 774 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25058';
+
+/* DELETE QUERY NO: 775 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25059';
+
+/* DELETE QUERY NO: 776 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25060';
+
+/* DELETE QUERY NO: 777 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25061';
+
+/* DELETE QUERY NO: 778 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25062';
+
+/* DELETE QUERY NO: 779 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25063';
+
+/* DELETE QUERY NO: 780 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25064';
+
+/* DELETE QUERY NO: 781 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25065';
+
+/* DELETE QUERY NO: 782 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25066';
+
+/* DELETE QUERY NO: 783 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25067';
+
+/* DELETE QUERY NO: 784 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25068';
+
+/* DELETE QUERY NO: 785 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25070';
+
+/* DELETE QUERY NO: 786 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25078';
+
+/* DELETE QUERY NO: 787 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25079';
+
+/* DELETE QUERY NO: 788 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25071';
+
+/* DELETE QUERY NO: 789 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25069';
+
+/* DELETE QUERY NO: 790 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25072';
+
+/* DELETE QUERY NO: 791 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25073';
+
+/* DELETE QUERY NO: 792 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25074';
+
+/* DELETE QUERY NO: 793 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25082';
+
+/* DELETE QUERY NO: 794 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25083';
+
+/* DELETE QUERY NO: 795 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25081';
+
+/* DELETE QUERY NO: 796 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25080';
+
+/* DELETE QUERY NO: 797 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25040';
+
+/* DELETE QUERY NO: 798 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN25075';
+
+/* DELETE QUERY NO: 799 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41001';
+
+/* DELETE QUERY NO: 800 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41003';
+
+/* DELETE QUERY NO: 801 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41002';
+
+/* DELETE QUERY NO: 802 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41004';
+
+/* DELETE QUERY NO: 803 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41005';
+
+/* DELETE QUERY NO: 804 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41006';
+
+/* DELETE QUERY NO: 805 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41007';
+
+/* DELETE QUERY NO: 806 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41008';
+
+/* DELETE QUERY NO: 807 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41009';
+
+/* DELETE QUERY NO: 808 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41010';
+
+/* DELETE QUERY NO: 809 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41011';
+
+/* DELETE QUERY NO: 810 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41012';
+
+/* DELETE QUERY NO: 811 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41013';
+
+/* DELETE QUERY NO: 812 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41014';
+
+/* DELETE QUERY NO: 813 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41015';
+
+/* DELETE QUERY NO: 814 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41016';
+
+/* DELETE QUERY NO: 815 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41017';
+
+/* DELETE QUERY NO: 816 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41018';
+
+/* DELETE QUERY NO: 817 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41019';
+
+/* DELETE QUERY NO: 818 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41020';
+
+/* DELETE QUERY NO: 819 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41021';
+
+/* DELETE QUERY NO: 820 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41022';
+
+/* DELETE QUERY NO: 821 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41023';
+
+/* DELETE QUERY NO: 822 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41024';
+
+/* DELETE QUERY NO: 823 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41025';
+
+/* DELETE QUERY NO: 824 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41026';
+
+/* DELETE QUERY NO: 825 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41027';
+
+/* DELETE QUERY NO: 826 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41028';
+
+/* DELETE QUERY NO: 827 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41029';
+
+/* DELETE QUERY NO: 828 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41030';
+
+/* DELETE QUERY NO: 829 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41031';
+
+/* DELETE QUERY NO: 830 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41032';
+
+/* DELETE QUERY NO: 831 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41033';
+
+/* DELETE QUERY NO: 832 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41034';
+
+/* DELETE QUERY NO: 833 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41035';
+
+/* DELETE QUERY NO: 834 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41036';
+
+/* DELETE QUERY NO: 835 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41037';
+
+/* DELETE QUERY NO: 836 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41038';
+
+/* DELETE QUERY NO: 837 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41039';
+
+/* DELETE QUERY NO: 838 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41040';
+
+/* DELETE QUERY NO: 839 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41041';
+
+/* DELETE QUERY NO: 840 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41042';
+
+/* DELETE QUERY NO: 841 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41043';
+
+/* DELETE QUERY NO: 842 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN41044';
+
+/* DELETE QUERY NO: 843 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44001';
+
+/* DELETE QUERY NO: 844 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44002';
+
+/* DELETE QUERY NO: 845 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44003';
+
+/* DELETE QUERY NO: 846 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44007';
+
+/* DELETE QUERY NO: 847 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44004';
+
+/* DELETE QUERY NO: 848 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44005';
+
+/* DELETE QUERY NO: 849 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44006';
+
+/* DELETE QUERY NO: 850 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44008';
+
+/* DELETE QUERY NO: 851 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44009';
+
+/* DELETE QUERY NO: 852 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44010';
+
+/* DELETE QUERY NO: 853 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44011';
+
+/* DELETE QUERY NO: 854 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44012';
+
+/* DELETE QUERY NO: 855 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44013';
+
+/* DELETE QUERY NO: 856 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44014';
+
+/* DELETE QUERY NO: 857 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44015';
+
+/* DELETE QUERY NO: 858 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44016';
+
+/* DELETE QUERY NO: 859 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44017';
+
+/* DELETE QUERY NO: 860 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44018';
+
+/* DELETE QUERY NO: 861 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44019';
+
+/* DELETE QUERY NO: 862 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44020';
+
+/* DELETE QUERY NO: 863 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44021';
+
+/* DELETE QUERY NO: 864 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44022';
+
+/* DELETE QUERY NO: 865 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44023';
+
+/* DELETE QUERY NO: 866 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44024';
+
+/* DELETE QUERY NO: 867 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44025';
+
+/* DELETE QUERY NO: 868 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44026';
+
+/* DELETE QUERY NO: 869 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44027';
+
+/* DELETE QUERY NO: 870 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44028';
+
+/* DELETE QUERY NO: 871 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44029';
+
+/* DELETE QUERY NO: 872 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44030';
+
+/* DELETE QUERY NO: 873 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44031';
+
+/* DELETE QUERY NO: 874 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44032';
+
+/* DELETE QUERY NO: 875 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44033';
+
+/* DELETE QUERY NO: 876 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44034';
+
+/* DELETE QUERY NO: 877 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44035';
+
+/* DELETE QUERY NO: 878 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44036';
+
+/* DELETE QUERY NO: 879 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44037';
+
+/* DELETE QUERY NO: 880 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44038';
+
+/* DELETE QUERY NO: 881 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44039';
+
+/* DELETE QUERY NO: 882 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44040';
+
+/* DELETE QUERY NO: 883 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44041';
+
+/* DELETE QUERY NO: 884 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44042';
+
+/* DELETE QUERY NO: 885 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44043';
+
+/* DELETE QUERY NO: 886 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44044';
+
+/* DELETE QUERY NO: 887 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44045';
+
+/* DELETE QUERY NO: 888 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44046';
+
+/* DELETE QUERY NO: 889 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44048';
+
+/* DELETE QUERY NO: 890 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44049';
+
+/* DELETE QUERY NO: 891 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44050';
+
+/* DELETE QUERY NO: 892 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44051';
+
+/* DELETE QUERY NO: 893 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44052';
+
+/* DELETE QUERY NO: 894 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44053';
+
+/* DELETE QUERY NO: 895 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44054';
+
+/* DELETE QUERY NO: 896 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44055';
+
+/* DELETE QUERY NO: 897 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44056';
+
+/* DELETE QUERY NO: 898 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44057';
+
+/* DELETE QUERY NO: 899 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44058';
+
+/* DELETE QUERY NO: 900 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44059';
+
+/* DELETE QUERY NO: 901 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44060';
+
+/* DELETE QUERY NO: 902 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44061';
+
+/* DELETE QUERY NO: 903 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN44062';
+
+/* DELETE QUERY NO: 904 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42001';
+
+/* DELETE QUERY NO: 905 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42002';
+
+/* DELETE QUERY NO: 906 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42003';
+
+/* DELETE QUERY NO: 907 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42004';
+
+/* DELETE QUERY NO: 908 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42005';
+
+/* DELETE QUERY NO: 909 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42006';
+
+/* DELETE QUERY NO: 910 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42007';
+
+/* DELETE QUERY NO: 911 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42008';
+
+/* DELETE QUERY NO: 912 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42009';
+
+/* DELETE QUERY NO: 913 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42010';
+
+/* DELETE QUERY NO: 914 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42011';
+
+/* DELETE QUERY NO: 915 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42013';
+
+/* DELETE QUERY NO: 916 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42014';
+
+/* DELETE QUERY NO: 917 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42015';
+
+/* DELETE QUERY NO: 918 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42016';
+
+/* DELETE QUERY NO: 919 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42017';
+
+/* DELETE QUERY NO: 920 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42018';
+
+/* DELETE QUERY NO: 921 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42019';
+
+/* DELETE QUERY NO: 922 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42020';
+
+/* DELETE QUERY NO: 923 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42021';
+
+/* DELETE QUERY NO: 924 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42022';
+
+/* DELETE QUERY NO: 925 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42023';
+
+/* DELETE QUERY NO: 926 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42025';
+
+/* DELETE QUERY NO: 927 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42024';
+
+/* DELETE QUERY NO: 928 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42026';
+
+/* DELETE QUERY NO: 929 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42027';
+
+/* DELETE QUERY NO: 930 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42028';
+
+/* DELETE QUERY NO: 931 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42012';
+
+/* DELETE QUERY NO: 932 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42029';
+
+/* DELETE QUERY NO: 933 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42030';
+
+/* DELETE QUERY NO: 934 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42031';
+
+/* DELETE QUERY NO: 935 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42032';
+
+/* DELETE QUERY NO: 936 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42033';
+
+/* DELETE QUERY NO: 937 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42034';
+
+/* DELETE QUERY NO: 938 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42035';
+
+/* DELETE QUERY NO: 939 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN42036';
+
+/* DELETE QUERY NO: 940 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43044';
+
+/* DELETE QUERY NO: 941 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43001';
+
+/* DELETE QUERY NO: 942 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43002';
+
+/* DELETE QUERY NO: 943 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43003';
+
+/* DELETE QUERY NO: 944 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43005';
+
+/* DELETE QUERY NO: 945 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43004';
+
+/* DELETE QUERY NO: 946 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43006';
+
+/* DELETE QUERY NO: 947 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43007';
+
+/* DELETE QUERY NO: 948 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43008';
+
+/* DELETE QUERY NO: 949 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43009';
+
+/* DELETE QUERY NO: 950 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43010';
+
+/* DELETE QUERY NO: 951 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43011';
+
+/* DELETE QUERY NO: 952 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43012';
+
+/* DELETE QUERY NO: 953 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43013';
+
+/* DELETE QUERY NO: 954 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43014';
+
+/* DELETE QUERY NO: 955 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43016';
+
+/* DELETE QUERY NO: 956 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43017';
+
+/* DELETE QUERY NO: 957 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43015';
+
+/* DELETE QUERY NO: 958 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43018';
+
+/* DELETE QUERY NO: 959 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43019';
+
+/* DELETE QUERY NO: 960 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43020';
+
+/* DELETE QUERY NO: 961 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43021';
+
+/* DELETE QUERY NO: 962 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43022';
+
+/* DELETE QUERY NO: 963 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43023';
+
+/* DELETE QUERY NO: 964 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43024';
+
+/* DELETE QUERY NO: 965 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43025';
+
+/* DELETE QUERY NO: 966 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43026';
+
+/* DELETE QUERY NO: 967 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43027';
+
+/* DELETE QUERY NO: 968 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43028';
+
+/* DELETE QUERY NO: 969 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43029';
+
+/* DELETE QUERY NO: 970 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43030';
+
+/* DELETE QUERY NO: 971 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43032';
+
+/* DELETE QUERY NO: 972 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43033';
+
+/* DELETE QUERY NO: 973 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43034';
+
+/* DELETE QUERY NO: 974 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43035';
+
+/* DELETE QUERY NO: 975 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43036';
+
+/* DELETE QUERY NO: 976 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43037';
+
+/* DELETE QUERY NO: 977 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43038';
+
+/* DELETE QUERY NO: 978 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43039';
+
+/* DELETE QUERY NO: 979 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43040';
+
+/* DELETE QUERY NO: 980 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43041';
+
+/* DELETE QUERY NO: 981 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43042';
+
+/* DELETE QUERY NO: 982 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN43043';
+
+/* DELETE QUERY NO: 983 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31001';
+
+/* DELETE QUERY NO: 984 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31002';
+
+/* DELETE QUERY NO: 985 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31003';
+
+/* DELETE QUERY NO: 986 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31005';
+
+/* DELETE QUERY NO: 987 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31006';
+
+/* DELETE QUERY NO: 988 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31007';
+
+/* DELETE QUERY NO: 989 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31008';
+
+/* DELETE QUERY NO: 990 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31009';
+
+/* DELETE QUERY NO: 991 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31010';
+
+/* DELETE QUERY NO: 992 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31011';
+
+/* DELETE QUERY NO: 993 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31012';
+
+/* DELETE QUERY NO: 994 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31013';
+
+/* DELETE QUERY NO: 995 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31014';
+
+/* DELETE QUERY NO: 996 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31015';
+
+/* DELETE QUERY NO: 997 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31016';
+
+/* DELETE QUERY NO: 998 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31017';
+
+/* DELETE QUERY NO: 999 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31018';
+
+/* DELETE QUERY NO: 1000 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31019';
+
+/* DELETE QUERY NO: 1001 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31020';
+
+/* DELETE QUERY NO: 1002 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31021';
+
+/* DELETE QUERY NO: 1003 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31022';
+
+/* DELETE QUERY NO: 1004 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31023';
+
+/* DELETE QUERY NO: 1005 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31024';
+
+/* DELETE QUERY NO: 1006 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31025';
+
+/* DELETE QUERY NO: 1007 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31026';
+
+/* DELETE QUERY NO: 1008 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31027';
+
+/* DELETE QUERY NO: 1009 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31028';
+
+/* DELETE QUERY NO: 1010 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31029';
+
+/* DELETE QUERY NO: 1011 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31030';
+
+/* DELETE QUERY NO: 1012 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31031';
+
+/* DELETE QUERY NO: 1013 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31032';
+
+/* DELETE QUERY NO: 1014 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31033';
+
+/* DELETE QUERY NO: 1015 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31034';
+
+/* DELETE QUERY NO: 1016 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31035';
+
+/* DELETE QUERY NO: 1017 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31036';
+
+/* DELETE QUERY NO: 1018 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31037';
+
+/* DELETE QUERY NO: 1019 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31115';
+
+/* DELETE QUERY NO: 1020 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31038';
+
+/* DELETE QUERY NO: 1021 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31039';
+
+/* DELETE QUERY NO: 1022 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31040';
+
+/* DELETE QUERY NO: 1023 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31041';
+
+/* DELETE QUERY NO: 1024 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31042';
+
+/* DELETE QUERY NO: 1025 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31043';
+
+/* DELETE QUERY NO: 1026 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31044';
+
+/* DELETE QUERY NO: 1027 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31045';
+
+/* DELETE QUERY NO: 1028 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31046';
+
+/* DELETE QUERY NO: 1029 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31047';
+
+/* DELETE QUERY NO: 1030 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31048';
+
+/* DELETE QUERY NO: 1031 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31049';
+
+/* DELETE QUERY NO: 1032 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31050';
+
+/* DELETE QUERY NO: 1033 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31051';
+
+/* DELETE QUERY NO: 1034 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31052';
+
+/* DELETE QUERY NO: 1035 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31053';
+
+/* DELETE QUERY NO: 1036 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31054';
+
+/* DELETE QUERY NO: 1037 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31055';
+
+/* DELETE QUERY NO: 1038 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31056';
+
+/* DELETE QUERY NO: 1039 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31057';
+
+/* DELETE QUERY NO: 1040 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31058';
+
+/* DELETE QUERY NO: 1041 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31059';
+
+/* DELETE QUERY NO: 1042 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31060';
+
+/* DELETE QUERY NO: 1043 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31116';
+
+/* DELETE QUERY NO: 1044 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31061';
+
+/* DELETE QUERY NO: 1045 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31062';
+
+/* DELETE QUERY NO: 1046 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31063';
+
+/* DELETE QUERY NO: 1047 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31064';
+
+/* DELETE QUERY NO: 1048 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31065';
+
+/* DELETE QUERY NO: 1049 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31066';
+
+/* DELETE QUERY NO: 1050 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31067';
+
+/* DELETE QUERY NO: 1051 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31068';
+
+/* DELETE QUERY NO: 1052 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31069';
+
+/* DELETE QUERY NO: 1053 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31117';
+
+/* DELETE QUERY NO: 1054 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31070';
+
+/* DELETE QUERY NO: 1055 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31071';
+
+/* DELETE QUERY NO: 1056 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31072';
+
+/* DELETE QUERY NO: 1057 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31073';
+
+/* DELETE QUERY NO: 1058 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31074';
+
+/* DELETE QUERY NO: 1059 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31075';
+
+/* DELETE QUERY NO: 1060 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31076';
+
+/* DELETE QUERY NO: 1061 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31077';
+
+/* DELETE QUERY NO: 1062 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31078';
+
+/* DELETE QUERY NO: 1063 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31079';
+
+/* DELETE QUERY NO: 1064 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31080';
+
+/* DELETE QUERY NO: 1065 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31081';
+
+/* DELETE QUERY NO: 1066 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31082';
+
+/* DELETE QUERY NO: 1067 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31083';
+
+/* DELETE QUERY NO: 1068 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31084';
+
+/* DELETE QUERY NO: 1069 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31085';
+
+/* DELETE QUERY NO: 1070 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31086';
+
+/* DELETE QUERY NO: 1071 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31087';
+
+/* DELETE QUERY NO: 1072 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31088';
+
+/* DELETE QUERY NO: 1073 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31089';
+
+/* DELETE QUERY NO: 1074 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31090';
+
+/* DELETE QUERY NO: 1075 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31091';
+
+/* DELETE QUERY NO: 1076 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31092';
+
+/* DELETE QUERY NO: 1077 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31093';
+
+/* DELETE QUERY NO: 1078 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31094';
+
+/* DELETE QUERY NO: 1079 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31095';
+
+/* DELETE QUERY NO: 1080 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31096';
+
+/* DELETE QUERY NO: 1081 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31097';
+
+/* DELETE QUERY NO: 1082 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31098';
+
+/* DELETE QUERY NO: 1083 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31099';
+
+/* DELETE QUERY NO: 1084 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31100';
+
+/* DELETE QUERY NO: 1085 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31101';
+
+/* DELETE QUERY NO: 1086 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31102';
+
+/* DELETE QUERY NO: 1087 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31103';
+
+/* DELETE QUERY NO: 1088 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31104';
+
+/* DELETE QUERY NO: 1089 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31105';
+
+/* DELETE QUERY NO: 1090 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31106';
+
+/* DELETE QUERY NO: 1091 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31107';
+
+/* DELETE QUERY NO: 1092 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31108';
+
+/* DELETE QUERY NO: 1093 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31109';
+
+/* DELETE QUERY NO: 1094 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31110';
+
+/* DELETE QUERY NO: 1095 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31111';
+
+/* DELETE QUERY NO: 1096 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31112';
+
+/* DELETE QUERY NO: 1097 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31113';
+
+/* DELETE QUERY NO: 1098 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN31114';
+
+/* DELETE QUERY NO: 1099 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320001';
+
+/* DELETE QUERY NO: 1100 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320002';
+
+/* DELETE QUERY NO: 1101 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320003';
+
+/* DELETE QUERY NO: 1102 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320004';
+
+/* DELETE QUERY NO: 1103 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320005';
+
+/* DELETE QUERY NO: 1104 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320006';
+
+/* DELETE QUERY NO: 1105 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320007';
+
+/* DELETE QUERY NO: 1106 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320008';
+
+/* DELETE QUERY NO: 1107 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320009';
+
+/* DELETE QUERY NO: 1108 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320106';
+
+/* DELETE QUERY NO: 1109 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320010';
+
+/* DELETE QUERY NO: 1110 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320011';
+
+/* DELETE QUERY NO: 1111 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320012';
+
+/* DELETE QUERY NO: 1112 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320104';
+
+/* DELETE QUERY NO: 1113 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320013';
+
+/* DELETE QUERY NO: 1114 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320014';
+
+/* DELETE QUERY NO: 1115 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320015';
+
+/* DELETE QUERY NO: 1116 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320016';
+
+/* DELETE QUERY NO: 1117 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320017';
+
+/* DELETE QUERY NO: 1118 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320101';
+
+/* DELETE QUERY NO: 1119 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320102';
+
+/* DELETE QUERY NO: 1120 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320020';
+
+/* DELETE QUERY NO: 1121 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320021';
+
+/* DELETE QUERY NO: 1122 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320022';
+
+/* DELETE QUERY NO: 1123 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320108';
+
+/* DELETE QUERY NO: 1124 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320023';
+
+/* DELETE QUERY NO: 1125 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320024';
+
+/* DELETE QUERY NO: 1126 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320025';
+
+/* DELETE QUERY NO: 1127 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320026';
+
+/* DELETE QUERY NO: 1128 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320027';
+
+/* DELETE QUERY NO: 1129 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320028';
+
+/* DELETE QUERY NO: 1130 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320029';
+
+/* DELETE QUERY NO: 1131 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320030';
+
+/* DELETE QUERY NO: 1132 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320031';
+
+/* DELETE QUERY NO: 1133 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320032';
+
+/* DELETE QUERY NO: 1134 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320033';
+
+/* DELETE QUERY NO: 1135 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320034';
+
+/* DELETE QUERY NO: 1136 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320035';
+
+/* DELETE QUERY NO: 1137 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320036';
+
+/* DELETE QUERY NO: 1138 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320037';
+
+/* DELETE QUERY NO: 1139 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320038';
+
+/* DELETE QUERY NO: 1140 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320039';
+
+/* DELETE QUERY NO: 1141 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320040';
+
+/* DELETE QUERY NO: 1142 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320041';
+
+/* DELETE QUERY NO: 1143 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320105';
+
+/* DELETE QUERY NO: 1144 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320042';
+
+/* DELETE QUERY NO: 1145 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320043';
+
+/* DELETE QUERY NO: 1146 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320044';
+
+/* DELETE QUERY NO: 1147 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320045';
+
+/* DELETE QUERY NO: 1148 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320046';
+
+/* DELETE QUERY NO: 1149 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320047';
+
+/* DELETE QUERY NO: 1150 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320048';
+
+/* DELETE QUERY NO: 1151 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320049';
+
+/* DELETE QUERY NO: 1152 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320050';
+
+/* DELETE QUERY NO: 1153 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320051';
+
+/* DELETE QUERY NO: 1154 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320052';
+
+/* DELETE QUERY NO: 1155 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320053';
+
+/* DELETE QUERY NO: 1156 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320054';
+
+/* DELETE QUERY NO: 1157 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320055';
+
+/* DELETE QUERY NO: 1158 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320056';
+
+/* DELETE QUERY NO: 1159 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320057';
+
+/* DELETE QUERY NO: 1160 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320058';
+
+/* DELETE QUERY NO: 1161 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320059';
+
+/* DELETE QUERY NO: 1162 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320060';
+
+/* DELETE QUERY NO: 1163 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320061';
+
+/* DELETE QUERY NO: 1164 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320062';
+
+/* DELETE QUERY NO: 1165 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320063';
+
+/* DELETE QUERY NO: 1166 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320064';
+
+/* DELETE QUERY NO: 1167 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320065';
+
+/* DELETE QUERY NO: 1168 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320066';
+
+/* DELETE QUERY NO: 1169 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320067';
+
+/* DELETE QUERY NO: 1170 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320068';
+
+/* DELETE QUERY NO: 1171 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320069';
+
+/* DELETE QUERY NO: 1172 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320070';
+
+/* DELETE QUERY NO: 1173 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320071';
+
+/* DELETE QUERY NO: 1174 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320072';
+
+/* DELETE QUERY NO: 1175 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320073';
+
+/* DELETE QUERY NO: 1176 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320074';
+
+/* DELETE QUERY NO: 1177 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320103';
+
+/* DELETE QUERY NO: 1178 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320075';
+
+/* DELETE QUERY NO: 1179 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320076';
+
+/* DELETE QUERY NO: 1180 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320077';
+
+/* DELETE QUERY NO: 1181 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320078';
+
+/* DELETE QUERY NO: 1182 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320079';
+
+/* DELETE QUERY NO: 1183 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320080';
+
+/* DELETE QUERY NO: 1184 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320081';
+
+/* DELETE QUERY NO: 1185 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320082';
+
+/* DELETE QUERY NO: 1186 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320083';
+
+/* DELETE QUERY NO: 1187 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320084';
+
+/* DELETE QUERY NO: 1188 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320085';
+
+/* DELETE QUERY NO: 1189 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320086';
+
+/* DELETE QUERY NO: 1190 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320087';
+
+/* DELETE QUERY NO: 1191 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320088';
+
+/* DELETE QUERY NO: 1192 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320089';
+
+/* DELETE QUERY NO: 1193 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320090';
+
+/* DELETE QUERY NO: 1194 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320091';
+
+/* DELETE QUERY NO: 1195 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320107';
+
+/* DELETE QUERY NO: 1196 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320092';
+
+/* DELETE QUERY NO: 1197 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320093';
+
+/* DELETE QUERY NO: 1198 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320094';
+
+/* DELETE QUERY NO: 1199 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320095';
+
+/* DELETE QUERY NO: 1200 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320096';
+
+/* DELETE QUERY NO: 1201 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320097';
+
+/* DELETE QUERY NO: 1202 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320098';
+
+/* DELETE QUERY NO: 1203 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320099';
+
+/* DELETE QUERY NO: 1204 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN320100';
+
+/* DELETE QUERY NO: 1205 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33001';
+
+/* DELETE QUERY NO: 1206 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33002';
+
+/* DELETE QUERY NO: 1207 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33003';
+
+/* DELETE QUERY NO: 1208 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33004';
+
+/* DELETE QUERY NO: 1209 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33005';
+
+/* DELETE QUERY NO: 1210 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33006';
+
+/* DELETE QUERY NO: 1211 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33007';
+
+/* DELETE QUERY NO: 1212 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33008';
+
+/* DELETE QUERY NO: 1213 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33009';
+
+/* DELETE QUERY NO: 1214 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33010';
+
+/* DELETE QUERY NO: 1215 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33193';
+
+/* DELETE QUERY NO: 1216 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33194';
+
+/* DELETE QUERY NO: 1217 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33013';
+
+/* DELETE QUERY NO: 1218 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33014';
+
+/* DELETE QUERY NO: 1219 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33015';
+
+/* DELETE QUERY NO: 1220 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33016';
+
+/* DELETE QUERY NO: 1221 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33017';
+
+/* DELETE QUERY NO: 1222 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33018';
+
+/* DELETE QUERY NO: 1223 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33019';
+
+/* DELETE QUERY NO: 1224 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33020';
+
+/* DELETE QUERY NO: 1225 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33021';
+
+/* DELETE QUERY NO: 1226 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33022';
+
+/* DELETE QUERY NO: 1227 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33023';
+
+/* DELETE QUERY NO: 1228 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33024';
+
+/* DELETE QUERY NO: 1229 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33025';
+
+/* DELETE QUERY NO: 1230 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33026';
+
+/* DELETE QUERY NO: 1231 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33027';
+
+/* DELETE QUERY NO: 1232 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33028';
+
+/* DELETE QUERY NO: 1233 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33029';
+
+/* DELETE QUERY NO: 1234 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33030';
+
+/* DELETE QUERY NO: 1235 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33031';
+
+/* DELETE QUERY NO: 1236 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33032';
+
+/* DELETE QUERY NO: 1237 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33033';
+
+/* DELETE QUERY NO: 1238 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33035';
+
+/* DELETE QUERY NO: 1239 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33036';
+
+/* DELETE QUERY NO: 1240 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33037';
+
+/* DELETE QUERY NO: 1241 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33038';
+
+/* DELETE QUERY NO: 1242 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33039';
+
+/* DELETE QUERY NO: 1243 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33040';
+
+/* DELETE QUERY NO: 1244 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33041';
+
+/* DELETE QUERY NO: 1245 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33042';
+
+/* DELETE QUERY NO: 1246 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33043';
+
+/* DELETE QUERY NO: 1247 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33044';
+
+/* DELETE QUERY NO: 1248 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33045';
+
+/* DELETE QUERY NO: 1249 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33046';
+
+/* DELETE QUERY NO: 1250 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33047';
+
+/* DELETE QUERY NO: 1251 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33048';
+
+/* DELETE QUERY NO: 1252 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33049';
+
+/* DELETE QUERY NO: 1253 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33050';
+
+/* DELETE QUERY NO: 1254 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33051';
+
+/* DELETE QUERY NO: 1255 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33052';
+
+/* DELETE QUERY NO: 1256 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33053';
+
+/* DELETE QUERY NO: 1257 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33054';
+
+/* DELETE QUERY NO: 1258 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33055';
+
+/* DELETE QUERY NO: 1259 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33056';
+
+/* DELETE QUERY NO: 1260 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33057';
+
+/* DELETE QUERY NO: 1261 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33058';
+
+/* DELETE QUERY NO: 1262 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33059';
+
+/* DELETE QUERY NO: 1263 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33060';
+
+/* DELETE QUERY NO: 1264 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33061';
+
+/* DELETE QUERY NO: 1265 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33062';
+
+/* DELETE QUERY NO: 1266 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33063';
+
+/* DELETE QUERY NO: 1267 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33064';
+
+/* DELETE QUERY NO: 1268 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33065';
+
+/* DELETE QUERY NO: 1269 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33066';
+
+/* DELETE QUERY NO: 1270 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33067';
+
+/* DELETE QUERY NO: 1271 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33068';
+
+/* DELETE QUERY NO: 1272 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33069';
+
+/* DELETE QUERY NO: 1273 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33070';
+
+/* DELETE QUERY NO: 1274 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33071';
+
+/* DELETE QUERY NO: 1275 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33072';
+
+/* DELETE QUERY NO: 1276 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33073';
+
+/* DELETE QUERY NO: 1277 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33074';
+
+/* DELETE QUERY NO: 1278 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33075';
+
+/* DELETE QUERY NO: 1279 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33076';
+
+/* DELETE QUERY NO: 1280 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33077';
+
+/* DELETE QUERY NO: 1281 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33078';
+
+/* DELETE QUERY NO: 1282 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33079';
+
+/* DELETE QUERY NO: 1283 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33081';
+
+/* DELETE QUERY NO: 1284 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33177';
+
+/* DELETE QUERY NO: 1285 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33082';
+
+/* DELETE QUERY NO: 1286 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33083';
+
+/* DELETE QUERY NO: 1287 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33084';
+
+/* DELETE QUERY NO: 1288 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33085';
+
+/* DELETE QUERY NO: 1289 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33086';
+
+/* DELETE QUERY NO: 1290 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33087';
+
+/* DELETE QUERY NO: 1291 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33088';
+
+/* DELETE QUERY NO: 1292 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33089';
+
+/* DELETE QUERY NO: 1293 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33090';
+
+/* DELETE QUERY NO: 1294 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33091';
+
+/* DELETE QUERY NO: 1295 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33092';
+
+/* DELETE QUERY NO: 1296 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33093';
+
+/* DELETE QUERY NO: 1297 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33094';
+
+/* DELETE QUERY NO: 1298 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33095';
+
+/* DELETE QUERY NO: 1299 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33096';
+
+/* DELETE QUERY NO: 1300 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33097';
+
+/* DELETE QUERY NO: 1301 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33098';
+
+/* DELETE QUERY NO: 1302 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33099';
+
+/* DELETE QUERY NO: 1303 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33100';
+
+/* DELETE QUERY NO: 1304 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33101';
+
+/* DELETE QUERY NO: 1305 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33102';
+
+/* DELETE QUERY NO: 1306 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33103';
+
+/* DELETE QUERY NO: 1307 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33104';
+
+/* DELETE QUERY NO: 1308 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33105';
+
+/* DELETE QUERY NO: 1309 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33106';
+
+/* DELETE QUERY NO: 1310 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33107';
+
+/* DELETE QUERY NO: 1311 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33108';
+
+/* DELETE QUERY NO: 1312 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33109';
+
+/* DELETE QUERY NO: 1313 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33110';
+
+/* DELETE QUERY NO: 1314 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33111';
+
+/* DELETE QUERY NO: 1315 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33112';
+
+/* DELETE QUERY NO: 1316 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33113';
+
+/* DELETE QUERY NO: 1317 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33114';
+
+/* DELETE QUERY NO: 1318 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33115';
+
+/* DELETE QUERY NO: 1319 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33116';
+
+/* DELETE QUERY NO: 1320 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33117';
+
+/* DELETE QUERY NO: 1321 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33118';
+
+/* DELETE QUERY NO: 1322 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33119';
+
+/* DELETE QUERY NO: 1323 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33120';
+
+/* DELETE QUERY NO: 1324 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33121';
+
+/* DELETE QUERY NO: 1325 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33122';
+
+/* DELETE QUERY NO: 1326 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33123';
+
+/* DELETE QUERY NO: 1327 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33196';
+
+/* DELETE QUERY NO: 1328 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33124';
+
+/* DELETE QUERY NO: 1329 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33125';
+
+/* DELETE QUERY NO: 1330 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33126';
+
+/* DELETE QUERY NO: 1331 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33127';
+
+/* DELETE QUERY NO: 1332 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33128';
+
+/* DELETE QUERY NO: 1333 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33129';
+
+/* DELETE QUERY NO: 1334 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33130';
+
+/* DELETE QUERY NO: 1335 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33131';
+
+/* DELETE QUERY NO: 1336 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33133';
+
+/* DELETE QUERY NO: 1337 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33134';
+
+/* DELETE QUERY NO: 1338 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33135';
+
+/* DELETE QUERY NO: 1339 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33136';
+
+/* DELETE QUERY NO: 1340 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33137';
+
+/* DELETE QUERY NO: 1341 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33138';
+
+/* DELETE QUERY NO: 1342 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33139';
+
+/* DELETE QUERY NO: 1343 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33140';
+
+/* DELETE QUERY NO: 1344 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33141';
+
+/* DELETE QUERY NO: 1345 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33142';
+
+/* DELETE QUERY NO: 1346 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33143';
+
+/* DELETE QUERY NO: 1347 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33144';
+
+/* DELETE QUERY NO: 1348 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33145';
+
+/* DELETE QUERY NO: 1349 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33146';
+
+/* DELETE QUERY NO: 1350 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33147';
+
+/* DELETE QUERY NO: 1351 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33149';
+
+/* DELETE QUERY NO: 1352 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33150';
+
+/* DELETE QUERY NO: 1353 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33151';
+
+/* DELETE QUERY NO: 1354 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33152';
+
+/* DELETE QUERY NO: 1355 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33153';
+
+/* DELETE QUERY NO: 1356 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33154';
+
+/* DELETE QUERY NO: 1357 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33157';
+
+/* DELETE QUERY NO: 1358 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33158';
+
+/* DELETE QUERY NO: 1359 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33159';
+
+/* DELETE QUERY NO: 1360 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33160';
+
+/* DELETE QUERY NO: 1361 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33161';
+
+/* DELETE QUERY NO: 1362 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33162';
+
+/* DELETE QUERY NO: 1363 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33163';
+
+/* DELETE QUERY NO: 1364 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33164';
+
+/* DELETE QUERY NO: 1365 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33165';
+
+/* DELETE QUERY NO: 1366 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33166';
+
+/* DELETE QUERY NO: 1367 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33167';
+
+/* DELETE QUERY NO: 1368 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33168';
+
+/* DELETE QUERY NO: 1369 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33169';
+
+/* DELETE QUERY NO: 1370 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33170';
+
+/* DELETE QUERY NO: 1371 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33171';
+
+/* DELETE QUERY NO: 1372 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33172';
+
+/* DELETE QUERY NO: 1373 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33174';
+
+/* DELETE QUERY NO: 1374 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33175';
+
+/* DELETE QUERY NO: 1375 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33176';
+
+/* DELETE QUERY NO: 1376 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33178';
+
+/* DELETE QUERY NO: 1377 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33179';
+
+/* DELETE QUERY NO: 1378 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33173';
+
+/* DELETE QUERY NO: 1379 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33180';
+
+/* DELETE QUERY NO: 1380 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33181';
+
+/* DELETE QUERY NO: 1381 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33182';
+
+/* DELETE QUERY NO: 1382 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33183';
+
+/* DELETE QUERY NO: 1383 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33184';
+
+/* DELETE QUERY NO: 1384 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33185';
+
+/* DELETE QUERY NO: 1385 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33186';
+
+/* DELETE QUERY NO: 1386 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33187';
+
+/* DELETE QUERY NO: 1387 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33188';
+
+/* DELETE QUERY NO: 1388 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33189';
+
+/* DELETE QUERY NO: 1389 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33148';
+
+/* DELETE QUERY NO: 1390 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33190';
+
+/* DELETE QUERY NO: 1391 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN33191';
+
+/* DELETE QUERY NO: 1392 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36001';
+
+/* DELETE QUERY NO: 1393 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36002';
+
+/* DELETE QUERY NO: 1394 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36003';
+
+/* DELETE QUERY NO: 1395 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36004';
+
+/* DELETE QUERY NO: 1396 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36005';
+
+/* DELETE QUERY NO: 1397 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36006';
+
+/* DELETE QUERY NO: 1398 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36007';
+
+/* DELETE QUERY NO: 1399 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36008';
+
+/* DELETE QUERY NO: 1400 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36009';
+
+/* DELETE QUERY NO: 1401 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36010';
+
+/* DELETE QUERY NO: 1402 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36011';
+
+/* DELETE QUERY NO: 1403 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36012';
+
+/* DELETE QUERY NO: 1404 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36013';
+
+/* DELETE QUERY NO: 1405 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36186';
+
+/* DELETE QUERY NO: 1406 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36014';
+
+/* DELETE QUERY NO: 1407 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36015';
+
+/* DELETE QUERY NO: 1408 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36016';
+
+/* DELETE QUERY NO: 1409 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36017';
+
+/* DELETE QUERY NO: 1410 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36018';
+
+/* DELETE QUERY NO: 1411 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36019';
+
+/* DELETE QUERY NO: 1412 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36020';
+
+/* DELETE QUERY NO: 1413 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36021';
+
+/* DELETE QUERY NO: 1414 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36022';
+
+/* DELETE QUERY NO: 1415 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36105';
+
+/* DELETE QUERY NO: 1416 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36023';
+
+/* DELETE QUERY NO: 1417 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36024';
+
+/* DELETE QUERY NO: 1418 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36025';
+
+/* DELETE QUERY NO: 1419 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36026';
+
+/* DELETE QUERY NO: 1420 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36027';
+
+/* DELETE QUERY NO: 1421 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36028';
+
+/* DELETE QUERY NO: 1422 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36029';
+
+/* DELETE QUERY NO: 1423 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36030';
+
+/* DELETE QUERY NO: 1424 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36031';
+
+/* DELETE QUERY NO: 1425 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36032';
+
+/* DELETE QUERY NO: 1426 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36033';
+
+/* DELETE QUERY NO: 1427 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36034';
+
+/* DELETE QUERY NO: 1428 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36035';
+
+/* DELETE QUERY NO: 1429 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36036';
+
+/* DELETE QUERY NO: 1430 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36037';
+
+/* DELETE QUERY NO: 1431 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36038';
+
+/* DELETE QUERY NO: 1432 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36039';
+
+/* DELETE QUERY NO: 1433 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36040';
+
+/* DELETE QUERY NO: 1434 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36041';
+
+/* DELETE QUERY NO: 1435 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36042';
+
+/* DELETE QUERY NO: 1436 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36043';
+
+/* DELETE QUERY NO: 1437 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36044';
+
+/* DELETE QUERY NO: 1438 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36045';
+
+/* DELETE QUERY NO: 1439 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36046';
+
+/* DELETE QUERY NO: 1440 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36047';
+
+/* DELETE QUERY NO: 1441 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36048';
+
+/* DELETE QUERY NO: 1442 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36049';
+
+/* DELETE QUERY NO: 1443 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36050';
+
+/* DELETE QUERY NO: 1444 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36051';
+
+/* DELETE QUERY NO: 1445 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36052';
+
+/* DELETE QUERY NO: 1446 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36053';
+
+/* DELETE QUERY NO: 1447 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36054';
+
+/* DELETE QUERY NO: 1448 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36055';
+
+/* DELETE QUERY NO: 1449 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36056';
+
+/* DELETE QUERY NO: 1450 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36057';
+
+/* DELETE QUERY NO: 1451 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36058';
+
+/* DELETE QUERY NO: 1452 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36059';
+
+/* DELETE QUERY NO: 1453 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36060';
+
+/* DELETE QUERY NO: 1454 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36061';
+
+/* DELETE QUERY NO: 1455 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36062';
+
+/* DELETE QUERY NO: 1456 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36063';
+
+/* DELETE QUERY NO: 1457 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36064';
+
+/* DELETE QUERY NO: 1458 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36065';
+
+/* DELETE QUERY NO: 1459 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36066';
+
+/* DELETE QUERY NO: 1460 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36067';
+
+/* DELETE QUERY NO: 1461 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36068';
+
+/* DELETE QUERY NO: 1462 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36069';
+
+/* DELETE QUERY NO: 1463 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36070';
+
+/* DELETE QUERY NO: 1464 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36071';
+
+/* DELETE QUERY NO: 1465 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36072';
+
+/* DELETE QUERY NO: 1466 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36073';
+
+/* DELETE QUERY NO: 1467 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36074';
+
+/* DELETE QUERY NO: 1468 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36075';
+
+/* DELETE QUERY NO: 1469 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36076';
+
+/* DELETE QUERY NO: 1470 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36077';
+
+/* DELETE QUERY NO: 1471 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36078';
+
+/* DELETE QUERY NO: 1472 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36079';
+
+/* DELETE QUERY NO: 1473 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36080';
+
+/* DELETE QUERY NO: 1474 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36081';
+
+/* DELETE QUERY NO: 1475 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36082';
+
+/* DELETE QUERY NO: 1476 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36084';
+
+/* DELETE QUERY NO: 1477 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36083';
+
+/* DELETE QUERY NO: 1478 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36085';
+
+/* DELETE QUERY NO: 1479 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36086';
+
+/* DELETE QUERY NO: 1480 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36087';
+
+/* DELETE QUERY NO: 1481 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36088';
+
+/* DELETE QUERY NO: 1482 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36089';
+
+/* DELETE QUERY NO: 1483 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36090';
+
+/* DELETE QUERY NO: 1484 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36091';
+
+/* DELETE QUERY NO: 1485 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36092';
+
+/* DELETE QUERY NO: 1486 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36093';
+
+/* DELETE QUERY NO: 1487 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36094';
+
+/* DELETE QUERY NO: 1488 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36095';
+
+/* DELETE QUERY NO: 1489 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36096';
+
+/* DELETE QUERY NO: 1490 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36097';
+
+/* DELETE QUERY NO: 1491 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36098';
+
+/* DELETE QUERY NO: 1492 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36099';
+
+/* DELETE QUERY NO: 1493 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36100';
+
+/* DELETE QUERY NO: 1494 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36101';
+
+/* DELETE QUERY NO: 1495 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36102';
+
+/* DELETE QUERY NO: 1496 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36103';
+
+/* DELETE QUERY NO: 1497 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36104';
+
+/* DELETE QUERY NO: 1498 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36106';
+
+/* DELETE QUERY NO: 1499 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36107';
+
+/* DELETE QUERY NO: 1500 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36108';
+
+/* DELETE QUERY NO: 1501 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36109';
+
+/* DELETE QUERY NO: 1502 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36110';
+
+/* DELETE QUERY NO: 1503 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36111';
+
+/* DELETE QUERY NO: 1504 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36112';
+
+/* DELETE QUERY NO: 1505 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36113';
+
+/* DELETE QUERY NO: 1506 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36114';
+
+/* DELETE QUERY NO: 1507 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36115';
+
+/* DELETE QUERY NO: 1508 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36116';
+
+/* DELETE QUERY NO: 1509 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36117';
+
+/* DELETE QUERY NO: 1510 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36118';
+
+/* DELETE QUERY NO: 1511 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36119';
+
+/* DELETE QUERY NO: 1512 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36120';
+
+/* DELETE QUERY NO: 1513 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36121';
+
+/* DELETE QUERY NO: 1514 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36122';
+
+/* DELETE QUERY NO: 1515 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36123';
+
+/* DELETE QUERY NO: 1516 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36124';
+
+/* DELETE QUERY NO: 1517 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36125';
+
+/* DELETE QUERY NO: 1518 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36126';
+
+/* DELETE QUERY NO: 1519 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36127';
+
+/* DELETE QUERY NO: 1520 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36128';
+
+/* DELETE QUERY NO: 1521 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36129';
+
+/* DELETE QUERY NO: 1522 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36130';
+
+/* DELETE QUERY NO: 1523 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36131';
+
+/* DELETE QUERY NO: 1524 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36132';
+
+/* DELETE QUERY NO: 1525 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36133';
+
+/* DELETE QUERY NO: 1526 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36134';
+
+/* DELETE QUERY NO: 1527 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36135';
+
+/* DELETE QUERY NO: 1528 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36136';
+
+/* DELETE QUERY NO: 1529 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36137';
+
+/* DELETE QUERY NO: 1530 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36138';
+
+/* DELETE QUERY NO: 1531 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36139';
+
+/* DELETE QUERY NO: 1532 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36140';
+
+/* DELETE QUERY NO: 1533 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36141';
+
+/* DELETE QUERY NO: 1534 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36142';
+
+/* DELETE QUERY NO: 1535 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36143';
+
+/* DELETE QUERY NO: 1536 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36144';
+
+/* DELETE QUERY NO: 1537 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36145';
+
+/* DELETE QUERY NO: 1538 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36146';
+
+/* DELETE QUERY NO: 1539 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36147';
+
+/* DELETE QUERY NO: 1540 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36148';
+
+/* DELETE QUERY NO: 1541 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36149';
+
+/* DELETE QUERY NO: 1542 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36150';
+
+/* DELETE QUERY NO: 1543 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36151';
+
+/* DELETE QUERY NO: 1544 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36152';
+
+/* DELETE QUERY NO: 1545 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36153';
+
+/* DELETE QUERY NO: 1546 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36154';
+
+/* DELETE QUERY NO: 1547 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36155';
+
+/* DELETE QUERY NO: 1548 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36156';
+
+/* DELETE QUERY NO: 1549 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36157';
+
+/* DELETE QUERY NO: 1550 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36159';
+
+/* DELETE QUERY NO: 1551 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36158';
+
+/* DELETE QUERY NO: 1552 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36160';
+
+/* DELETE QUERY NO: 1553 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36161';
+
+/* DELETE QUERY NO: 1554 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36162';
+
+/* DELETE QUERY NO: 1555 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36163';
+
+/* DELETE QUERY NO: 1556 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36164';
+
+/* DELETE QUERY NO: 1557 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36165';
+
+/* DELETE QUERY NO: 1558 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36166';
+
+/* DELETE QUERY NO: 1559 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36167';
+
+/* DELETE QUERY NO: 1560 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36168';
+
+/* DELETE QUERY NO: 1561 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36169';
+
+/* DELETE QUERY NO: 1562 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36170';
+
+/* DELETE QUERY NO: 1563 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36171';
+
+/* DELETE QUERY NO: 1564 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36172';
+
+/* DELETE QUERY NO: 1565 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36173';
+
+/* DELETE QUERY NO: 1566 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36187';
+
+/* DELETE QUERY NO: 1567 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36174';
+
+/* DELETE QUERY NO: 1568 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36175';
+
+/* DELETE QUERY NO: 1569 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36176';
+
+/* DELETE QUERY NO: 1570 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36177';
+
+/* DELETE QUERY NO: 1571 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36178';
+
+/* DELETE QUERY NO: 1572 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36179';
+
+/* DELETE QUERY NO: 1573 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36180';
+
+/* DELETE QUERY NO: 1574 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36181';
+
+/* DELETE QUERY NO: 1575 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36182';
+
+/* DELETE QUERY NO: 1576 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36183';
+
+/* DELETE QUERY NO: 1577 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36184';
+
+/* DELETE QUERY NO: 1578 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN36185';
+
+/* DELETE QUERY NO: 1579 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34001';
+
+/* DELETE QUERY NO: 1580 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34002';
+
+/* DELETE QUERY NO: 1581 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34067';
+
+/* DELETE QUERY NO: 1582 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34004';
+
+/* DELETE QUERY NO: 1583 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34005';
+
+/* DELETE QUERY NO: 1584 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34006';
+
+/* DELETE QUERY NO: 1585 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34007';
+
+/* DELETE QUERY NO: 1586 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34008';
+
+/* DELETE QUERY NO: 1587 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34009';
+
+/* DELETE QUERY NO: 1588 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34217';
+
+/* DELETE QUERY NO: 1589 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34010';
+
+/* DELETE QUERY NO: 1590 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34011';
+
+/* DELETE QUERY NO: 1591 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34012';
+
+/* DELETE QUERY NO: 1592 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34013';
+
+/* DELETE QUERY NO: 1593 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34014';
+
+/* DELETE QUERY NO: 1594 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34015';
+
+/* DELETE QUERY NO: 1595 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34016';
+
+/* DELETE QUERY NO: 1596 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34003';
+
+/* DELETE QUERY NO: 1597 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34017';
+
+/* DELETE QUERY NO: 1598 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34019';
+
+/* DELETE QUERY NO: 1599 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34020';
+
+/* DELETE QUERY NO: 1600 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34021';
+
+/* DELETE QUERY NO: 1601 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34022';
+
+/* DELETE QUERY NO: 1602 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34023';
+
+/* DELETE QUERY NO: 1603 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34024';
+
+/* DELETE QUERY NO: 1604 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34025';
+
+/* DELETE QUERY NO: 1605 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34026';
+
+/* DELETE QUERY NO: 1606 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34027';
+
+/* DELETE QUERY NO: 1607 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34028';
+
+/* DELETE QUERY NO: 1608 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34029';
+
+/* DELETE QUERY NO: 1609 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34030';
+
+/* DELETE QUERY NO: 1610 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34031';
+
+/* DELETE QUERY NO: 1611 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34032';
+
+/* DELETE QUERY NO: 1612 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34033';
+
+/* DELETE QUERY NO: 1613 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34034';
+
+/* DELETE QUERY NO: 1614 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34035';
+
+/* DELETE QUERY NO: 1615 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34036';
+
+/* DELETE QUERY NO: 1616 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34037';
+
+/* DELETE QUERY NO: 1617 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34038';
+
+/* DELETE QUERY NO: 1618 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34042';
+
+/* DELETE QUERY NO: 1619 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34039';
+
+/* DELETE QUERY NO: 1620 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34040';
+
+/* DELETE QUERY NO: 1621 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34041';
+
+/* DELETE QUERY NO: 1622 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34043';
+
+/* DELETE QUERY NO: 1623 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34044';
+
+/* DELETE QUERY NO: 1624 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34045';
+
+/* DELETE QUERY NO: 1625 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34046';
+
+/* DELETE QUERY NO: 1626 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34047';
+
+/* DELETE QUERY NO: 1627 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34048';
+
+/* DELETE QUERY NO: 1628 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34049';
+
+/* DELETE QUERY NO: 1629 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34050';
+
+/* DELETE QUERY NO: 1630 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34051';
+
+/* DELETE QUERY NO: 1631 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34052';
+
+/* DELETE QUERY NO: 1632 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34053';
+
+/* DELETE QUERY NO: 1633 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34054';
+
+/* DELETE QUERY NO: 1634 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34055';
+
+/* DELETE QUERY NO: 1635 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34056';
+
+/* DELETE QUERY NO: 1636 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34057';
+
+/* DELETE QUERY NO: 1637 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34058';
+
+/* DELETE QUERY NO: 1638 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34059';
+
+/* DELETE QUERY NO: 1639 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34060';
+
+/* DELETE QUERY NO: 1640 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34061';
+
+/* DELETE QUERY NO: 1641 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34062';
+
+/* DELETE QUERY NO: 1642 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34063';
+
+/* DELETE QUERY NO: 1643 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34064';
+
+/* DELETE QUERY NO: 1644 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34065';
+
+/* DELETE QUERY NO: 1645 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34066';
+
+/* DELETE QUERY NO: 1646 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34068';
+
+/* DELETE QUERY NO: 1647 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34069';
+
+/* DELETE QUERY NO: 1648 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34070';
+
+/* DELETE QUERY NO: 1649 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34071';
+
+/* DELETE QUERY NO: 1650 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34072';
+
+/* DELETE QUERY NO: 1651 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34073';
+
+/* DELETE QUERY NO: 1652 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34074';
+
+/* DELETE QUERY NO: 1653 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34077';
+
+/* DELETE QUERY NO: 1654 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34078';
+
+/* DELETE QUERY NO: 1655 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34080';
+
+/* DELETE QUERY NO: 1656 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34082';
+
+/* DELETE QUERY NO: 1657 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34083';
+
+/* DELETE QUERY NO: 1658 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34076';
+
+/* DELETE QUERY NO: 1659 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34186';
+
+/* DELETE QUERY NO: 1660 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34085';
+
+/* DELETE QUERY NO: 1661 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34086';
+
+/* DELETE QUERY NO: 1662 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34087';
+
+/* DELETE QUERY NO: 1663 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34088';
+
+/* DELETE QUERY NO: 1664 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34089';
+
+/* DELETE QUERY NO: 1665 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34090';
+
+/* DELETE QUERY NO: 1666 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34091';
+
+/* DELETE QUERY NO: 1667 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34092';
+
+/* DELETE QUERY NO: 1668 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34093';
+
+/* DELETE QUERY NO: 1669 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34094';
+
+/* DELETE QUERY NO: 1670 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34095';
+
+/* DELETE QUERY NO: 1671 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34096';
+
+/* DELETE QUERY NO: 1672 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34097';
+
+/* DELETE QUERY NO: 1673 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34098';
+
+/* DELETE QUERY NO: 1674 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34099';
+
+/* DELETE QUERY NO: 1675 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34100';
+
+/* DELETE QUERY NO: 1676 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34101';
+
+/* DELETE QUERY NO: 1677 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34102';
+
+/* DELETE QUERY NO: 1678 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34103';
+
+/* DELETE QUERY NO: 1679 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34075';
+
+/* DELETE QUERY NO: 1680 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34104';
+
+/* DELETE QUERY NO: 1681 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34105';
+
+/* DELETE QUERY NO: 1682 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34106';
+
+/* DELETE QUERY NO: 1683 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34107';
+
+/* DELETE QUERY NO: 1684 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34108';
+
+/* DELETE QUERY NO: 1685 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34109';
+
+/* DELETE QUERY NO: 1686 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34219';
+
+/* DELETE QUERY NO: 1687 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34218';
+
+/* DELETE QUERY NO: 1688 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34110';
+
+/* DELETE QUERY NO: 1689 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34111';
+
+/* DELETE QUERY NO: 1690 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34112';
+
+/* DELETE QUERY NO: 1691 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34113';
+
+/* DELETE QUERY NO: 1692 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34114';
+
+/* DELETE QUERY NO: 1693 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34115';
+
+/* DELETE QUERY NO: 1694 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34116';
+
+/* DELETE QUERY NO: 1695 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34118';
+
+/* DELETE QUERY NO: 1696 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34119';
+
+/* DELETE QUERY NO: 1697 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34120';
+
+/* DELETE QUERY NO: 1698 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34121';
+
+/* DELETE QUERY NO: 1699 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34122';
+
+/* DELETE QUERY NO: 1700 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34123';
+
+/* DELETE QUERY NO: 1701 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34124';
+
+/* DELETE QUERY NO: 1702 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34125';
+
+/* DELETE QUERY NO: 1703 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34126';
+
+/* DELETE QUERY NO: 1704 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34127';
+
+/* DELETE QUERY NO: 1705 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34129';
+
+/* DELETE QUERY NO: 1706 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34130';
+
+/* DELETE QUERY NO: 1707 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34131';
+
+/* DELETE QUERY NO: 1708 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34132';
+
+/* DELETE QUERY NO: 1709 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34133';
+
+/* DELETE QUERY NO: 1710 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34134';
+
+/* DELETE QUERY NO: 1711 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34135';
+
+/* DELETE QUERY NO: 1712 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34136';
+
+/* DELETE QUERY NO: 1713 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34137';
+
+/* DELETE QUERY NO: 1714 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34138';
+
+/* DELETE QUERY NO: 1715 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34128';
+
+/* DELETE QUERY NO: 1716 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34139';
+
+/* DELETE QUERY NO: 1717 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34140';
+
+/* DELETE QUERY NO: 1718 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34141';
+
+/* DELETE QUERY NO: 1719 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34142';
+
+/* DELETE QUERY NO: 1720 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34143';
+
+/* DELETE QUERY NO: 1721 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34144';
+
+/* DELETE QUERY NO: 1722 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34146';
+
+/* DELETE QUERY NO: 1723 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34147';
+
+/* DELETE QUERY NO: 1724 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34148';
+
+/* DELETE QUERY NO: 1725 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34149';
+
+/* DELETE QUERY NO: 1726 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34150';
+
+/* DELETE QUERY NO: 1727 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34151';
+
+/* DELETE QUERY NO: 1728 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34152';
+
+/* DELETE QUERY NO: 1729 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34153';
+
+/* DELETE QUERY NO: 1730 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34154';
+
+/* DELETE QUERY NO: 1731 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34155';
+
+/* DELETE QUERY NO: 1732 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34156';
+
+/* DELETE QUERY NO: 1733 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34081';
+
+/* DELETE QUERY NO: 1734 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34158';
+
+/* DELETE QUERY NO: 1735 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34159';
+
+/* DELETE QUERY NO: 1736 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34079';
+
+/* DELETE QUERY NO: 1737 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34160';
+
+/* DELETE QUERY NO: 1738 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34161';
+
+/* DELETE QUERY NO: 1739 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34162';
+
+/* DELETE QUERY NO: 1740 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34163';
+
+/* DELETE QUERY NO: 1741 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34164';
+
+/* DELETE QUERY NO: 1742 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34165';
+
+/* DELETE QUERY NO: 1743 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34157';
+
+/* DELETE QUERY NO: 1744 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34167';
+
+/* DELETE QUERY NO: 1745 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34168';
+
+/* DELETE QUERY NO: 1746 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34169';
+
+/* DELETE QUERY NO: 1747 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34170';
+
+/* DELETE QUERY NO: 1748 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34171';
+
+/* DELETE QUERY NO: 1749 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34172';
+
+/* DELETE QUERY NO: 1750 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34173';
+
+/* DELETE QUERY NO: 1751 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34174';
+
+/* DELETE QUERY NO: 1752 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34084';
+
+/* DELETE QUERY NO: 1753 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34176';
+
+/* DELETE QUERY NO: 1754 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34175';
+
+/* DELETE QUERY NO: 1755 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34177';
+
+/* DELETE QUERY NO: 1756 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34178';
+
+/* DELETE QUERY NO: 1757 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34179';
+
+/* DELETE QUERY NO: 1758 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34180';
+
+/* DELETE QUERY NO: 1759 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34181';
+
+/* DELETE QUERY NO: 1760 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34182';
+
+/* DELETE QUERY NO: 1761 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34183';
+
+/* DELETE QUERY NO: 1762 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34184';
+
+/* DELETE QUERY NO: 1763 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34185';
+
+/* DELETE QUERY NO: 1764 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34187';
+
+/* DELETE QUERY NO: 1765 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34188';
+
+/* DELETE QUERY NO: 1766 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34189';
+
+/* DELETE QUERY NO: 1767 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34190';
+
+/* DELETE QUERY NO: 1768 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34018';
+
+/* DELETE QUERY NO: 1769 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34191';
+
+/* DELETE QUERY NO: 1770 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34192';
+
+/* DELETE QUERY NO: 1771 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34193';
+
+/* DELETE QUERY NO: 1772 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34194';
+
+/* DELETE QUERY NO: 1773 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34195';
+
+/* DELETE QUERY NO: 1774 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34196';
+
+/* DELETE QUERY NO: 1775 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34197';
+
+/* DELETE QUERY NO: 1776 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34117';
+
+/* DELETE QUERY NO: 1777 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34198';
+
+/* DELETE QUERY NO: 1778 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34199';
+
+/* DELETE QUERY NO: 1779 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34200';
+
+/* DELETE QUERY NO: 1780 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34201';
+
+/* DELETE QUERY NO: 1781 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34202';
+
+/* DELETE QUERY NO: 1782 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34203';
+
+/* DELETE QUERY NO: 1783 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34204';
+
+/* DELETE QUERY NO: 1784 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34205';
+
+/* DELETE QUERY NO: 1785 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34206';
+
+/* DELETE QUERY NO: 1786 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34207';
+
+/* DELETE QUERY NO: 1787 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34208';
+
+/* DELETE QUERY NO: 1788 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34209';
+
+/* DELETE QUERY NO: 1789 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34210';
+
+/* DELETE QUERY NO: 1790 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34211';
+
+/* DELETE QUERY NO: 1791 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34212';
+
+/* DELETE QUERY NO: 1792 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34213';
+
+/* DELETE QUERY NO: 1793 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN34214';
+
+/* DELETE QUERY NO: 1794 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35001';
+
+/* DELETE QUERY NO: 1795 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35002';
+
+/* DELETE QUERY NO: 1796 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35003';
+
+/* DELETE QUERY NO: 1797 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35004';
+
+/* DELETE QUERY NO: 1798 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35005';
+
+/* DELETE QUERY NO: 1799 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35006';
+
+/* DELETE QUERY NO: 1800 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35007';
+
+/* DELETE QUERY NO: 1801 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35008';
+
+/* DELETE QUERY NO: 1802 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35010';
+
+/* DELETE QUERY NO: 1803 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35011';
+
+/* DELETE QUERY NO: 1804 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35012';
+
+/* DELETE QUERY NO: 1805 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35013';
+
+/* DELETE QUERY NO: 1806 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35014';
+
+/* DELETE QUERY NO: 1807 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35015';
+
+/* DELETE QUERY NO: 1808 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35016';
+
+/* DELETE QUERY NO: 1809 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35017';
+
+/* DELETE QUERY NO: 1810 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35018';
+
+/* DELETE QUERY NO: 1811 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35065';
+
+/* DELETE QUERY NO: 1812 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35019';
+
+/* DELETE QUERY NO: 1813 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35020';
+
+/* DELETE QUERY NO: 1814 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35021';
+
+/* DELETE QUERY NO: 1815 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35022';
+
+/* DELETE QUERY NO: 1816 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35023';
+
+/* DELETE QUERY NO: 1817 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35024';
+
+/* DELETE QUERY NO: 1818 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35025';
+
+/* DELETE QUERY NO: 1819 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35026';
+
+/* DELETE QUERY NO: 1820 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35027';
+
+/* DELETE QUERY NO: 1821 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35028';
+
+/* DELETE QUERY NO: 1822 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35029';
+
+/* DELETE QUERY NO: 1823 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35030';
+
+/* DELETE QUERY NO: 1824 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35031';
+
+/* DELETE QUERY NO: 1825 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35032';
+
+/* DELETE QUERY NO: 1826 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35033';
+
+/* DELETE QUERY NO: 1827 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35034';
+
+/* DELETE QUERY NO: 1828 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35035';
+
+/* DELETE QUERY NO: 1829 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35036';
+
+/* DELETE QUERY NO: 1830 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35037';
+
+/* DELETE QUERY NO: 1831 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35057';
+
+/* DELETE QUERY NO: 1832 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35038';
+
+/* DELETE QUERY NO: 1833 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35039';
+
+/* DELETE QUERY NO: 1834 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35040';
+
+/* DELETE QUERY NO: 1835 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35041';
+
+/* DELETE QUERY NO: 1836 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35042';
+
+/* DELETE QUERY NO: 1837 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35043';
+
+/* DELETE QUERY NO: 1838 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35044';
+
+/* DELETE QUERY NO: 1839 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35045';
+
+/* DELETE QUERY NO: 1840 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35046';
+
+/* DELETE QUERY NO: 1841 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35047';
+
+/* DELETE QUERY NO: 1842 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35048';
+
+/* DELETE QUERY NO: 1843 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35049';
+
+/* DELETE QUERY NO: 1844 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35051';
+
+/* DELETE QUERY NO: 1845 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35052';
+
+/* DELETE QUERY NO: 1846 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35050';
+
+/* DELETE QUERY NO: 1847 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35053';
+
+/* DELETE QUERY NO: 1848 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35054';
+
+/* DELETE QUERY NO: 1849 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35055';
+
+/* DELETE QUERY NO: 1850 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35056';
+
+/* DELETE QUERY NO: 1851 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35058';
+
+/* DELETE QUERY NO: 1852 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35059';
+
+/* DELETE QUERY NO: 1853 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35060';
+
+/* DELETE QUERY NO: 1854 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35061';
+
+/* DELETE QUERY NO: 1855 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35009';
+
+/* DELETE QUERY NO: 1856 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35062';
+
+/* DELETE QUERY NO: 1857 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35063';
+
+/* DELETE QUERY NO: 1858 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35064';
+
+/* DELETE QUERY NO: 1859 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35066';
+
+/* DELETE QUERY NO: 1860 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35067';
+
+/* DELETE QUERY NO: 1861 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35068';
+
+/* DELETE QUERY NO: 1862 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35069';
+
+/* DELETE QUERY NO: 1863 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35070';
+
+/* DELETE QUERY NO: 1864 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35071';
+
+/* DELETE QUERY NO: 1865 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35072';
+
+/* DELETE QUERY NO: 1866 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35073';
+
+/* DELETE QUERY NO: 1867 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35074';
+
+/* DELETE QUERY NO: 1868 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35075';
+
+/* DELETE QUERY NO: 1869 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35076';
+
+/* DELETE QUERY NO: 1870 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35077';
+
+/* DELETE QUERY NO: 1871 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35078';
+
+/* DELETE QUERY NO: 1872 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35079';
+
+/* DELETE QUERY NO: 1873 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35080';
+
+/* DELETE QUERY NO: 1874 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35081';
+
+/* DELETE QUERY NO: 1875 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35082';
+
+/* DELETE QUERY NO: 1876 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35083';
+
+/* DELETE QUERY NO: 1877 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35084';
+
+/* DELETE QUERY NO: 1878 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35085';
+
+/* DELETE QUERY NO: 1879 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35086';
+
+/* DELETE QUERY NO: 1880 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35087';
+
+/* DELETE QUERY NO: 1881 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35088';
+
+/* DELETE QUERY NO: 1882 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35089';
+
+/* DELETE QUERY NO: 1883 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35090';
+
+/* DELETE QUERY NO: 1884 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35091';
+
+/* DELETE QUERY NO: 1885 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35092';
+
+/* DELETE QUERY NO: 1886 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35093';
+
+/* DELETE QUERY NO: 1887 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35094';
+
+/* DELETE QUERY NO: 1888 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35095';
+
+/* DELETE QUERY NO: 1889 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35096';
+
+/* DELETE QUERY NO: 1890 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35097';
+
+/* DELETE QUERY NO: 1891 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35098';
+
+/* DELETE QUERY NO: 1892 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35099';
+
+/* DELETE QUERY NO: 1893 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35100';
+
+/* DELETE QUERY NO: 1894 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35183';
+
+/* DELETE QUERY NO: 1895 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35101';
+
+/* DELETE QUERY NO: 1896 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35102';
+
+/* DELETE QUERY NO: 1897 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35103';
+
+/* DELETE QUERY NO: 1898 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35104';
+
+/* DELETE QUERY NO: 1899 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35105';
+
+/* DELETE QUERY NO: 1900 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35107';
+
+/* DELETE QUERY NO: 1901 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35106';
+
+/* DELETE QUERY NO: 1902 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35108';
+
+/* DELETE QUERY NO: 1903 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35109';
+
+/* DELETE QUERY NO: 1904 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35110';
+
+/* DELETE QUERY NO: 1905 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35115';
+
+/* DELETE QUERY NO: 1906 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35111';
+
+/* DELETE QUERY NO: 1907 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35112';
+
+/* DELETE QUERY NO: 1908 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35113';
+
+/* DELETE QUERY NO: 1909 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35114';
+
+/* DELETE QUERY NO: 1910 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35116';
+
+/* DELETE QUERY NO: 1911 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35117';
+
+/* DELETE QUERY NO: 1912 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35118';
+
+/* DELETE QUERY NO: 1913 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35119';
+
+/* DELETE QUERY NO: 1914 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35132';
+
+/* DELETE QUERY NO: 1915 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35120';
+
+/* DELETE QUERY NO: 1916 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35121';
+
+/* DELETE QUERY NO: 1917 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35122';
+
+/* DELETE QUERY NO: 1918 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35123';
+
+/* DELETE QUERY NO: 1919 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35124';
+
+/* DELETE QUERY NO: 1920 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35125';
+
+/* DELETE QUERY NO: 1921 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35126';
+
+/* DELETE QUERY NO: 1922 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35127';
+
+/* DELETE QUERY NO: 1923 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35128';
+
+/* DELETE QUERY NO: 1924 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35129';
+
+/* DELETE QUERY NO: 1925 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35130';
+
+/* DELETE QUERY NO: 1926 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35131';
+
+/* DELETE QUERY NO: 1927 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35133';
+
+/* DELETE QUERY NO: 1928 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35182';
+
+/* DELETE QUERY NO: 1929 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35181';
+
+/* DELETE QUERY NO: 1930 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35180';
+
+/* DELETE QUERY NO: 1931 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35134';
+
+/* DELETE QUERY NO: 1932 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35135';
+
+/* DELETE QUERY NO: 1933 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35136';
+
+/* DELETE QUERY NO: 1934 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35137';
+
+/* DELETE QUERY NO: 1935 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35138';
+
+/* DELETE QUERY NO: 1936 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35139';
+
+/* DELETE QUERY NO: 1937 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35140';
+
+/* DELETE QUERY NO: 1938 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35141';
+
+/* DELETE QUERY NO: 1939 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35142';
+
+/* DELETE QUERY NO: 1940 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35143';
+
+/* DELETE QUERY NO: 1941 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35144';
+
+/* DELETE QUERY NO: 1942 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35145';
+
+/* DELETE QUERY NO: 1943 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35146';
+
+/* DELETE QUERY NO: 1944 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35147';
+
+/* DELETE QUERY NO: 1945 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35148';
+
+/* DELETE QUERY NO: 1946 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35149';
+
+/* DELETE QUERY NO: 1947 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35150';
+
+/* DELETE QUERY NO: 1948 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35151';
+
+/* DELETE QUERY NO: 1949 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35152';
+
+/* DELETE QUERY NO: 1950 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35153';
+
+/* DELETE QUERY NO: 1951 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35154';
+
+/* DELETE QUERY NO: 1952 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35155';
+
+/* DELETE QUERY NO: 1953 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35156';
+
+/* DELETE QUERY NO: 1954 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35157';
+
+/* DELETE QUERY NO: 1955 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35158';
+
+/* DELETE QUERY NO: 1956 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35159';
+
+/* DELETE QUERY NO: 1957 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35160';
+
+/* DELETE QUERY NO: 1958 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35161';
+
+/* DELETE QUERY NO: 1959 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35162';
+
+/* DELETE QUERY NO: 1960 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35163';
+
+/* DELETE QUERY NO: 1961 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35164';
+
+/* DELETE QUERY NO: 1962 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35165';
+
+/* DELETE QUERY NO: 1963 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35166';
+
+/* DELETE QUERY NO: 1964 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35167';
+
+/* DELETE QUERY NO: 1965 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35168';
+
+/* DELETE QUERY NO: 1966 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35169';
+
+/* DELETE QUERY NO: 1967 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35170';
+
+/* DELETE QUERY NO: 1968 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35171';
+
+/* DELETE QUERY NO: 1969 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35172';
+
+/* DELETE QUERY NO: 1970 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35173';
+
+/* DELETE QUERY NO: 1971 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35174';
+
+/* DELETE QUERY NO: 1972 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35175';
+
+/* DELETE QUERY NO: 1973 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35176';
+
+/* DELETE QUERY NO: 1974 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35177';
+
+/* DELETE QUERY NO: 1975 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35178';
+
+/* DELETE QUERY NO: 1976 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN35179';
+
+/* DELETE QUERY NO: 1977 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53001';
+
+/* DELETE QUERY NO: 1978 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53002';
+
+/* DELETE QUERY NO: 1979 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53003';
+
+/* DELETE QUERY NO: 1980 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53004';
+
+/* DELETE QUERY NO: 1981 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53005';
+
+/* DELETE QUERY NO: 1982 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53006';
+
+/* DELETE QUERY NO: 1983 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53007';
+
+/* DELETE QUERY NO: 1984 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53008';
+
+/* DELETE QUERY NO: 1985 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53009';
+
+/* DELETE QUERY NO: 1986 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53010';
+
+/* DELETE QUERY NO: 1987 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53011';
+
+/* DELETE QUERY NO: 1988 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53012';
+
+/* DELETE QUERY NO: 1989 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53013';
+
+/* DELETE QUERY NO: 1990 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53014';
+
+/* DELETE QUERY NO: 1991 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53015';
+
+/* DELETE QUERY NO: 1992 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53016';
+
+/* DELETE QUERY NO: 1993 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53017';
+
+/* DELETE QUERY NO: 1994 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53018';
+
+/* DELETE QUERY NO: 1995 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53019';
+
+/* DELETE QUERY NO: 1996 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53020';
+
+/* DELETE QUERY NO: 1997 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53027';
+
+/* DELETE QUERY NO: 1998 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53022';
+
+/* DELETE QUERY NO: 1999 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53023';
+
+/* DELETE QUERY NO: 2000 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53024';
+
+/* DELETE QUERY NO: 2001 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53025';
+
+/* DELETE QUERY NO: 2002 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53026';
+
+/* DELETE QUERY NO: 2003 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52001';
+
+/* DELETE QUERY NO: 2004 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52002';
+
+/* DELETE QUERY NO: 2005 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52003';
+
+/* DELETE QUERY NO: 2006 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52004';
+
+/* DELETE QUERY NO: 2007 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52005';
+
+/* DELETE QUERY NO: 2008 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52006';
+
+/* DELETE QUERY NO: 2009 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52007';
+
+/* DELETE QUERY NO: 2010 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52008';
+
+/* DELETE QUERY NO: 2011 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52009';
+
+/* DELETE QUERY NO: 2012 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52010';
+
+/* DELETE QUERY NO: 2013 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52011';
+
+/* DELETE QUERY NO: 2014 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52012';
+
+/* DELETE QUERY NO: 2015 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52013';
+
+/* DELETE QUERY NO: 2016 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52014';
+
+/* DELETE QUERY NO: 2017 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52015';
+
+/* DELETE QUERY NO: 2018 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52016';
+
+/* DELETE QUERY NO: 2019 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52017';
+
+/* DELETE QUERY NO: 2020 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52018';
+
+/* DELETE QUERY NO: 2021 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52019';
+
+/* DELETE QUERY NO: 2022 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52020';
+
+/* DELETE QUERY NO: 2023 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52021';
+
+/* DELETE QUERY NO: 2024 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52022';
+
+/* DELETE QUERY NO: 2025 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52023';
+
+/* DELETE QUERY NO: 2026 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52024';
+
+/* DELETE QUERY NO: 2027 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52025';
+
+/* DELETE QUERY NO: 2028 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52026';
+
+/* DELETE QUERY NO: 2029 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52027';
+
+/* DELETE QUERY NO: 2030 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52028';
+
+/* DELETE QUERY NO: 2031 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52029';
+
+/* DELETE QUERY NO: 2032 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52030';
+
+/* DELETE QUERY NO: 2033 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52031';
+
+/* DELETE QUERY NO: 2034 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52032';
+
+/* DELETE QUERY NO: 2035 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52034';
+
+/* DELETE QUERY NO: 2036 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52036';
+
+/* DELETE QUERY NO: 2037 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52037';
+
+/* DELETE QUERY NO: 2038 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52035';
+
+/* DELETE QUERY NO: 2039 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52038';
+
+/* DELETE QUERY NO: 2040 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52039';
+
+/* DELETE QUERY NO: 2041 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52040';
+
+/* DELETE QUERY NO: 2042 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52041';
+
+/* DELETE QUERY NO: 2043 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52042';
+
+/* DELETE QUERY NO: 2044 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52043';
+
+/* DELETE QUERY NO: 2045 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52044';
+
+/* DELETE QUERY NO: 2046 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52045';
+
+/* DELETE QUERY NO: 2047 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52046';
+
+/* DELETE QUERY NO: 2048 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52047';
+
+/* DELETE QUERY NO: 2049 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52048';
+
+/* DELETE QUERY NO: 2050 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52049';
+
+/* DELETE QUERY NO: 2051 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52051';
+
+/* DELETE QUERY NO: 2052 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52052';
+
+/* DELETE QUERY NO: 2053 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52053';
+
+/* DELETE QUERY NO: 2054 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52054';
+
+/* DELETE QUERY NO: 2055 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52055';
+
+/* DELETE QUERY NO: 2056 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52056';
+
+/* DELETE QUERY NO: 2057 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52057';
+
+/* DELETE QUERY NO: 2058 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52058';
+
+/* DELETE QUERY NO: 2059 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52059';
+
+/* DELETE QUERY NO: 2060 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52060';
+
+/* DELETE QUERY NO: 2061 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52061';
+
+/* DELETE QUERY NO: 2062 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52062';
+
+/* DELETE QUERY NO: 2063 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52063';
+
+/* DELETE QUERY NO: 2064 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52064';
+
+/* DELETE QUERY NO: 2065 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52065';
+
+/* DELETE QUERY NO: 2066 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52066';
+
+/* DELETE QUERY NO: 2067 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52067';
+
+/* DELETE QUERY NO: 2068 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52068';
+
+/* DELETE QUERY NO: 2069 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52069';
+
+/* DELETE QUERY NO: 2070 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52070';
+
+/* DELETE QUERY NO: 2071 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52071';
+
+/* DELETE QUERY NO: 2072 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52073';
+
+/* DELETE QUERY NO: 2073 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52074';
+
+/* DELETE QUERY NO: 2074 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52075';
+
+/* DELETE QUERY NO: 2075 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52076';
+
+/* DELETE QUERY NO: 2076 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52077';
+
+/* DELETE QUERY NO: 2077 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52078';
+
+/* DELETE QUERY NO: 2078 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52079';
+
+/* DELETE QUERY NO: 2079 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52080';
+
+/* DELETE QUERY NO: 2080 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52081';
+
+/* DELETE QUERY NO: 2081 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52082';
+
+/* DELETE QUERY NO: 2082 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52083';
+
+/* DELETE QUERY NO: 2083 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52084';
+
+/* DELETE QUERY NO: 2084 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52085';
+
+/* DELETE QUERY NO: 2085 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52086';
+
+/* DELETE QUERY NO: 2086 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52087';
+
+/* DELETE QUERY NO: 2087 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52088';
+
+/* DELETE QUERY NO: 2088 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52089';
+
+/* DELETE QUERY NO: 2089 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52090';
+
+/* DELETE QUERY NO: 2090 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52091';
+
+/* DELETE QUERY NO: 2091 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52092';
+
+/* DELETE QUERY NO: 2092 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52093';
+
+/* DELETE QUERY NO: 2093 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52094';
+
+/* DELETE QUERY NO: 2094 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52095';
+
+/* DELETE QUERY NO: 2095 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52096';
+
+/* DELETE QUERY NO: 2096 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52097';
+
+/* DELETE QUERY NO: 2097 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52098';
+
+/* DELETE QUERY NO: 2098 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52099';
+
+/* DELETE QUERY NO: 2099 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52100';
+
+/* DELETE QUERY NO: 2100 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52101';
+
+/* DELETE QUERY NO: 2101 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52050';
+
+/* DELETE QUERY NO: 2102 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52102';
+
+/* DELETE QUERY NO: 2103 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52103';
+
+/* DELETE QUERY NO: 2104 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52104';
+
+/* DELETE QUERY NO: 2105 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52105';
+
+/* DELETE QUERY NO: 2106 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52106';
+
+/* DELETE QUERY NO: 2107 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52107';
+
+/* DELETE QUERY NO: 2108 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52108';
+
+/* DELETE QUERY NO: 2109 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52109';
+
+/* DELETE QUERY NO: 2110 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52110';
+
+/* DELETE QUERY NO: 2111 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52111';
+
+/* DELETE QUERY NO: 2112 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52112';
+
+/* DELETE QUERY NO: 2113 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52113';
+
+/* DELETE QUERY NO: 2114 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52121';
+
+/* DELETE QUERY NO: 2115 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52114';
+
+/* DELETE QUERY NO: 2116 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52115';
+
+/* DELETE QUERY NO: 2117 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52116';
+
+/* DELETE QUERY NO: 2118 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52117';
+
+/* DELETE QUERY NO: 2119 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52118';
+
+/* DELETE QUERY NO: 2120 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52119';
+
+/* DELETE QUERY NO: 2121 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52120';
+
+/* DELETE QUERY NO: 2122 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52122';
+
+/* DELETE QUERY NO: 2123 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52123';
+
+/* DELETE QUERY NO: 2124 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52124';
+
+/* DELETE QUERY NO: 2125 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN52125';
+
+/* DELETE QUERY NO: 2126 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54007';
+
+/* DELETE QUERY NO: 2127 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54043';
+
+/* DELETE QUERY NO: 2128 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54045';
+
+/* DELETE QUERY NO: 2129 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54001';
+
+/* DELETE QUERY NO: 2130 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54002';
+
+/* DELETE QUERY NO: 2131 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54003';
+
+/* DELETE QUERY NO: 2132 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54004';
+
+/* DELETE QUERY NO: 2133 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54005';
+
+/* DELETE QUERY NO: 2134 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54006';
+
+/* DELETE QUERY NO: 2135 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54008';
+
+/* DELETE QUERY NO: 2136 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54009';
+
+/* DELETE QUERY NO: 2137 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54010';
+
+/* DELETE QUERY NO: 2138 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54011';
+
+/* DELETE QUERY NO: 2139 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54012';
+
+/* DELETE QUERY NO: 2140 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54013';
+
+/* DELETE QUERY NO: 2141 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54014';
+
+/* DELETE QUERY NO: 2142 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54015';
+
+/* DELETE QUERY NO: 2143 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54016';
+
+/* DELETE QUERY NO: 2144 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54017';
+
+/* DELETE QUERY NO: 2145 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54018';
+
+/* DELETE QUERY NO: 2146 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54019';
+
+/* DELETE QUERY NO: 2147 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54020';
+
+/* DELETE QUERY NO: 2148 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54021';
+
+/* DELETE QUERY NO: 2149 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54022';
+
+/* DELETE QUERY NO: 2150 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54023';
+
+/* DELETE QUERY NO: 2151 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54024';
+
+/* DELETE QUERY NO: 2152 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54025';
+
+/* DELETE QUERY NO: 2153 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54026';
+
+/* DELETE QUERY NO: 2154 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54027';
+
+/* DELETE QUERY NO: 2155 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54028';
+
+/* DELETE QUERY NO: 2156 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54030';
+
+/* DELETE QUERY NO: 2157 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54031';
+
+/* DELETE QUERY NO: 2158 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54032';
+
+/* DELETE QUERY NO: 2159 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54033';
+
+/* DELETE QUERY NO: 2160 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54034';
+
+/* DELETE QUERY NO: 2161 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54035';
+
+/* DELETE QUERY NO: 2162 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54036';
+
+/* DELETE QUERY NO: 2163 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54042';
+
+/* DELETE QUERY NO: 2164 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54037';
+
+/* DELETE QUERY NO: 2165 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54038';
+
+/* DELETE QUERY NO: 2166 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54039';
+
+/* DELETE QUERY NO: 2167 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54040';
+
+/* DELETE QUERY NO: 2168 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54041';
+
+/* DELETE QUERY NO: 2169 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54044';
+
+/* DELETE QUERY NO: 2170 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54029';
+
+/* DELETE QUERY NO: 2171 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN53021';
+
+/* DELETE QUERY NO: 2172 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54046';
+
+/* DELETE QUERY NO: 2173 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54047';
+
+/* DELETE QUERY NO: 2174 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54056';
+
+/* DELETE QUERY NO: 2175 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54048';
+
+/* DELETE QUERY NO: 2176 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54049';
+
+/* DELETE QUERY NO: 2177 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54050';
+
+/* DELETE QUERY NO: 2178 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54051';
+
+/* DELETE QUERY NO: 2179 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54052';
+
+/* DELETE QUERY NO: 2180 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN54053';
+
+/* DELETE QUERY NO: 2181 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55064';
+
+/* DELETE QUERY NO: 2182 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55001';
+
+/* DELETE QUERY NO: 2183 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55004';
+
+/* DELETE QUERY NO: 2184 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55005';
+
+/* DELETE QUERY NO: 2185 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55091';
+
+/* DELETE QUERY NO: 2186 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55007';
+
+/* DELETE QUERY NO: 2187 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55008';
+
+/* DELETE QUERY NO: 2188 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55009';
+
+/* DELETE QUERY NO: 2189 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55002';
+
+/* DELETE QUERY NO: 2190 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55006';
+
+/* DELETE QUERY NO: 2191 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55010';
+
+/* DELETE QUERY NO: 2192 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55012';
+
+/* DELETE QUERY NO: 2193 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55013';
+
+/* DELETE QUERY NO: 2194 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55015';
+
+/* DELETE QUERY NO: 2195 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55014';
+
+/* DELETE QUERY NO: 2196 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55016';
+
+/* DELETE QUERY NO: 2197 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55011';
+
+/* DELETE QUERY NO: 2198 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55017';
+
+/* DELETE QUERY NO: 2199 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55018';
+
+/* DELETE QUERY NO: 2200 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55019';
+
+/* DELETE QUERY NO: 2201 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55020';
+
+/* DELETE QUERY NO: 2202 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55021';
+
+/* DELETE QUERY NO: 2203 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55022';
+
+/* DELETE QUERY NO: 2204 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55023';
+
+/* DELETE QUERY NO: 2205 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55024';
+
+/* DELETE QUERY NO: 2206 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55025';
+
+/* DELETE QUERY NO: 2207 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55026';
+
+/* DELETE QUERY NO: 2208 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55027';
+
+/* DELETE QUERY NO: 2209 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55028';
+
+/* DELETE QUERY NO: 2210 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55029';
+
+/* DELETE QUERY NO: 2211 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55030';
+
+/* DELETE QUERY NO: 2212 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55031';
+
+/* DELETE QUERY NO: 2213 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55032';
+
+/* DELETE QUERY NO: 2214 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55033';
+
+/* DELETE QUERY NO: 2215 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55034';
+
+/* DELETE QUERY NO: 2216 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55035';
+
+/* DELETE QUERY NO: 2217 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55036';
+
+/* DELETE QUERY NO: 2218 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55037';
+
+/* DELETE QUERY NO: 2219 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55038';
+
+/* DELETE QUERY NO: 2220 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55039';
+
+/* DELETE QUERY NO: 2221 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55040';
+
+/* DELETE QUERY NO: 2222 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55041';
+
+/* DELETE QUERY NO: 2223 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55042';
+
+/* DELETE QUERY NO: 2224 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55044';
+
+/* DELETE QUERY NO: 2225 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55045';
+
+/* DELETE QUERY NO: 2226 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55048';
+
+/* DELETE QUERY NO: 2227 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55049';
+
+/* DELETE QUERY NO: 2228 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55051';
+
+/* DELETE QUERY NO: 2229 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55053';
+
+/* DELETE QUERY NO: 2230 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55054';
+
+/* DELETE QUERY NO: 2231 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55055';
+
+/* DELETE QUERY NO: 2232 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55056';
+
+/* DELETE QUERY NO: 2233 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55057';
+
+/* DELETE QUERY NO: 2234 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55058';
+
+/* DELETE QUERY NO: 2235 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55059';
+
+/* DELETE QUERY NO: 2236 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55060';
+
+/* DELETE QUERY NO: 2237 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55061';
+
+/* DELETE QUERY NO: 2238 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55062';
+
+/* DELETE QUERY NO: 2239 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55063';
+
+/* DELETE QUERY NO: 2240 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55065';
+
+/* DELETE QUERY NO: 2241 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55066';
+
+/* DELETE QUERY NO: 2242 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55067';
+
+/* DELETE QUERY NO: 2243 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55089';
+
+/* DELETE QUERY NO: 2244 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55068';
+
+/* DELETE QUERY NO: 2245 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55069';
+
+/* DELETE QUERY NO: 2246 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55003';
+
+/* DELETE QUERY NO: 2247 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55043';
+
+/* DELETE QUERY NO: 2248 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55070';
+
+/* DELETE QUERY NO: 2249 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55071';
+
+/* DELETE QUERY NO: 2250 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55072';
+
+/* DELETE QUERY NO: 2251 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55073';
+
+/* DELETE QUERY NO: 2252 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55093';
+
+/* DELETE QUERY NO: 2253 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55074';
+
+/* DELETE QUERY NO: 2254 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55075';
+
+/* DELETE QUERY NO: 2255 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55046';
+
+/* DELETE QUERY NO: 2256 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55077';
+
+/* DELETE QUERY NO: 2257 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55047';
+
+/* DELETE QUERY NO: 2258 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55078';
+
+/* DELETE QUERY NO: 2259 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55079';
+
+/* DELETE QUERY NO: 2260 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55080';
+
+/* DELETE QUERY NO: 2261 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55081';
+
+/* DELETE QUERY NO: 2262 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57084';
+
+/* DELETE QUERY NO: 2263 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55082';
+
+/* DELETE QUERY NO: 2264 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55052';
+
+/* DELETE QUERY NO: 2265 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55083';
+
+/* DELETE QUERY NO: 2266 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55084';
+
+/* DELETE QUERY NO: 2267 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55086';
+
+/* DELETE QUERY NO: 2268 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55085';
+
+/* DELETE QUERY NO: 2269 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55076';
+
+/* DELETE QUERY NO: 2270 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55087';
+
+/* DELETE QUERY NO: 2271 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN55090';
+
+/* DELETE QUERY NO: 2272 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56018';
+
+/* DELETE QUERY NO: 2273 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56019';
+
+/* DELETE QUERY NO: 2274 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56020';
+
+/* DELETE QUERY NO: 2275 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56021';
+
+/* DELETE QUERY NO: 2276 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56001';
+
+/* DELETE QUERY NO: 2277 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56024';
+
+/* DELETE QUERY NO: 2278 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56002';
+
+/* DELETE QUERY NO: 2279 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56004';
+
+/* DELETE QUERY NO: 2280 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56005';
+
+/* DELETE QUERY NO: 2281 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56006';
+
+/* DELETE QUERY NO: 2282 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56025';
+
+/* DELETE QUERY NO: 2283 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56007';
+
+/* DELETE QUERY NO: 2284 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56030';
+
+/* DELETE QUERY NO: 2285 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56031';
+
+/* DELETE QUERY NO: 2286 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56008';
+
+/* DELETE QUERY NO: 2287 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56009';
+
+/* DELETE QUERY NO: 2288 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56003';
+
+/* DELETE QUERY NO: 2289 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56010';
+
+/* DELETE QUERY NO: 2290 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56011';
+
+/* DELETE QUERY NO: 2291 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56027';
+
+/* DELETE QUERY NO: 2292 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56028';
+
+/* DELETE QUERY NO: 2293 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56012';
+
+/* DELETE QUERY NO: 2294 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56013';
+
+/* DELETE QUERY NO: 2295 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56014';
+
+/* DELETE QUERY NO: 2296 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56015';
+
+/* DELETE QUERY NO: 2297 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56016';
+
+/* DELETE QUERY NO: 2298 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56017';
+
+/* DELETE QUERY NO: 2299 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57060';
+
+/* DELETE QUERY NO: 2300 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57001';
+
+/* DELETE QUERY NO: 2301 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57002';
+
+/* DELETE QUERY NO: 2302 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57003';
+
+/* DELETE QUERY NO: 2303 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57004';
+
+/* DELETE QUERY NO: 2304 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57005';
+
+/* DELETE QUERY NO: 2305 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57006';
+
+/* DELETE QUERY NO: 2306 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57007';
+
+/* DELETE QUERY NO: 2307 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57008';
+
+/* DELETE QUERY NO: 2308 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57009';
+
+/* DELETE QUERY NO: 2309 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57010';
+
+/* DELETE QUERY NO: 2310 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57011';
+
+/* DELETE QUERY NO: 2311 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57012';
+
+/* DELETE QUERY NO: 2312 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57013';
+
+/* DELETE QUERY NO: 2313 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57014';
+
+/* DELETE QUERY NO: 2314 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57015';
+
+/* DELETE QUERY NO: 2315 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57016';
+
+/* DELETE QUERY NO: 2316 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57017';
+
+/* DELETE QUERY NO: 2317 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57018';
+
+/* DELETE QUERY NO: 2318 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57019';
+
+/* DELETE QUERY NO: 2319 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57020';
+
+/* DELETE QUERY NO: 2320 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57021';
+
+/* DELETE QUERY NO: 2321 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57023';
+
+/* DELETE QUERY NO: 2322 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57078';
+
+/* DELETE QUERY NO: 2323 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57024';
+
+/* DELETE QUERY NO: 2324 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57025';
+
+/* DELETE QUERY NO: 2325 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57079';
+
+/* DELETE QUERY NO: 2326 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57026';
+
+/* DELETE QUERY NO: 2327 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57027';
+
+/* DELETE QUERY NO: 2328 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57028';
+
+/* DELETE QUERY NO: 2329 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57029';
+
+/* DELETE QUERY NO: 2330 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57030';
+
+/* DELETE QUERY NO: 2331 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57031';
+
+/* DELETE QUERY NO: 2332 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57032';
+
+/* DELETE QUERY NO: 2333 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57033';
+
+/* DELETE QUERY NO: 2334 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57034';
+
+/* DELETE QUERY NO: 2335 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN56022';
+
+/* DELETE QUERY NO: 2336 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57035';
+
+/* DELETE QUERY NO: 2337 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57036';
+
+/* DELETE QUERY NO: 2338 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57037';
+
+/* DELETE QUERY NO: 2339 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57038';
+
+/* DELETE QUERY NO: 2340 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57039';
+
+/* DELETE QUERY NO: 2341 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57041';
+
+/* DELETE QUERY NO: 2342 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57080';
+
+/* DELETE QUERY NO: 2343 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57042';
+
+/* DELETE QUERY NO: 2344 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57043';
+
+/* DELETE QUERY NO: 2345 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57044';
+
+/* DELETE QUERY NO: 2346 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57045';
+
+/* DELETE QUERY NO: 2347 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57046';
+
+/* DELETE QUERY NO: 2348 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57047';
+
+/* DELETE QUERY NO: 2349 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57048';
+
+/* DELETE QUERY NO: 2350 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57049';
+
+/* DELETE QUERY NO: 2351 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57051';
+
+/* DELETE QUERY NO: 2352 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57052';
+
+/* DELETE QUERY NO: 2353 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57053';
+
+/* DELETE QUERY NO: 2354 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57054';
+
+/* DELETE QUERY NO: 2355 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57055';
+
+/* DELETE QUERY NO: 2356 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57057';
+
+/* DELETE QUERY NO: 2357 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57056';
+
+/* DELETE QUERY NO: 2358 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57074';
+
+/* DELETE QUERY NO: 2359 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57058';
+
+/* DELETE QUERY NO: 2360 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57059';
+
+/* DELETE QUERY NO: 2361 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57061';
+
+/* DELETE QUERY NO: 2362 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57062';
+
+/* DELETE QUERY NO: 2363 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57081';
+
+/* DELETE QUERY NO: 2364 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57064';
+
+/* DELETE QUERY NO: 2365 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57082';
+
+/* DELETE QUERY NO: 2366 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57063';
+
+/* DELETE QUERY NO: 2367 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57065';
+
+/* DELETE QUERY NO: 2368 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57066';
+
+/* DELETE QUERY NO: 2369 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57067';
+
+/* DELETE QUERY NO: 2370 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57050';
+
+/* DELETE QUERY NO: 2371 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57068';
+
+/* DELETE QUERY NO: 2372 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57069';
+
+/* DELETE QUERY NO: 2373 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57070';
+
+/* DELETE QUERY NO: 2374 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57071';
+
+/* DELETE QUERY NO: 2375 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57085';
+
+/* DELETE QUERY NO: 2376 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57072';
+
+/* DELETE QUERY NO: 2377 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57073';
+
+/* DELETE QUERY NO: 2378 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57075';
+
+/* DELETE QUERY NO: 2379 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57076';
+
+/* DELETE QUERY NO: 2380 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN57077';
+
+/* DELETE QUERY NO: 2381 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62067';
+
+/* DELETE QUERY NO: 2382 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62001';
+
+/* DELETE QUERY NO: 2383 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62113';
+
+/* DELETE QUERY NO: 2384 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62002';
+
+/* DELETE QUERY NO: 2385 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62003';
+
+/* DELETE QUERY NO: 2386 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62114';
+
+/* DELETE QUERY NO: 2387 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62004';
+
+/* DELETE QUERY NO: 2388 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62005';
+
+/* DELETE QUERY NO: 2389 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62006';
+
+/* DELETE QUERY NO: 2390 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62007';
+
+/* DELETE QUERY NO: 2391 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62008';
+
+/* DELETE QUERY NO: 2392 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62009';
+
+/* DELETE QUERY NO: 2393 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62010';
+
+/* DELETE QUERY NO: 2394 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62011';
+
+/* DELETE QUERY NO: 2395 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62012';
+
+/* DELETE QUERY NO: 2396 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62013';
+
+/* DELETE QUERY NO: 2397 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62014';
+
+/* DELETE QUERY NO: 2398 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62015';
+
+/* DELETE QUERY NO: 2399 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62016';
+
+/* DELETE QUERY NO: 2400 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62017';
+
+/* DELETE QUERY NO: 2401 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62018';
+
+/* DELETE QUERY NO: 2402 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62019';
+
+/* DELETE QUERY NO: 2403 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62020';
+
+/* DELETE QUERY NO: 2404 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62021';
+
+/* DELETE QUERY NO: 2405 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62022';
+
+/* DELETE QUERY NO: 2406 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62023';
+
+/* DELETE QUERY NO: 2407 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62024';
+
+/* DELETE QUERY NO: 2408 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62025';
+
+/* DELETE QUERY NO: 2409 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62026';
+
+/* DELETE QUERY NO: 2410 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62093';
+
+/* DELETE QUERY NO: 2411 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62028';
+
+/* DELETE QUERY NO: 2412 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62081';
+
+/* DELETE QUERY NO: 2413 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62030';
+
+/* DELETE QUERY NO: 2414 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62031';
+
+/* DELETE QUERY NO: 2415 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62032';
+
+/* DELETE QUERY NO: 2416 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62033';
+
+/* DELETE QUERY NO: 2417 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62034';
+
+/* DELETE QUERY NO: 2418 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62035';
+
+/* DELETE QUERY NO: 2419 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62036';
+
+/* DELETE QUERY NO: 2420 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62037';
+
+/* DELETE QUERY NO: 2421 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62038';
+
+/* DELETE QUERY NO: 2422 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62039';
+
+/* DELETE QUERY NO: 2423 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62040';
+
+/* DELETE QUERY NO: 2424 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62041';
+
+/* DELETE QUERY NO: 2425 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62042';
+
+/* DELETE QUERY NO: 2426 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62115';
+
+/* DELETE QUERY NO: 2427 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62044';
+
+/* DELETE QUERY NO: 2428 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62045';
+
+/* DELETE QUERY NO: 2429 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62046';
+
+/* DELETE QUERY NO: 2430 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62047';
+
+/* DELETE QUERY NO: 2431 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62048';
+
+/* DELETE QUERY NO: 2432 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62049';
+
+/* DELETE QUERY NO: 2433 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62050';
+
+/* DELETE QUERY NO: 2434 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62051';
+
+/* DELETE QUERY NO: 2435 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62052';
+
+/* DELETE QUERY NO: 2436 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62053';
+
+/* DELETE QUERY NO: 2437 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62054';
+
+/* DELETE QUERY NO: 2438 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62055';
+
+/* DELETE QUERY NO: 2439 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62056';
+
+/* DELETE QUERY NO: 2440 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62057';
+
+/* DELETE QUERY NO: 2441 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62058';
+
+/* DELETE QUERY NO: 2442 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62059';
+
+/* DELETE QUERY NO: 2443 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62060';
+
+/* DELETE QUERY NO: 2444 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62061';
+
+/* DELETE QUERY NO: 2445 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62062';
+
+/* DELETE QUERY NO: 2446 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62063';
+
+/* DELETE QUERY NO: 2447 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62064';
+
+/* DELETE QUERY NO: 2448 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62065';
+
+/* DELETE QUERY NO: 2449 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62066';
+
+/* DELETE QUERY NO: 2450 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62068';
+
+/* DELETE QUERY NO: 2451 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62069';
+
+/* DELETE QUERY NO: 2452 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62070';
+
+/* DELETE QUERY NO: 2453 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62071';
+
+/* DELETE QUERY NO: 2454 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62072';
+
+/* DELETE QUERY NO: 2455 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62073';
+
+/* DELETE QUERY NO: 2456 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62074';
+
+/* DELETE QUERY NO: 2457 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62075';
+
+/* DELETE QUERY NO: 2458 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62077';
+
+/* DELETE QUERY NO: 2459 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62078';
+
+/* DELETE QUERY NO: 2460 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62079';
+
+/* DELETE QUERY NO: 2461 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62080';
+
+/* DELETE QUERY NO: 2462 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62082';
+
+/* DELETE QUERY NO: 2463 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62083';
+
+/* DELETE QUERY NO: 2464 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62076';
+
+/* DELETE QUERY NO: 2465 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62084';
+
+/* DELETE QUERY NO: 2466 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62085';
+
+/* DELETE QUERY NO: 2467 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62086';
+
+/* DELETE QUERY NO: 2468 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62087';
+
+/* DELETE QUERY NO: 2469 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62088';
+
+/* DELETE QUERY NO: 2470 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62090';
+
+/* DELETE QUERY NO: 2471 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62091';
+
+/* DELETE QUERY NO: 2472 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62092';
+
+/* DELETE QUERY NO: 2473 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62094';
+
+/* DELETE QUERY NO: 2474 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62095';
+
+/* DELETE QUERY NO: 2475 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62096';
+
+/* DELETE QUERY NO: 2476 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62097';
+
+/* DELETE QUERY NO: 2477 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62098';
+
+/* DELETE QUERY NO: 2478 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62099';
+
+/* DELETE QUERY NO: 2479 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62100';
+
+/* DELETE QUERY NO: 2480 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62101';
+
+/* DELETE QUERY NO: 2481 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62102';
+
+/* DELETE QUERY NO: 2482 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62104';
+
+/* DELETE QUERY NO: 2483 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62106';
+
+/* DELETE QUERY NO: 2484 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62107';
+
+/* DELETE QUERY NO: 2485 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62103';
+
+/* DELETE QUERY NO: 2486 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62108';
+
+/* DELETE QUERY NO: 2487 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62109';
+
+/* DELETE QUERY NO: 2488 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62110';
+
+/* DELETE QUERY NO: 2489 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62117';
+
+/* DELETE QUERY NO: 2490 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62089';
+
+/* DELETE QUERY NO: 2491 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62111';
+
+/* DELETE QUERY NO: 2492 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN62112';
+
+/* DELETE QUERY NO: 2493 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61001';
+
+/* DELETE QUERY NO: 2494 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61002';
+
+/* DELETE QUERY NO: 2495 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61003';
+
+/* DELETE QUERY NO: 2496 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61004';
+
+/* DELETE QUERY NO: 2497 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61005';
+
+/* DELETE QUERY NO: 2498 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61006';
+
+/* DELETE QUERY NO: 2499 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61007';
+
+/* DELETE QUERY NO: 2500 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61008';
+
+/* DELETE QUERY NO: 2501 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61009';
+
+/* DELETE QUERY NO: 2502 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61010';
+
+/* DELETE QUERY NO: 2503 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61011';
+
+/* DELETE QUERY NO: 2504 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61012';
+
+/* DELETE QUERY NO: 2505 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61013';
+
+/* DELETE QUERY NO: 2506 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61015';
+
+/* DELETE QUERY NO: 2507 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61014';
+
+/* DELETE QUERY NO: 2508 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61016';
+
+/* DELETE QUERY NO: 2509 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61017';
+
+/* DELETE QUERY NO: 2510 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61018';
+
+/* DELETE QUERY NO: 2511 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61019';
+
+/* DELETE QUERY NO: 2512 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61020';
+
+/* DELETE QUERY NO: 2513 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61021';
+
+/* DELETE QUERY NO: 2514 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61022';
+
+/* DELETE QUERY NO: 2515 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61110';
+
+/* DELETE QUERY NO: 2516 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61098';
+
+/* DELETE QUERY NO: 2517 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61024';
+
+/* DELETE QUERY NO: 2518 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61025';
+
+/* DELETE QUERY NO: 2519 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61026';
+
+/* DELETE QUERY NO: 2520 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61027';
+
+/* DELETE QUERY NO: 2521 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61028';
+
+/* DELETE QUERY NO: 2522 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61029';
+
+/* DELETE QUERY NO: 2523 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61030';
+
+/* DELETE QUERY NO: 2524 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61031';
+
+/* DELETE QUERY NO: 2525 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61032';
+
+/* DELETE QUERY NO: 2526 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61033';
+
+/* DELETE QUERY NO: 2527 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61034';
+
+/* DELETE QUERY NO: 2528 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61035';
+
+/* DELETE QUERY NO: 2529 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61037';
+
+/* DELETE QUERY NO: 2530 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61038';
+
+/* DELETE QUERY NO: 2531 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61039';
+
+/* DELETE QUERY NO: 2532 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61040';
+
+/* DELETE QUERY NO: 2533 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61041';
+
+/* DELETE QUERY NO: 2534 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61042';
+
+/* DELETE QUERY NO: 2535 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61043';
+
+/* DELETE QUERY NO: 2536 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61044';
+
+/* DELETE QUERY NO: 2537 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61045';
+
+/* DELETE QUERY NO: 2538 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61046';
+
+/* DELETE QUERY NO: 2539 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61047';
+
+/* DELETE QUERY NO: 2540 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61048';
+
+/* DELETE QUERY NO: 2541 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61049';
+
+/* DELETE QUERY NO: 2542 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61050';
+
+/* DELETE QUERY NO: 2543 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61051';
+
+/* DELETE QUERY NO: 2544 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61052';
+
+/* DELETE QUERY NO: 2545 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61053';
+
+/* DELETE QUERY NO: 2546 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61054';
+
+/* DELETE QUERY NO: 2547 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61055';
+
+/* DELETE QUERY NO: 2548 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61056';
+
+/* DELETE QUERY NO: 2549 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61057';
+
+/* DELETE QUERY NO: 2550 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61058';
+
+/* DELETE QUERY NO: 2551 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61059';
+
+/* DELETE QUERY NO: 2552 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61060';
+
+/* DELETE QUERY NO: 2553 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61061';
+
+/* DELETE QUERY NO: 2554 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61062';
+
+/* DELETE QUERY NO: 2555 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61063';
+
+/* DELETE QUERY NO: 2556 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61064';
+
+/* DELETE QUERY NO: 2557 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61076';
+
+/* DELETE QUERY NO: 2558 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61065';
+
+/* DELETE QUERY NO: 2559 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61066';
+
+/* DELETE QUERY NO: 2560 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61067';
+
+/* DELETE QUERY NO: 2561 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61068';
+
+/* DELETE QUERY NO: 2562 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61069';
+
+/* DELETE QUERY NO: 2563 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61111';
+
+/* DELETE QUERY NO: 2564 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61070';
+
+/* DELETE QUERY NO: 2565 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61071';
+
+/* DELETE QUERY NO: 2566 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61072';
+
+/* DELETE QUERY NO: 2567 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61073';
+
+/* DELETE QUERY NO: 2568 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61074';
+
+/* DELETE QUERY NO: 2569 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61075';
+
+/* DELETE QUERY NO: 2570 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61112';
+
+/* DELETE QUERY NO: 2571 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61077';
+
+/* DELETE QUERY NO: 2572 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61078';
+
+/* DELETE QUERY NO: 2573 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61079';
+
+/* DELETE QUERY NO: 2574 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61080';
+
+/* DELETE QUERY NO: 2575 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61081';
+
+/* DELETE QUERY NO: 2576 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61082';
+
+/* DELETE QUERY NO: 2577 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61083';
+
+/* DELETE QUERY NO: 2578 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61084';
+
+/* DELETE QUERY NO: 2579 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61086';
+
+/* DELETE QUERY NO: 2580 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61087';
+
+/* DELETE QUERY NO: 2581 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61088';
+
+/* DELETE QUERY NO: 2582 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61090';
+
+/* DELETE QUERY NO: 2583 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61091';
+
+/* DELETE QUERY NO: 2584 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61092';
+
+/* DELETE QUERY NO: 2585 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61100';
+
+/* DELETE QUERY NO: 2586 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61036';
+
+/* DELETE QUERY NO: 2587 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61094';
+
+/* DELETE QUERY NO: 2588 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61095';
+
+/* DELETE QUERY NO: 2589 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61096';
+
+/* DELETE QUERY NO: 2590 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61097';
+
+/* DELETE QUERY NO: 2591 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61099';
+
+/* DELETE QUERY NO: 2592 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61101';
+
+/* DELETE QUERY NO: 2593 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61102';
+
+/* DELETE QUERY NO: 2594 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61103';
+
+/* DELETE QUERY NO: 2595 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61104';
+
+/* DELETE QUERY NO: 2596 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61105';
+
+/* DELETE QUERY NO: 2597 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61085';
+
+/* DELETE QUERY NO: 2598 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61106';
+
+/* DELETE QUERY NO: 2599 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61108';
+
+/* DELETE QUERY NO: 2600 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN61109';
+
+/* DELETE QUERY NO: 2601 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63001';
+
+/* DELETE QUERY NO: 2602 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63002';
+
+/* DELETE QUERY NO: 2603 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63003';
+
+/* DELETE QUERY NO: 2604 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63004';
+
+/* DELETE QUERY NO: 2605 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63006';
+
+/* DELETE QUERY NO: 2606 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63007';
+
+/* DELETE QUERY NO: 2607 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63008';
+
+/* DELETE QUERY NO: 2608 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63009';
+
+/* DELETE QUERY NO: 2609 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63010';
+
+/* DELETE QUERY NO: 2610 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63011';
+
+/* DELETE QUERY NO: 2611 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63012';
+
+/* DELETE QUERY NO: 2612 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63013';
+
+/* DELETE QUERY NO: 2613 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63014';
+
+/* DELETE QUERY NO: 2614 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63015';
+
+/* DELETE QUERY NO: 2615 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63016';
+
+/* DELETE QUERY NO: 2616 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63017';
+
+/* DELETE QUERY NO: 2617 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63018';
+
+/* DELETE QUERY NO: 2618 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63019';
+
+/* DELETE QUERY NO: 2619 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63021';
+
+/* DELETE QUERY NO: 2620 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63022';
+
+/* DELETE QUERY NO: 2621 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63023';
+
+/* DELETE QUERY NO: 2622 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63025';
+
+/* DELETE QUERY NO: 2623 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63026';
+
+/* DELETE QUERY NO: 2624 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63027';
+
+/* DELETE QUERY NO: 2625 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63028';
+
+/* DELETE QUERY NO: 2626 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63029';
+
+/* DELETE QUERY NO: 2627 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63030';
+
+/* DELETE QUERY NO: 2628 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63031';
+
+/* DELETE QUERY NO: 2629 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63032';
+
+/* DELETE QUERY NO: 2630 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63033';
+
+/* DELETE QUERY NO: 2631 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63034';
+
+/* DELETE QUERY NO: 2632 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63035';
+
+/* DELETE QUERY NO: 2633 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63036';
+
+/* DELETE QUERY NO: 2634 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63037';
+
+/* DELETE QUERY NO: 2635 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63038';
+
+/* DELETE QUERY NO: 2636 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63039';
+
+/* DELETE QUERY NO: 2637 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63040';
+
+/* DELETE QUERY NO: 2638 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63128';
+
+/* DELETE QUERY NO: 2639 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63121';
+
+/* DELETE QUERY NO: 2640 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63041';
+
+/* DELETE QUERY NO: 2641 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63042';
+
+/* DELETE QUERY NO: 2642 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63043';
+
+/* DELETE QUERY NO: 2643 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63044';
+
+/* DELETE QUERY NO: 2644 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63045';
+
+/* DELETE QUERY NO: 2645 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63046';
+
+/* DELETE QUERY NO: 2646 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63047';
+
+/* DELETE QUERY NO: 2647 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63048';
+
+/* DELETE QUERY NO: 2648 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63049';
+
+/* DELETE QUERY NO: 2649 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63050';
+
+/* DELETE QUERY NO: 2650 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63051';
+
+/* DELETE QUERY NO: 2651 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63052';
+
+/* DELETE QUERY NO: 2652 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63053';
+
+/* DELETE QUERY NO: 2653 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63054';
+
+/* DELETE QUERY NO: 2654 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63055';
+
+/* DELETE QUERY NO: 2655 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63056';
+
+/* DELETE QUERY NO: 2656 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63057';
+
+/* DELETE QUERY NO: 2657 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63058';
+
+/* DELETE QUERY NO: 2658 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63059';
+
+/* DELETE QUERY NO: 2659 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63060';
+
+/* DELETE QUERY NO: 2660 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63061';
+
+/* DELETE QUERY NO: 2661 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63062';
+
+/* DELETE QUERY NO: 2662 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63063';
+
+/* DELETE QUERY NO: 2663 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63064';
+
+/* DELETE QUERY NO: 2664 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63065';
+
+/* DELETE QUERY NO: 2665 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63066';
+
+/* DELETE QUERY NO: 2666 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63067';
+
+/* DELETE QUERY NO: 2667 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63068';
+
+/* DELETE QUERY NO: 2668 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63069';
+
+/* DELETE QUERY NO: 2669 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63070';
+
+/* DELETE QUERY NO: 2670 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63071';
+
+/* DELETE QUERY NO: 2671 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63072';
+
+/* DELETE QUERY NO: 2672 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63073';
+
+/* DELETE QUERY NO: 2673 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63074';
+
+/* DELETE QUERY NO: 2674 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63075';
+
+/* DELETE QUERY NO: 2675 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63076';
+
+/* DELETE QUERY NO: 2676 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63077';
+
+/* DELETE QUERY NO: 2677 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63078';
+
+/* DELETE QUERY NO: 2678 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63079';
+
+/* DELETE QUERY NO: 2679 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63130';
+
+/* DELETE QUERY NO: 2680 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63080';
+
+/* DELETE QUERY NO: 2681 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63118';
+
+/* DELETE QUERY NO: 2682 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63081';
+
+/* DELETE QUERY NO: 2683 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63082';
+
+/* DELETE QUERY NO: 2684 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63083';
+
+/* DELETE QUERY NO: 2685 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63084';
+
+/* DELETE QUERY NO: 2686 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63085';
+
+/* DELETE QUERY NO: 2687 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63086';
+
+/* DELETE QUERY NO: 2688 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63087';
+
+/* DELETE QUERY NO: 2689 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63088';
+
+/* DELETE QUERY NO: 2690 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63089';
+
+/* DELETE QUERY NO: 2691 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63090';
+
+/* DELETE QUERY NO: 2692 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63092';
+
+/* DELETE QUERY NO: 2693 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63093';
+
+/* DELETE QUERY NO: 2694 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63095';
+
+/* DELETE QUERY NO: 2695 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63096';
+
+/* DELETE QUERY NO: 2696 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63098';
+
+/* DELETE QUERY NO: 2697 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63099';
+
+/* DELETE QUERY NO: 2698 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63100';
+
+/* DELETE QUERY NO: 2699 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63110';
+
+/* DELETE QUERY NO: 2700 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63102';
+
+/* DELETE QUERY NO: 2701 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63103';
+
+/* DELETE QUERY NO: 2702 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63104';
+
+/* DELETE QUERY NO: 2703 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63105';
+
+/* DELETE QUERY NO: 2704 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63106';
+
+/* DELETE QUERY NO: 2705 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63107';
+
+/* DELETE QUERY NO: 2706 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63120';
+
+/* DELETE QUERY NO: 2707 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63108';
+
+/* DELETE QUERY NO: 2708 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63109';
+
+/* DELETE QUERY NO: 2709 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63111';
+
+/* DELETE QUERY NO: 2710 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63112';
+
+/* DELETE QUERY NO: 2711 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63113';
+
+/* DELETE QUERY NO: 2712 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63114';
+
+/* DELETE QUERY NO: 2713 */
+DELETE FROM
+Locations
+WHERE
+Pcode = 'LBN63115';
