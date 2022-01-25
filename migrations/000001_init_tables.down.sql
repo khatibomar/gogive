@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 14.1                              */
-/* DBMS name:      Auto Generated with power designer           */
+/* DBMS name:      Generated with power designer                */
 /* Created on:     1/24/2022 12:40:00 AM                        */
 /*==============================================================*/
 
