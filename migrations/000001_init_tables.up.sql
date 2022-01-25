@@ -35,8 +35,8 @@ create table ROLES (
 /*==============================================================*/
 create table USERS (
    USER_ID              Bigserial            not null,
-   ROLE_ID              Bigserial            not null,
-   PCODE                TEXT                 not null,
+   ROLE_ID              bigint               null,
+   PCODE                TEXT                 null,
    CREATED_AT           DATE                 not null,
    ACTIVATED            BOOL                 not null,
    PHOTO_URL            TEXT                 null,
@@ -61,7 +61,7 @@ create table USERS (
 /*==============================================================*/
 create table BANS (
    BANNED_BY_ID         bigserial            not null,
-   USER_ID              Bigserial            not null,
+   USER_ID              bigint               null,
    EMAIL                Citext               not null,
    BAN_REASON           TEXT                 not null,
    BAN_EXPIRY           DATE                 not null,
@@ -95,8 +95,8 @@ create table PERMISSIONS (
 /* Table: HAVE_PERMISSION                                       */
 /*==============================================================*/
 create table HAVE_PERMISSION (
-   PERM_ID              Bigserial            not null,
-   ROLE_ID              Bigserial            not null,
+   PERM_ID              bigint               not null,
+   ROLE_ID              bigint               not null,
    constraint PK_HAVE_PERMISSION primary key (PERM_ID, ROLE_ID),
    constraint FK_HAVE_PER_HAVE_PERM_PERMISSI foreign key (PERM_ID)
       references PERMISSIONS (PERM_ID)
@@ -111,9 +111,9 @@ create table HAVE_PERMISSION (
 /*==============================================================*/
 create table ITEMS (
    ITEM_ID              Bigserial            not null,
-   PCODE                TEXT                 not null,
-   USER_ID              Bigserial            not null,
-   CATEGORY_ID          Bigserial            not null,
+   PCODE                TEXT                 null,
+   USER_ID              bigint               null,
+   CATEGORY_ID          bigint               null,
    CREATED_AT           DATE                 not null,
    VERSION              INT4                 not null default 1
       constraint CKC_VERSION_ITEMS check (VERSION >= 1),
@@ -135,7 +135,7 @@ create table ITEMS (
 /*==============================================================*/
 create table TOKENS (
    HASH                 bytea                not null,
-   USER_ID              Bigserial            not null,
+   USER_ID              bigint               null,
    EXPIRY               DATE                 not null,
    SCOPE                TEXT                 not null,
    constraint PK_TOKENS primary key (HASH),
