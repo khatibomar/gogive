@@ -60,31 +60,17 @@ create table USERS (
 /* Table: BANS                                                  */
 /*==============================================================*/
 create table BANS (
-   BAN_ID               bigserial            not null,
-   BANNED_BY_ID         Bigserial            not null,
+   BANNED_BY_ID         bigserial            not null,
+   USER_ID              Bigserial            not null,
    EMAIL                Citext               not null,
    BAN_REASON           TEXT                 not null,
    BAN_EXPIRY           DATE                 not null,
    VERSION              INT4                 not null default 1
       constraint CKC_VERSION_BANS check (VERSION >= 1),
-   constraint PK_BANS primary key (BAN_ID),
-   constraint FK_BANS_BAN_USERS foreign key (BANNED_BY_ID)
+   constraint PK_BANS primary key (BANNED_BY_ID),
+   constraint FK_BANS_BAN_USERS foreign key (USER_ID)
       references USERS (USER_ID)
       on delete restrict on update restrict
-);
-
-/*==============================================================*/
-/* Index: BANS_PK                                               */
-/*==============================================================*/
-create unique index BANS_PK on BANS (
-BAN_ID
-);
-
-/*==============================================================*/
-/* Index: BAN_FK                                                */
-/*==============================================================*/
-create  index BAN_FK on BANS (
-BANNED_BY_ID
 );
 
 /*==============================================================*/
@@ -94,13 +80,6 @@ create table CATEGORIES (
    CATEGORY_ID          Bigserial            not null,
    CATEGORY_NAME        TEXT                 not null,
    constraint PK_CATEGORIES primary key (CATEGORY_ID)
-);
-
-/*==============================================================*/
-/* Index: CATEGORIES_PK                                         */
-/*==============================================================*/
-create unique index CATEGORIES_PK on CATEGORIES (
-CATEGORY_ID
 );
 
 /*==============================================================*/
@@ -128,20 +107,6 @@ create table HAVE_PERMISSION (
 );
 
 /*==============================================================*/
-/* Index: HAVE_PERMISSION_FK                                    */
-/*==============================================================*/
-create  index HAVE_PERMISSION_FK on HAVE_PERMISSION (
-PERM_ID
-);
-
-/*==============================================================*/
-/* Index: HAVE_PERMISSION2_FK                                   */
-/*==============================================================*/
-create  index HAVE_PERMISSION2_FK on HAVE_PERMISSION (
-ROLE_ID
-);
-
-/*==============================================================*/
 /* Table: ITEMS                                                 */
 /*==============================================================*/
 create table ITEMS (
@@ -166,55 +131,6 @@ create table ITEMS (
 );
 
 /*==============================================================*/
-/* Index: ITEMS_PK                                              */
-/*==============================================================*/
-create unique index ITEMS_PK on ITEMS (
-ITEM_ID
-);
-
-/*==============================================================*/
-/* Index: CREATE_FK                                             */
-/*==============================================================*/
-create  index CREATE_FK on ITEMS (
-USER_ID
-);
-
-/*==============================================================*/
-/* Index: EXIST_IN_FK                                           */
-/*==============================================================*/
-create  index EXIST_IN_FK on ITEMS (
-PCODE
-);
-
-/*==============================================================*/
-/* Index: CONTAINS_FK                                           */
-/*==============================================================*/
-create  index CONTAINS_FK on ITEMS (
-CATEGORY_ID
-);
-
-/*==============================================================*/
-/* Index: LOCATIONS_PK                                          */
-/*==============================================================*/
-create unique index LOCATIONS_PK on LOCATIONS (
-PCODE
-);
-
-/*==============================================================*/
-/* Index: PERMISSIONS_PK                                        */
-/*==============================================================*/
-create unique index PERMISSIONS_PK on PERMISSIONS (
-PERM_ID
-);
-
-/*==============================================================*/
-/* Index: ROLES_PK                                              */
-/*==============================================================*/
-create unique index ROLES_PK on ROLES (
-ROLE_ID
-);
-
-/*==============================================================*/
 /* Table: TOKENS                                                */
 /*==============================================================*/
 create table TOKENS (
@@ -226,39 +142,4 @@ create table TOKENS (
    constraint FK_TOKENS_HAVE_TOKE_USERS foreign key (USER_ID)
       references USERS (USER_ID)
       on delete restrict on update restrict
-);
-
-/*==============================================================*/
-/* Index: TOKENS_PK                                             */
-/*==============================================================*/
-create unique index TOKENS_PK on TOKENS (
-HASH
-);
-
-/*==============================================================*/
-/* Index: HAVE_TOKEN_FK                                         */
-/*==============================================================*/
-create  index HAVE_TOKEN_FK on TOKENS (
-USER_ID
-);
-
-/*==============================================================*/
-/* Index: USERS_PK                                              */
-/*==============================================================*/
-create unique index USERS_PK on USERS (
-USER_ID
-);
-
-/*==============================================================*/
-/* Index: LIVES_IN_FK                                           */
-/*==============================================================*/
-create  index LIVES_IN_FK on USERS (
-PCODE
-);
-
-/*==============================================================*/
-/* Index: HAVE_ROLE_FK                                          */
-/*==============================================================*/
-create  index HAVE_ROLE_FK on USERS (
-ROLE_ID
 );
