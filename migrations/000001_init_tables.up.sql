@@ -7,7 +7,7 @@
 /*==============================================================*/
 /* Table: LOCATIONS                                             */
 /*==============================================================*/
-create table LOCATIONS (
+create table IF NOT EXISTS LOCATIONS (
    PCODE                TEXT                 not null,
    LOCATION_NAME_EN     TEXT                 UNIQUE not null,
    LOCATION_NAME_AR     TEXT                 UNIQUE not null,
@@ -23,7 +23,7 @@ create table LOCATIONS (
 /*==============================================================*/
 /* Table: ROLES                                                 */
 /*==============================================================*/
-create table ROLES (
+create table IF NOT EXISTS ROLES (
    ROLE_ID              Bigserial            not null,
    ROLE_NAME            TEXT                 UNIQUE not null,
    ROLE_DESCRIPTION     TEXT                 not null,
@@ -33,7 +33,7 @@ create table ROLES (
 /*==============================================================*/
 /* Table: USERS                                                 */
 /*==============================================================*/
-create table USERS (
+create table IF NOT EXISTS USERS (
    USER_ID              Bigserial            not null,
    ROLE_ID              bigint               not null,
    PCODE                TEXT                 not null,
@@ -59,7 +59,7 @@ create table USERS (
 /*==============================================================*/
 /* Table: BANS                                                  */
 /*==============================================================*/
-create table BANS (
+create table IF NOT EXISTS BANS (
    BANNED_BY_ID         bigserial            not null,
    USER_ID              bigint               not null,
    EMAIL                Citext               UNIQUE not null,
@@ -76,7 +76,7 @@ create table BANS (
 /*==============================================================*/
 /* Table: CATEGORIES                                            */
 /*==============================================================*/
-create table CATEGORIES (
+create table IF NOT EXISTS CATEGORIES (
    CATEGORY_ID          Bigserial            not null,
    CATEGORY_NAME        TEXT                 UNIQUE not null,
    constraint PK_CATEGORIES primary key (CATEGORY_ID)
@@ -85,7 +85,7 @@ create table CATEGORIES (
 /*==============================================================*/
 /* Table: PERMISSIONS                                           */
 /*==============================================================*/
-create table PERMISSIONS (
+create table IF NOT EXISTS PERMISSIONS (
    PERM_ID              Bigserial            not null,
    CODE                 TEXT                 UNIQUE not null,
    constraint PK_PERMISSIONS primary key (PERM_ID)
@@ -94,7 +94,7 @@ create table PERMISSIONS (
 /*==============================================================*/
 /* Table: HAVE_PERMISSION                                       */
 /*==============================================================*/
-create table HAVE_PERMISSION (
+create table IF NOT EXISTS HAVE_PERMISSION (
    PERM_ID              bigint               not null,
    ROLE_ID              bigint               not null,
    constraint PK_HAVE_PERMISSION primary key (PERM_ID, ROLE_ID),
@@ -109,7 +109,8 @@ create table HAVE_PERMISSION (
 /*==============================================================*/
 /* Table: ITEMS                                                 */
 /*==============================================================*/
-create table ITEMS (
+create table IF NOT EXISTS ITEMS (
+   NAME					TEXT			     not null,
    ITEM_ID              Bigserial            not null,
    PCODE                TEXT                 not null,
    USER_ID              bigint               not null,
@@ -133,7 +134,7 @@ create table ITEMS (
 /*==============================================================*/
 /* Table: TOKENS                                                */
 /*==============================================================*/
-create table TOKENS (
+create table IF NOT EXISTS TOKENS (
    HASH                 bytea                not null,
    USER_ID              bigint               UNIQUE not null,
    EXPIRY               TIMESTAMP			 not null,

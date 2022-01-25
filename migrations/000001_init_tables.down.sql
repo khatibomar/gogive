@@ -4,20 +4,20 @@
 /* Created on:     1/24/2022 12:40:00 AM                        */
 /*==============================================================*/
 
-drop table BANS;
+drop table IF EXISTS BANS;
 
-drop table ITEMS;
+drop table IF EXISTS ITEMS;
 
-drop table CATEGORIES;
+drop table IF EXISTS CATEGORIES;
 
-drop table HAVE_PERMISSION;
+drop table IF EXISTS HAVE_PERMISSION;
 
-drop table PERMISSIONS;
+drop table IF EXISTS PERMISSIONS;
 
-drop table TOKENS;
+drop table IF EXISTS TOKENS;
 
-drop table USERS;
+drop table IF EXISTS USERS;
 
-drop table ROLES;
+drop table IF EXISTS ROLES;
 
-drop table LOCATIONS;
+drop table IF EXISTS LOCATIONS;

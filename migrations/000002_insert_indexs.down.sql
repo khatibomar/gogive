@@ -1,33 +1,33 @@
-drop index BAN_FK;
+drop index IF EXISTS BAN_FK;
 
-drop index BANS_PK;
+drop index IF EXISTS BANS_PK;
 
-drop index CATEGORIES_PK;
+drop index IF EXISTS CATEGORIES_PK;
 
-drop index HAVE_PERMISSION2_FK;
+drop index IF EXISTS HAVE_PERMISSION2_FK;
 
-drop index HAVE_PERMISSION_FK;
+drop index IF EXISTS HAVE_PERMISSION_FK;
 
-drop index CONTAINS_FK;
+drop index IF EXISTS CONTAINS_FK;
 
-drop index EXIST_IN_FK;
+drop index IF EXISTS EXIST_IN_FK;
 
-drop index CREATE_FK;
+drop index IF EXISTS CREATE_FK;
 
-drop index ITEMS_PK;
+drop index IF EXISTS ITEMS_PK;
 
-drop index LOCATIONS_PK;
+drop index IF EXISTS LOCATIONS_PK;
 
-drop index PERMISSIONS_PK;
+drop index IF EXISTS PERMISSIONS_PK;
 
-drop index ROLES_PK;
+drop index IF EXISTS ROLES_PK;
 
-drop index HAVE_TOKEN_FK;
+drop index IF EXISTS HAVE_TOKEN_FK;
 
-drop index TOKENS_PK;
+drop index IF EXISTS TOKENS_PK;
 
-drop index HAVE_ROLE_FK;
+drop index IF EXISTS HAVE_ROLE_FK;
 
-drop index LIVES_IN_FK;
+drop index IF EXISTS LIVES_IN_FK;
 
-drop index USERS_PK;
+drop index IF EXISTS USERS_PK;
