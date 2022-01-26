@@ -2,7 +2,7 @@
 /* Index: BANS_PK                                               */
 /*==============================================================*/
 create unique index IF NOT EXISTS BANS_PK on BANS (
-BANNED_BY_ID
+BAN_ID
 );
 
 /*==============================================================*/
@@ -20,24 +20,10 @@ CATEGORY_ID
 );
 
 /*==============================================================*/
-/* Index: HAVE_PERMISSION_FK                                    */
-/*==============================================================*/
-create  index IF NOT EXISTS HAVE_PERMISSION_FK on HAVE_PERMISSION (
-PERM_ID
-);
-
-/*==============================================================*/
-/* Index: HAVE_PERMISSION2_FK                                   */
-/*==============================================================*/
-create  index IF NOT EXISTS HAVE_PERMISSION2_FK on HAVE_PERMISSION (
-ROLE_ID
-);
-
-/*==============================================================*/
 /* Index: ITEMS_PK                                              */
 /*==============================================================*/
 create unique index IF NOT EXISTS ITEMS_PK on ITEMS (
-ITEM_ID
+ID
 );
 
 /*==============================================================*/
@@ -55,9 +41,9 @@ PCODE
 );
 
 /*==============================================================*/
-/* Index: CONTAINS_FK                                           */
+/* Index: BELONGS_FK                                            */
 /*==============================================================*/
-create  index IF NOT EXISTS CONTAINS_FK on ITEMS (
+create  index IF NOT EXISTS BELONGS_FK on ITEMS (
 CATEGORY_ID
 );
 
@@ -66,20 +52,6 @@ CATEGORY_ID
 /*==============================================================*/
 create unique index IF NOT EXISTS LOCATIONS_PK on LOCATIONS (
 PCODE
-);
-
-/*==============================================================*/
-/* Index: PERMISSIONS_PK                                        */
-/*==============================================================*/
-create unique index IF NOT EXISTS PERMISSIONS_PK on PERMISSIONS (
-PERM_ID
-);
-
-/*==============================================================*/
-/* Index: ROLES_PK                                              */
-/*==============================================================*/
-create unique index IF NOT EXISTS ROLES_PK on ROLES (
-ROLE_ID
 );
 
 /*==============================================================*/
@@ -106,13 +78,6 @@ USER_ID
 /*==============================================================*/
 /* Index: LIVES_IN_FK                                           */
 /*==============================================================*/
-create  index IF NOT EXISTS LIVES_IN_FK on USERS (
+create index IF NOT EXISTS LIVES_IN_FK on USERS (
 PCODE
-);
-
-/*==============================================================*/
-/* Index: HAVE_ROLE_FK                                          */
-/*==============================================================*/
-create  index IF NOT EXISTS HAVE_ROLE_FK on USERS (
-ROLE_ID
 );
