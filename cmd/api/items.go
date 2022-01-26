@@ -16,8 +16,10 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 	// into the ID and Version fields of the Item struct
 	// even though we don’t want them to be.
 	var input struct {
-		Name       string   `json:"name"`
-		Categories []string `json:"categories"`
+		Name     string `json:"name"`
+		Category string `json:"category"`
+		Pcode    string `json:"pcode"`
+		PhotoURL string `json:"photo_url,omitempty"`
 	}
 
 	err := app.readJSON(w, r, &input)
@@ -27,8 +29,10 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 	}
 
 	item := &data.Item{
-		Name:       input.Name,
-		Categories: input.Categories,
+		Name:     input.Name,
+		Category: input.Category,
+		Location: input.Pcode,
+		PhotoURL: input.PhotoURL,
 	}
 
 	v := validator.New()
@@ -104,8 +108,10 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 	// we need to differentiate between the user send zero values
 	// or provided nothing at all
 	var input struct {
-		Name       *string  `json:"name"`
-		Categories []string `json:"categories"`
+		Name     *string `json:"name"`
+		Category *string `json:"category"`
+		Pcode    *string `json:"pcode"`
+		PhotoURL *string `json:"photo_url"`
 	}
 
 	err = app.readJSON(w, r, &input)
@@ -118,8 +124,16 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 		item.Name = *input.Name
 	}
 
-	if input.Categories != nil {
-		item.Categories = input.Categories
+	if input.Category != nil {
+		item.Category = *input.Category
+	}
+
+	if input.Pcode != nil {
+		item.Location = *input.Pcode
+	}
+
+	if input.PhotoURL != nil {
+		item.PhotoURL = *input.PhotoURL
 	}
 
 	v := validator.New()
@@ -171,10 +185,10 @@ func (app *application) deleteItemHandler(w http.ResponseWriter, r *http.Request
 
 func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request) {
 	var input struct {
-		Name       string
-		Categories []string
-		Filters    data.Filters
-		Cursor     *data.Cursor
+		Name     string
+		Category string
+		Filters  data.Filters
+		Cursor   *data.Cursor
 	}
 
 	v := validator.New()
@@ -182,7 +196,7 @@ func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request)
 	qs := r.URL.Query()
 
 	input.Name = app.readString(qs, "name", "")
-	input.Categories = app.readCSV(qs, "categories", []string{})
+	input.Category = app.readString(qs, "category", "")
 
 	input.Filters.PageSize = app.readInt(qs, "page_size", 20, v)
 
@@ -204,7 +218,7 @@ func (app *application) listItemsHandler(w http.ResponseWriter, r *http.Request)
 		return
 	}
 
-	items, metadata, err := app.models.Items.GetAll(input.Name, input.Categories, input.Filters, input.Cursor)
+	items, metadata, err := app.models.Items.GetAll(input.Name, input.Category, input.Filters, input.Cursor)
 	if err != nil {
 		app.serverErrorResponse(w, r, err)
 	}

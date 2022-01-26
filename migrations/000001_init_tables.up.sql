@@ -110,8 +110,8 @@ create table IF NOT EXISTS HAVE_PERMISSION (
 /* Table: ITEMS                                                 */
 /*==============================================================*/
 create table IF NOT EXISTS ITEMS (
-   NAME					TEXT			     not null,
    ITEM_ID              Bigserial            not null,
+   NAME					TEXT			     not null,
    PCODE                TEXT                 null,
    USER_ID              bigint               null,
    CATEGORY_ID          bigint               null,
