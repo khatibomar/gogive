@@ -1,7 +1,7 @@
 {{define "subject"}}Welcome to GoGive!{{end}}
 
 {{define "plainBody"}}
-Dear {{.Name}},
+Dear {{.FirstName}} {{.LastName}},
 
 Thanks for signing up for a GoGive account.
 For future reference, your user ID number is {{.ID}}.
@@ -21,7 +21,7 @@ The GoGive Team
 </head>
 
 <body>
-	<p>Dear {{.Name}},</p>
+	<p>Dear {{.FirstName}} {{.LastName}},</p>
     <p>Thanks for signing up for a GoGive account.</p>
     <p>For future reference, your user ID number is {{.ID}}.</p>
     <p>Thanks,</p>

@@ -4,7 +4,6 @@ import (
 	"context"
 	"database/sql"
 	"flag"
-	"log"
 	"os"
 	"sync"
 	"time"
@@ -79,8 +78,6 @@ func main() {
 	}
 	defer db.Close()
 	logger.PrintInfo("database connection pool established", nil)
-
-	log.Println(cfg.smtp)
 
 	app := &application{
 		config: cfg,

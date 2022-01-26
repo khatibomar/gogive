@@ -10,9 +10,13 @@ import (
 
 func (app *application) registerUserHandler(w http.ResponseWriter, r *http.Request) {
 	var input struct {
-		Name     string `json:"name"`
-		Email    string `json:"email"`
-		Password string `json:"password"`
+		FirstName string `json:"first_name"`
+		LastName  string `json:"last_name"`
+		Pcode     string `json:"pcode"`
+		Phone     string `json:"phone,omitempty"`
+		PhotoURL  string `json:"photo_url,omitempty"`
+		Email     string `json:"email"`
+		Password  string `json:"password"`
 	}
 
 	err := app.readJSON(w, r, &input)
@@ -22,7 +26,12 @@ func (app *application) registerUserHandler(w http.ResponseWriter, r *http.Reque
 	}
 
 	user := &data.User{
-		Name:      input.Name,
+		RoleName:  data.USER_ROLE,
+		FirstName: input.FirstName,
+		LastName:  input.LastName,
+		Pcode:     input.Pcode,
+		Phone:     input.Phone,
+		PhotoURL:  input.PhotoURL,
 		Email:     input.Email,
 		Activated: false,
 	}

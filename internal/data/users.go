@@ -10,6 +10,12 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
+const (
+	USER_ROLE     = "user"
+	ADMIN_ROLE    = "admin"
+	ANALYTIC_ROLE = "analytic"
+)
+
 var (
 	ErrDuplicateEmail = errors.New("duplicate email")
 )
@@ -17,8 +23,13 @@ var (
 type User struct {
 	ID        int64     `json:"id"`
 	CreatedAt time.Time `json:"created_at"`
-	Name      string    `json:"name"`
+	RoleName  string    `json:"-"`
+	FirstName string    `json:"first_name"`
+	LastName  string    `json:"last_name"`
 	Email     string    `json:"email"`
+	Pcode     string    `json:"pcode"`
+	Phone     string    `json:"phone,omitempty"`
+	PhotoURL  string    `json:"photo_url,omitempty"`
 	Password  password  `json:"-"`
 	Activated bool      `json:"activated"`
 	Version   int       `json:"-"`
@@ -67,8 +78,11 @@ func ValidatePasswordPlaintext(v *validator.Validator, password string) {
 }
 
 func ValidateUser(v *validator.Validator, user *User) {
-	v.Check(user.Name != "", "name", "must be provided")
-	v.Check(len(user.Name) <= 500, "name", "must not be more than 500 bytes long")
+	v.Check(user.FirstName != "", "first_name", "must be provided")
+	v.Check(len(user.FirstName) <= 500, "first_name", "must not be more than 500 bytes long")
+
+	v.Check(user.LastName != "", "last_name", "must be provided")
+	v.Check(len(user.LastName) <= 500, "first_name", "must not be more than 500 bytes long")
 
 	ValidateEmail(v, user.Email)
 
@@ -92,12 +106,12 @@ type UserModel struct {
 
 func (m UserModel) Insert(user *User) error {
 	query := `
-	INSERT INTO USERS (name,email,password_hash,activated)
-	VALUES ($1,$2,$3,$4)
-	RETURNING id,created_at,version
+	INSERT INTO users(role_id, pcode, activated, photo_url, firstname, lastname, phone, email, password_hash)
+	VALUES ( (SELECT role_id FROM roles WHERE role_name=$1) , $2 , $3 , $4 , $5 , $6 , $7 , $8 , $9)
+	RETURNING user_id,created_at,version
 	`
 
-	args := []interface{}{user.Name, user.Email, user.Password.hash, user.Activated}
+	args := []interface{}{user.RoleName, user.Pcode, user.Activated, user.PhotoURL, user.FirstName, user.LastName, user.Phone, user.Email, user.Password.hash}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
@@ -118,7 +132,7 @@ func (m UserModel) Insert(user *User) error {
 
 func (m UserModel) GetByEmail(email string) (*User, error) {
 	query := `
-		SELECT id , created_at , name , email , password_hash , activated , version
+		SELECT user_id, pcode, created_at, activated, photo_url, firstname, lastname, phone, email, password_hash, version
 		FROM users
 		WHERE email = $1`
 
@@ -130,10 +144,13 @@ func (m UserModel) GetByEmail(email string) (*User, error) {
 	err := m.DB.QueryRowContext(ctx, query, email).Scan(
 		&user.ID,
 		&user.CreatedAt,
-		&user.Name,
+		&user.Activated,
+		&user.PhotoURL,
+		&user.FirstName,
+		&user.LastName,
+		&user.Phone,
 		&user.Email,
 		&user.Password.hash,
-		&user.Activated,
 		&user.Version,
 	)
 
@@ -152,16 +169,19 @@ func (m UserModel) GetByEmail(email string) (*User, error) {
 func (m UserModel) Update(user *User) error {
 	query := `
 		UPDATE users
-		SET name = $1, email = $2 , password_hash = $3 , activated = $4, version = version + 1
-		WHERE id = $5 AND version = $6
+		SET pcode=$1, activated=$2, photo_url=$3, firstname=$4, lastname=$5, phone=$6, email=$7, password_hash=$8, version=version+1
+		WHERE user_id = $9 AND version = $10
 		RETURNING version`
 
 	args := []interface{}{
-		user.Name,
+		user.Pcode,
+		user.Activated,
+		user.PhotoURL,
+		user.FirstName,
+		user.LastName,
+		user.Phone,
 		user.Email,
 		user.Password.hash,
-		user.Activated,
-		user.ID,
 		user.Version,
 	}
 
