@@ -2,24 +2,24 @@
 /* Table: BANS                                                  */
 /*==============================================================*/
 create table IF NOT EXISTS BANS (
-   BAN_ID               bigserial            not null,
+   ID					bigserial            not null,
    USER_ID              bigint				 null,
    EMAIL                Citext               UNIQUE not null,
    BAN_REASON           TEXT                 not null,
    BAN_EXPIRY           DATE                 not null,
    VERSION              INT4                 not null default 1
       constraint CKC_VERSION_BANS check (VERSION >= 1),
-   constraint PK_BANS primary key (BAN_ID)
+   constraint PK_BANS primary key (ID)
 );
 
 /*==============================================================*/
 /* Table: CATEGORIES                                            */
 /*==============================================================*/
 create table IF NOT EXISTS CATEGORIES (
-   CATEGORY_ID          Bigserial            not null,
+   ID Bigserial            not null,
    CATEGORY_NAME        TEXT                 UNIQUE not null
       constraint CKC_CATEGORY_NAME_CATEGORI check (CATEGORY_NAME = lower(CATEGORY_NAME)),
-   constraint PK_CATEGORIES primary key (CATEGORY_ID)
+   constraint PK_CATEGORIES primary key (ID)
 );
 
 /*==============================================================*/
@@ -78,7 +78,7 @@ BEGIN
 END$$;
 
 create table IF NOT EXISTS USERS (
-   USER_ID              Bigserial            not null,
+   ID 					Bigserial            not null,
    PCODE                TEXT                 null,
    CREATED_AT           TIMESTAMP(0) with time zone not null DEFAULT NOW(),
    ACTIVATED            BOOL                 not null,
@@ -92,7 +92,7 @@ create table IF NOT EXISTS USERS (
    IS_ANALYTIC          BOOL                 not null default false, 
    VERSION              INT4                 not null default 1
       constraint CKC_VERSION_USERS check (VERSION >= 1),
-   constraint PK_USERS primary key (USER_ID)
+   constraint PK_USERS primary key (ID)
 );
 
 /*==============================================================*/
@@ -100,17 +100,17 @@ create table IF NOT EXISTS USERS (
 /*==============================================================*/
 alter table BANS
    add constraint FK_BANS_BAN_USERS foreign key (USER_ID)
-      references USERS (USER_ID)
+      references USERS (ID)
       on delete cascade on update cascade;
 
 alter table ITEMS
    add constraint FK_ITEMS_BELONGS_CATEGORI foreign key (CATEGORY_ID)
-      references CATEGORIES (CATEGORY_ID)
+      references CATEGORIES (ID)
       on delete cascade on update cascade;
 
 alter table ITEMS
    add constraint FK_ITEMS_CREATE_USERS foreign key (USER_ID)
-      references USERS (USER_ID)
+      references USERS (ID)
 	  on delete cascade on update cascade;
 
 alter table ITEMS
@@ -120,7 +120,7 @@ alter table ITEMS
 
 alter table TOKENS
    add constraint FK_TOKENS_HAVE_TOKE_USERS foreign key (USER_ID)
-      references USERS (USER_ID)
+      references USERS (ID)
 	  on delete cascade on update cascade;
 
 alter table USERS

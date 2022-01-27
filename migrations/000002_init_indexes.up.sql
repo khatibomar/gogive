@@ -2,7 +2,7 @@
 /* Index: BANS_PK                                               */
 /*==============================================================*/
 create unique index IF NOT EXISTS BANS_PK on BANS (
-BAN_ID
+ID
 );
 
 /*==============================================================*/
@@ -16,7 +16,7 @@ USER_ID
 /* Index: CATEGORIES_PK                                         */
 /*==============================================================*/
 create unique index IF NOT EXISTS CATEGORIES_PK on CATEGORIES (
-CATEGORY_ID
+ID
 );
 
 /*==============================================================*/
@@ -72,7 +72,7 @@ USER_ID
 /* Index: USERS_PK                                              */
 /*==============================================================*/
 create unique index IF NOT EXISTS USERS_PK on USERS (
-USER_ID
+ID
 );
 
 /*==============================================================*/
