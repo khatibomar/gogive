@@ -233,5 +233,9 @@ func ValidateItem(v *validator.Validator, item *Item) {
 
 	v.Check(item.Location != "", "location", "must be provided")
 
+	categories := []string{"vehicules", "mobile phones and accessories", "electronics", "fashion", "pets", "kids and babies", "services", "other"}
+
 	v.Check(item.Category != "", "category", "must be provided")
+
+	v.Check(validator.In(item.Category, categories...), "category", "category is invalid")
 }
