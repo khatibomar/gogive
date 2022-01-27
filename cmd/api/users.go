@@ -14,7 +14,7 @@ func (app *application) registerUserHandler(w http.ResponseWriter, r *http.Reque
 		LastName  string `json:"last_name"`
 		Pcode     string `json:"pcode"`
 		Phone     string `json:"phone,omitempty"`
-		PhotoURL  string `json:"photo_url,omitempty"`
+		ImageURL  string `json:"image_url,omitempty"`
 		Email     string `json:"email"`
 		Password  string `json:"password"`
 	}
@@ -26,12 +26,11 @@ func (app *application) registerUserHandler(w http.ResponseWriter, r *http.Reque
 	}
 
 	user := &data.User{
-		RoleName:  data.USER_ROLE,
 		FirstName: input.FirstName,
 		LastName:  input.LastName,
 		Pcode:     input.Pcode,
 		Phone:     input.Phone,
-		PhotoURL:  input.PhotoURL,
+		ImageURL:  input.ImageURL,
 		Email:     input.Email,
 		Activated: false,
 	}

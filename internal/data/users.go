@@ -23,13 +23,12 @@ var (
 type User struct {
 	ID        int64     `json:"id"`
 	CreatedAt time.Time `json:"created_at"`
-	RoleName  string    `json:"-"`
 	FirstName string    `json:"first_name"`
 	LastName  string    `json:"last_name"`
 	Email     string    `json:"email"`
 	Pcode     string    `json:"pcode"`
 	Phone     string    `json:"phone,omitempty"`
-	PhotoURL  string    `json:"photo_url,omitempty"`
+	ImageURL  string    `json:"image_url,omitempty"`
 	Password  password  `json:"-"`
 	Activated bool      `json:"activated"`
 	Version   int       `json:"-"`
@@ -106,12 +105,12 @@ type UserModel struct {
 
 func (m UserModel) Insert(user *User) error {
 	query := `
-	INSERT INTO users(role_id, pcode, activated, photo_url, firstname, lastname, phone, email, password_hash)
-	VALUES ( (SELECT role_id FROM roles WHERE role_name=$1) , $2 , $3 , $4 , $5 , $6 , $7 , $8 , $9)
+	INSERT INTO users(pcode, activated, image_url, firstname, lastname, phone, email, password_hash)
+	VALUES ($1 , $2 , $3 , $4 , $5 , $6 , $7 , $8)
 	RETURNING user_id,created_at,version
 	`
 
-	args := []interface{}{user.RoleName, user.Pcode, user.Activated, user.PhotoURL, user.FirstName, user.LastName, user.Phone, user.Email, user.Password.hash}
+	args := []interface{}{user.Pcode, user.Activated, user.ImageURL, user.FirstName, user.LastName, user.Phone, user.Email, user.Password.hash}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
@@ -132,7 +131,7 @@ func (m UserModel) Insert(user *User) error {
 
 func (m UserModel) GetByEmail(email string) (*User, error) {
 	query := `
-		SELECT user_id, pcode, created_at, activated, photo_url, firstname, lastname, phone, email, password_hash, version
+		SELECT user_id, pcode, created_at, activated, image_url, firstname, lastname, phone, email, password_hash, version
 		FROM users
 		WHERE email = $1`
 
@@ -145,7 +144,7 @@ func (m UserModel) GetByEmail(email string) (*User, error) {
 		&user.ID,
 		&user.CreatedAt,
 		&user.Activated,
-		&user.PhotoURL,
+		&user.ImageURL,
 		&user.FirstName,
 		&user.LastName,
 		&user.Phone,
@@ -169,14 +168,14 @@ func (m UserModel) GetByEmail(email string) (*User, error) {
 func (m UserModel) Update(user *User) error {
 	query := `
 		UPDATE users
-		SET pcode=$1, activated=$2, photo_url=$3, firstname=$4, lastname=$5, phone=$6, email=$7, password_hash=$8, version=version+1
+		SET pcode=$1, activated=$2, image_url=$3, firstname=$4, lastname=$5, phone=$6, email=$7, password_hash=$8, version=version+1
 		WHERE user_id = $9 AND version = $10
 		RETURNING version`
 
 	args := []interface{}{
 		user.Pcode,
 		user.Activated,
-		user.PhotoURL,
+		user.ImageURL,
 		user.FirstName,
 		user.LastName,
 		user.Phone,

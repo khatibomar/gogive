@@ -17,11 +17,11 @@ type ItemModel struct {
 
 func (i ItemModel) Insert(item *Item) error {
 	query := `
-	INSERT INTO items (name, pcode, user_id, category_id, photo_url)
-	VALUES ($1,$2,$3,(SELECT category_id FROM categories where category_name=$4),$5)
-	RETURNING item_id,created_at,version`
+	INSERT INTO items (name, pcode, user_id, category_id, image_url)
+	VALUES ($1,$2,$3,(SELECT category_id FROM categories where category_name=LOWER($4)),$5)
+	RETURNING id,created_at,version`
 
-	args := []interface{}{item.Name, item.Location, nil, item.Category, item.PhotoURL}
+	args := []interface{}{item.Name, item.Location, nil, item.Category, item.ImageURL}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
@@ -34,7 +34,7 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 		return nil, ErrRecordNotFound
 	}
 	query := `
-		SELECT item_id , created_at , name , category_name,version
+		SELECT id , created_at , name , category_name,version
 		FROM items LEFT JOIN categories on items.category_id=categories.category_id
 		WHERE id=$1`
 
@@ -64,15 +64,15 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 func (i ItemModel) Update(item *Item) error {
 	query := `
         UPDATE items
-		SET name=$1, pcode=$2, category_id=(SELECT category_id FROM categories WHERE category_name=$3), photo_url=$4 , version=version+1
-        WHERE item_id = $5 AND version = $6
+		SET name=$1, pcode=$2, category_id=(SELECT category_id FROM categories WHERE category_name=$3), image_url=$4 , version=version+1
+        WHERE id = $5 AND version = $6
         RETURNING version`
 
 	args := []interface{}{
 		item.Name,
 		item.Location,
 		item.Category,
-		item.PhotoURL,
+		item.ImageURL,
 		item.ID,
 		item.Version,
 	}
@@ -129,7 +129,7 @@ func (i ItemModel) GetAll(name string, category_name string, filters Filters, cu
 	// performance is not critical here I know because it's just for fun and no large data
 	// will be used :)
 	query := `
-		SELECT count(*) OVER(),item_id as id, created_at, name, category_name as category,pcode, version
+		SELECT count(*) OVER(),id as id, created_at, name, category_name as category,pcode, version
 		FROM items LEFT JOIN categories on items.category_id=categories.category_id
 		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
 		AND (category_name=$2 OR $2 = '')`
@@ -223,7 +223,7 @@ type Item struct {
 	Category  string    `json:"category"`
 	CreatedBy int64     `json:"created_by"`
 	Location  string    `json:"location"`
-	PhotoURL  string    `json:"photo_url,omitempty"`
+	ImageURL  string    `json:"image_url,omitempty"`
 	Version   int32     `json:"version"`
 }
 

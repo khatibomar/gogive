@@ -19,7 +19,7 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 		Name     string `json:"name"`
 		Category string `json:"category"`
 		Pcode    string `json:"pcode"`
-		PhotoURL string `json:"photo_url,omitempty"`
+		ImageURL string `json:"image_url,omitempty"`
 	}
 
 	err := app.readJSON(w, r, &input)
@@ -32,7 +32,7 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 		Name:     input.Name,
 		Category: input.Category,
 		Location: input.Pcode,
-		PhotoURL: input.PhotoURL,
+		ImageURL: input.ImageURL,
 	}
 
 	v := validator.New()
@@ -111,7 +111,7 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 		Name     *string `json:"name"`
 		Category *string `json:"category"`
 		Pcode    *string `json:"pcode"`
-		PhotoURL *string `json:"photo_url"`
+		ImageURL *string `json:"image_url"`
 	}
 
 	err = app.readJSON(w, r, &input)
@@ -132,8 +132,8 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 		item.Location = *input.Pcode
 	}
 
-	if input.PhotoURL != nil {
-		item.PhotoURL = *input.PhotoURL
+	if input.ImageURL != nil {
+		item.ImageURL = *input.ImageURL
 	}
 
 	v := validator.New()
