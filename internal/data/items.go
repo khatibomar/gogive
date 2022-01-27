@@ -131,7 +131,7 @@ func (i ItemModel) GetAll(name string, category_name string, filters Filters, cu
 	// performance is not critical here I know because it's just for fun and no large data
 	// will be used :)
 	query := `
-		SELECT count(*) OVER(),id as id, created_at, name, quantity,category_name as category,pcode, version
+		SELECT count(*) OVER(),items.id, created_at, name, quantity,category_name as category,pcode, version
 		FROM items LEFT JOIN categories on items.category_id=categories.id
 		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
 		AND (category_name=$2 OR $2 = '')`
