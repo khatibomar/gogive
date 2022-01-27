@@ -17,6 +17,7 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 	// even though we don’t want them to be.
 	var input struct {
 		Name     string `json:"name"`
+		Quantity int    `json:"quantity"`
 		Category string `json:"category"`
 		Pcode    string `json:"pcode"`
 		ImageURL string `json:"image_url,omitempty"`
@@ -31,7 +32,8 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 	item := &data.Item{
 		Name:     input.Name,
 		Category: input.Category,
-		Location: input.Pcode,
+		Quantity: input.Quantity,
+		Pcode:    input.Pcode,
 		ImageURL: input.ImageURL,
 	}
 
@@ -109,6 +111,7 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 	// or provided nothing at all
 	var input struct {
 		Name     *string `json:"name"`
+		Quantity *int    `json:"quantity"`
 		Category *string `json:"category"`
 		Pcode    *string `json:"pcode"`
 		ImageURL *string `json:"image_url"`
@@ -129,11 +132,15 @@ func (app *application) updateItemHandler(w http.ResponseWriter, r *http.Request
 	}
 
 	if input.Pcode != nil {
-		item.Location = *input.Pcode
+		item.Pcode = *input.Pcode
 	}
 
 	if input.ImageURL != nil {
 		item.ImageURL = *input.ImageURL
+	}
+
+	if input.Quantity != nil {
+		item.Quantity = *input.Quantity
 	}
 
 	v := validator.New()

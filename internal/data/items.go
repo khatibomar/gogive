@@ -17,11 +17,11 @@ type ItemModel struct {
 
 func (i ItemModel) Insert(item *Item) error {
 	query := `
-	INSERT INTO items (name, pcode, user_id, category_id, image_url)
-	VALUES ($1,$2,$3,(SELECT category_id FROM categories where category_name=LOWER($4)),$5)
+	INSERT INTO items (name,quantity, pcode, user_id, category_id, image_url)
+	VALUES ($1,$2,$3,$4,(SELECT category_id FROM categories where category_name=LOWER($5)),$6)
 	RETURNING id,created_at,version`
 
-	args := []interface{}{item.Name, item.Location, nil, item.Category, item.ImageURL}
+	args := []interface{}{item.Name, item.Quantity, item.Pcode, nil, item.Category, item.ImageURL}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
@@ -34,7 +34,7 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 		return nil, ErrRecordNotFound
 	}
 	query := `
-		SELECT id , created_at , name , category_name,version
+		SELECT id , created_at , name , quantity, category_name,version
 		FROM items LEFT JOIN categories on items.category_id=categories.category_id
 		WHERE id=$1`
 
@@ -47,6 +47,7 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 		&item.ID,
 		&item.CreatedAt,
 		&item.Name,
+		&item.Quantity,
 		&item.Category,
 		&item.Version,
 	)
@@ -64,15 +65,16 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 func (i ItemModel) Update(item *Item) error {
 	query := `
         UPDATE items
-		SET name=$1, pcode=$2, category_id=(SELECT category_id FROM categories WHERE category_name=$3), image_url=$4 , version=version+1
-        WHERE id = $5 AND version = $6
+		SET name=$1, pcode=$2, category_id=(SELECT category_id FROM categories WHERE category_name=$3), image_url=$4 , quantity=$5 , version=version+1
+        WHERE id = $6 AND version = $7
         RETURNING version`
 
 	args := []interface{}{
 		item.Name,
-		item.Location,
+		item.Pcode,
 		item.Category,
 		item.ImageURL,
+		item.Quantity,
 		item.ID,
 		item.Version,
 	}
@@ -129,7 +131,7 @@ func (i ItemModel) GetAll(name string, category_name string, filters Filters, cu
 	// performance is not critical here I know because it's just for fun and no large data
 	// will be used :)
 	query := `
-		SELECT count(*) OVER(),id as id, created_at, name, category_name as category,pcode, version
+		SELECT count(*) OVER(),id as id, created_at, name, quantity,category_name as category,pcode, version
 		FROM items LEFT JOIN categories on items.category_id=categories.category_id
 		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
 		AND (category_name=$2 OR $2 = '')`
@@ -183,8 +185,9 @@ func (i ItemModel) GetAll(name string, category_name string, filters Filters, cu
 			&item.ID,
 			&item.CreatedAt,
 			&item.Name,
+			&item.Quantity,
 			&item.Category,
-			&item.Location,
+			&item.Pcode,
 			&item.Version,
 		)
 
@@ -222,7 +225,8 @@ type Item struct {
 	Name      string    `json:"name"`
 	Category  string    `json:"category"`
 	CreatedBy int64     `json:"created_by"`
-	Location  string    `json:"location"`
+	Quantity  int       `json:"quantity"`
+	Pcode     string    `json:"pcode"`
 	ImageURL  string    `json:"image_url,omitempty"`
 	Version   int32     `json:"version"`
 }
@@ -231,11 +235,11 @@ func ValidateItem(v *validator.Validator, item *Item) {
 	v.Check(item.Name != "", "name", "must be provided")
 	v.Check(len(item.Name) <= 500, "name", "must not be more than 500 bytes long")
 
-	v.Check(item.Location != "", "location", "must be provided")
+	v.Check(item.Pcode != "", "location", "must be provided")
+
+	v.Check(item.Quantity > 0, "quantity", "must be provided")
 
 	categories := []string{"vehicules", "mobile phones and accessories", "electronics", "fashion", "pets", "kids and babies", "services", "other"}
-
 	v.Check(item.Category != "", "category", "must be provided")
-
-	v.Check(validator.In(item.Category, categories...), "category", "category is invalid")
+	v.Check(validator.In(item.Category, categories...), "category", "not in allowed set of categories")
 }
