@@ -25,6 +25,14 @@ func (app *application) routes() http.Handler {
 
 	router.HandlerFunc(http.MethodPost, "/v1/users", app.registerUserHandler)
 
+	// If a client sends the same PUT /v1/users/activated request multiple times,
+	// the first will succeed (assuming the token is valid) and then
+	// any subsequent requests will result in an error being sent to the client
+	// (because the token has been used and deleted from the database).
+	// But the important thing is that nothing in our application state
+	// (i.e. database) changes after that first request.
+	router.HandlerFunc(http.MethodPut, "/v1/users/activated", app.activateUserHandler)
+
 	if app.config.limiter.enabled {
 		rl, cleanup := NewRateLimiter()
 		go cleanup(rl)

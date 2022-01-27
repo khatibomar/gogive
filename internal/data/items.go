@@ -18,7 +18,7 @@ type ItemModel struct {
 func (i ItemModel) Insert(item *Item) error {
 	query := `
 	INSERT INTO items (name,quantity, pcode, user_id, category_id, image_url)
-	VALUES ($1,$2,$3,$4,(SELECT category_id FROM categories where category_name=LOWER($5)),$6)
+	VALUES ($1,$2,$3,$4,(SELECT id FROM categories where category_name=LOWER($5)),$6)
 	RETURNING id,created_at,version`
 
 	args := []interface{}{item.Name, item.Quantity, item.Pcode, nil, item.Category, item.ImageURL}
@@ -35,7 +35,7 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 	}
 	query := `
 		SELECT id , created_at , name , quantity, category_name,version
-		FROM items LEFT JOIN categories on items.category_id=categories.category_id
+		FROM items LEFT JOIN categories on items.category_id=categories.id
 		WHERE id=$1`
 
 	var item Item
@@ -65,7 +65,7 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 func (i ItemModel) Update(item *Item) error {
 	query := `
         UPDATE items
-		SET name=$1, pcode=$2, category_id=(SELECT category_id FROM categories WHERE category_name=$3), image_url=$4 , quantity=$5 , version=version+1
+		SET name=$1, pcode=$2, category_id=(SELECT id FROM categories WHERE category_name=$3), image_url=$4 , quantity=$5 , version=version+1
         WHERE id = $6 AND version = $7
         RETURNING version`
 
@@ -132,7 +132,7 @@ func (i ItemModel) GetAll(name string, category_name string, filters Filters, cu
 	// will be used :)
 	query := `
 		SELECT count(*) OVER(),id as id, created_at, name, quantity,category_name as category,pcode, version
-		FROM items LEFT JOIN categories on items.category_id=categories.category_id
+		FROM items LEFT JOIN categories on items.category_id=categories.id
 		WHERE (to_tsvector('simple', name) @@ plainto_tsquery('simple', $1) OR $1 = '')
 		AND (category_name=$2 OR $2 = '')`
 	if cursor != nil {

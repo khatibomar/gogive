@@ -2,6 +2,7 @@ package data
 
 import (
 	"context"
+	"crypto/sha256"
 	"database/sql"
 	"errors"
 	"time"
@@ -107,7 +108,7 @@ func (m UserModel) Insert(user *User) error {
 	query := `
 	INSERT INTO users(pcode, activated, image_url, firstname, lastname, phone, email, password_hash)
 	VALUES ($1 , $2 , $3 , $4 , $5 , $6 , $7 , $8)
-	RETURNING user_id,created_at,version
+	RETURNING id,created_at,version
 	`
 
 	args := []interface{}{user.Pcode, user.Activated, user.ImageURL, user.FirstName, user.LastName, user.Phone, user.Email, user.Password.hash}
@@ -131,7 +132,7 @@ func (m UserModel) Insert(user *User) error {
 
 func (m UserModel) GetByEmail(email string) (*User, error) {
 	query := `
-		SELECT user_id, pcode, created_at, activated, image_url, firstname, lastname, phone, email, password_hash, version
+		SELECT id, pcode, created_at, activated, image_url, firstname, lastname, phone, email, password_hash, version
 		FROM users
 		WHERE email = $1`
 
@@ -169,7 +170,7 @@ func (m UserModel) Update(user *User) error {
 	query := `
 		UPDATE users
 		SET pcode=$1, activated=$2, image_url=$3, firstname=$4, lastname=$5, phone=$6, email=$7, password_hash=$8, version=version+1
-		WHERE user_id = $9 AND version = $10
+		WHERE id = $9 AND version = $10
 		RETURNING version`
 
 	args := []interface{}{
@@ -181,6 +182,7 @@ func (m UserModel) Update(user *User) error {
 		user.Phone,
 		user.Email,
 		user.Password.hash,
+		user.ID,
 		user.Version,
 	}
 
@@ -201,4 +203,48 @@ func (m UserModel) Update(user *User) error {
 	}
 
 	return nil
+}
+
+func (m UserModel) GetForToken(tokenScope, tokenPlainText string) (*User, error) {
+	tokenHash := sha256.Sum256([]byte(tokenPlainText))
+
+	query := `
+        SELECT users.id, users.created_at, users.firstname, users.lastname, users.email, users.password_hash, users.activated,users.pcode,users.image_url , users.phone, users.version
+        FROM users
+        INNER JOIN tokens
+        ON users.id = tokens.user_id
+        WHERE tokens.hash = $1
+        AND tokens.scope = $2
+        AND tokens.expiry > $3`
+
+	args := []interface{}{tokenHash[:], tokenScope, time.Now()}
+
+	var user User
+
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	err := m.DB.QueryRowContext(ctx, query, args...).Scan(
+		&user.ID,
+		&user.CreatedAt,
+		&user.FirstName,
+		&user.LastName,
+		&user.Email,
+		&user.Password.hash,
+		&user.Activated,
+		&user.Pcode,
+		&user.ImageURL,
+		&user.Phone,
+		&user.Version,
+	)
+	if err != nil {
+		switch {
+		case errors.Is(err, sql.ErrNoRows):
+			return nil, ErrRecordNotFound
+		default:
+			return nil, err
+		}
+	}
+
+	return &user, nil
 }
