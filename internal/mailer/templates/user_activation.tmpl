@@ -1,10 +1,13 @@
-{{define "subject"}}Welcome to GoGive!{{end}}
+{{define "subject"}}Activation - GoGive{{end}}
 
 {{define "plainBody"}}
-Dear {{.FirstName}} {{.LastName}},
+Dear {{.firstName}} {{.lastName}},
 
 Thanks for signing up for a GoGive account.
-For future reference, your user ID number is {{.ID}}.
+For future reference, your user ID number is {{.userID}}.
+
+use this token to activate your account:
+{{.activationToken}}
 
 Thanks,
 
@@ -21,9 +24,11 @@ The GoGive Team
 </head>
 
 <body>
-	<p>Dear {{.FirstName}} {{.LastName}},</p>
+	<p>Dear {{.firstName}} {{.lastName}},</p>
     <p>Thanks for signing up for a GoGive account.</p>
-    <p>For future reference, your user ID number is {{.ID}}.</p>
+    <p>For future reference, your user ID number is {{.userID}}.</p>
+	<p>use this token to activate your account:</p>
+	<p>{{.activationToken}}</p>
     <p>Thanks,</p>
     <p>The GoGive Team</p>
 </body>
