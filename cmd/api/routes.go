@@ -4,13 +4,10 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/justinas/alice"
 )
 
 func (app *application) routes() http.Handler {
 	router := httprouter.New()
-
-	middlewares := alice.New(app.recoverPanic)
 
 	router.NotFound = http.HandlerFunc(app.notFoundResponse)
 	router.MethodNotAllowed = http.HandlerFunc(app.methodNotAllowedResponse)
@@ -35,11 +32,16 @@ func (app *application) routes() http.Handler {
 
 	router.HandlerFunc(http.MethodPost, "/v1/tokens/authentication", app.createAuthenticationTokenHandler)
 
+	var handler http.Handler
+	handler = router
+	handler = app.authenticate(handler)
+
 	if app.config.limiter.enabled {
 		rl, cleanup := NewRateLimiter()
 		go cleanup(rl)
-		return middlewares.Then(rl.RateLimit(app, router))
+		handler = rl.RateLimit(app, handler)
 	}
+	handler = app.recoverPanic(handler)
 
-	return middlewares.Then(router)
+	return handler
 }
