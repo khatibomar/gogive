@@ -213,7 +213,7 @@ func (app *application) requireOneOfRole(roles []string, next http.HandlerFunc) 
 			}
 		}
 		if valid == false {
-			app.errorRequireAtLeastRole(w, r, roles)
+			app.errorRequireAtLeastRole(w, r)
 			return
 		}
 
