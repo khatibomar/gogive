@@ -23,7 +23,7 @@ services:
     ports:
       - ${go_port:-4000}:${go_port:-4000}
     environment:
-      GOGIVE_DB_DSN: "postgres://gogive_test:test1234@postgres/gogive_test?sslmode=disable"
+      GOGIVE_DB_DSN: "postgres://gogive_test:test1234@postgres/gogive_dev?sslmode=disable"
     restart: unless-stopped
     depends_on: 
       - postgres

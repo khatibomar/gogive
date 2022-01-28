@@ -143,6 +143,7 @@ func (m UserModel) GetByEmail(email string) (*User, error) {
 
 	err := m.DB.QueryRowContext(ctx, query, email).Scan(
 		&user.ID,
+		&user.Pcode,
 		&user.CreatedAt,
 		&user.Activated,
 		&user.ImageURL,
