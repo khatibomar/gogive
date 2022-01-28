@@ -34,9 +34,9 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 		return nil, ErrRecordNotFound
 	}
 	query := `
-		SELECT id , created_at , name , quantity, category_name,version
+		SELECT items.id , created_at , name , quantity, category_name,version
 		FROM items LEFT JOIN categories on items.category_id=categories.id
-		WHERE id=$1`
+		WHERE items.id=$1`
 
 	var item Item
 
