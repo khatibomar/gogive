@@ -12,9 +12,10 @@ import (
 )
 
 const (
-	USER_ROLE     = "user"
-	ADMIN_ROLE    = "admin"
-	ANALYTIC_ROLE = "analytic"
+	USER_ROLE         = "user"
+	ADMIN_ROLE        = "admin"
+	ANALYTIC_ROLE     = "analytic"
+	ITEM_CREATOR_ROLE = "item_creator"
 )
 
 var (
@@ -34,6 +35,7 @@ type User struct {
 	ImageURL  string    `json:"image_url,omitempty"`
 	Password  password  `json:"-"`
 	Activated bool      `json:"activated"`
+	Role      string    `json:"-"`
 	Version   int       `json:"-"`
 }
 
@@ -216,7 +218,8 @@ func (m UserModel) GetForToken(tokenScope, tokenPlainText string) (*User, error)
 	tokenHash := sha256.Sum256([]byte(tokenPlainText))
 
 	query := `
-        SELECT users.id, users.created_at, users.firstname, users.lastname, users.email, users.password_hash, users.activated,users.pcode,users.image_url , users.phone, users.version
+        SELECT users.id, users.created_at, users.firstname, users.lastname, users.email, users.password_hash, users.activated,users.pcode,users.image_url ,
+	     	   users.phone,users.usertype, users.version
         FROM users
         INNER JOIN tokens
         ON users.id = tokens.user_id
@@ -242,6 +245,7 @@ func (m UserModel) GetForToken(tokenScope, tokenPlainText string) (*User, error)
 		&user.Pcode,
 		&user.ImageURL,
 		&user.Phone,
+		&user.Role,
 		&user.Version,
 	)
 	if err != nil {

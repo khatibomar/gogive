@@ -95,3 +95,8 @@ func (app *application) inactiveAccountResponse(w http.ResponseWriter, r *http.R
 	message := "your user account must be activated to access this resource"
 	app.errorResponse(w, r, http.StatusForbidden, message)
 }
+
+func (app *application) errorRequireAtLeastRole(w http.ResponseWriter, r *http.Request, roles []string) {
+	message := fmt.Sprintf("need to be at least one of %+v", roles)
+	app.errorResponse(w, r, http.StatusForbidden, message)
+}

@@ -172,3 +172,51 @@ func (app *application) requireActivatedUser(next http.HandlerFunc) http.Handler
 	// Wrap fn with the requireAuthenticatedUser() middleware before returning it.
 	return app.requireAuthenticatedUser(fn)
 }
+
+// requireOneOfRole check if the user is one of the roles/labels specified
+// match the user
+func (app *application) requireOneOfRole(roles []string, next http.HandlerFunc) http.HandlerFunc {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		user := app.contextGetUser(r)
+		valid := false
+		for _, role := range roles {
+			switch role {
+			case data.ADMIN_ROLE:
+				if user.Role == data.ADMIN_ROLE {
+					valid = true
+					break
+				}
+			case data.ANALYTIC_ROLE:
+				if user.Role == data.ANALYTIC_ROLE {
+					valid = true
+					break
+				}
+			case data.ITEM_CREATOR_ROLE:
+				itemID, err := app.readIDParam(r)
+				if err != nil {
+					app.badRequestResponse(w, r, err)
+					return
+				}
+				item, err := app.models.Items.Get(itemID)
+				if err != nil {
+					app.badRequestResponse(w, r, err)
+					return
+				}
+				app.contextSetItem(r, item)
+				if user.ID == item.CreatedBy {
+					valid = true
+					break
+				}
+			}
+			if valid {
+				break
+			}
+		}
+		if valid == false {
+			app.errorRequireAtLeastRole(w, r, roles)
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
+}

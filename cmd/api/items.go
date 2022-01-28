@@ -30,11 +30,12 @@ func (app *application) createItemHandler(w http.ResponseWriter, r *http.Request
 	}
 
 	item := &data.Item{
-		Name:     input.Name,
-		Category: input.Category,
-		Quantity: input.Quantity,
-		Pcode:    input.Pcode,
-		ImageURL: input.ImageURL,
+		Name:      input.Name,
+		Category:  input.Category,
+		Quantity:  input.Quantity,
+		Pcode:     input.Pcode,
+		ImageURL:  input.ImageURL,
+		CreatedBy: app.contextGetUser(r).ID,
 	}
 
 	v := validator.New()

@@ -21,7 +21,7 @@ func (i ItemModel) Insert(item *Item) error {
 	VALUES ($1,$2,$3,$4,(SELECT id FROM categories where category_name=LOWER($5)),$6)
 	RETURNING id,created_at,version`
 
-	args := []interface{}{item.Name, item.Quantity, item.Pcode, nil, item.Category, item.ImageURL}
+	args := []interface{}{item.Name, item.Quantity, item.Pcode, item.CreatedBy, item.Category, item.ImageURL}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
@@ -34,7 +34,7 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 		return nil, ErrRecordNotFound
 	}
 	query := `
-		SELECT items.id , created_at , name , quantity, category_name,version
+		SELECT items.id , created_at , name , quantity, category_name, user_id,version
 		FROM items LEFT JOIN categories on items.category_id=categories.id
 		WHERE items.id=$1`
 
@@ -49,6 +49,7 @@ func (i ItemModel) Get(id int64) (*Item, error) {
 		&item.Name,
 		&item.Quantity,
 		&item.Category,
+		&item.CreatedBy,
 		&item.Version,
 	)
 	if err != nil {
