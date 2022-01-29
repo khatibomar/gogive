@@ -20,7 +20,7 @@ services:
         GO_SMTP_USERNAME: ${GO_SMTP_USERNAME:-}
         GO_SMTP_PASSWORD: ${GO_SMTP_PASSWORD:-}
         GO_SMTP_SENDER: ${GO_SMTP_SENDER:-GoGive <no-reply@gogive.com>}
-        CORS_TRUSTED_ORIGINS: ${CORS_TRUSTED_ORIGINS:-*}
+        CORS_TRUSTED_ORIGINS: ${CORS_TRUSTED_ORIGINS:-localhost:4000 localhost:5000 localhost:6000}
     ports:
       - ${go_port:-4000}:${go_port:-4000}
     environment:

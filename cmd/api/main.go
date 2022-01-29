@@ -4,7 +4,6 @@ import (
 	"context"
 	"database/sql"
 	"flag"
-	"log"
 	"os"
 	"strings"
 	"sync"
@@ -79,8 +78,6 @@ func main() {
 	})
 
 	flag.Parse()
-
-	log.Println(cfg.cors)
 
 	logger := jsonlog.New(os.Stdout, jsonlog.LevelInfo)
 

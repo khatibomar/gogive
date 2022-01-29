@@ -225,11 +225,33 @@ func (app *application) enableCORS(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// https://textslashplain.com/2018/08/02/cors-and-vary/
 		w.Header().Add("Vary", "Origin")
+
+		// for preflight CORS
+		w.Header().Add("Vary", "Access-Control-Request-Method")
+
 		origin := r.Header.Get("Origin")
 		if origin != "" {
 			for i := range app.config.cors.trustedOrigins {
 				if origin == app.config.cors.trustedOrigins[i] {
 					w.Header().Set("Access-Control-Allow-Origin", origin)
+
+					// preflight CORS
+					// https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request
+					if r.Method == http.MethodOptions && r.Header.Get("Access-Control-Request-Method") != "" {
+						w.Header().Set("Access-Control-Allow-Methods", "OPTIONS, PUT, PATCH, DELETE")
+						w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+						// it’s important to not set the wildcard Access-Control-Allow-Origin: *
+						// header or reflect the Origin header without checking against
+						// a list of trusted origins. Otherwise, this would leave your
+						// service vulnerable to a distributed brute-force attack against
+						// any authentication credentials that are passed in that header.
+						if origin != "*" {
+							w.Header().Add("Access-Control-Allow-Headers", "Authorization")
+						}
+
+						w.WriteHeader(http.StatusOK)
+						return
+					}
 				}
 			}
 		}
