@@ -36,12 +36,12 @@ func (app *application) routes() http.Handler {
 	var handler http.Handler
 	handler = router
 	handler = app.authenticate(handler)
-
 	if app.config.limiter.enabled {
 		rl, cleanup := NewRateLimiter()
 		go cleanup(rl)
 		handler = rl.RateLimit(app, handler)
 	}
+	handler = app.enableCORS(handler)
 	handler = app.recoverPanic(handler)
 
 	return handler

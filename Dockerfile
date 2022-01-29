@@ -24,6 +24,7 @@ ARG GO_SMTP_PORT=1025
 ARG GO_SMTP_USERNAME=""
 ARG GO_SMTP_PASSWORD=""
 ARG GO_SMTP_SENDER="GoGive <no-reply@gogive.com>"
+ARG CORS_TRUSTED_ORIGINS="*"
 
 # https://stackoverflow.com/questions/35560894/is-docker-arg-allowed-within-cmd-instruction/35562189#35562189
 ENV GO_PORT=${GO_PORT}
@@ -39,10 +40,11 @@ ENV GO_SMTP_PORT=${GO_SMTP_PORT}
 ENV GO_SMTP_USERNAME=${GO_SMTP_USERNAME}
 ENV GO_SMTP_PASSWORD=${GO_SMTP_PASSWORD}
 ENV GO_SMTP_SENDER=${GO_SMTP_SENDER}
+ENV CORS_TRUSTED_ORIGINS=${CORS_TRUSTED_ORIGINS}
 
 ENV APP_PATH=./${APP_NAME}
 
 COPY --from=build-env /$APP_NAME .
  
 # Start app
-CMD ${APP_PATH} -port ${GO_PORT} -env ${GO_ENV} -db-max-open-conns ${GO_DB_MAX_OPEN_CONNS} -db-max-idle-conns ${GO_DB_MAX_IDLE_CONNS} -db-max-idle-time ${GO_DB_MAX_IDLE_TIME} -limiter-rps=${GO_RATE_LIMITER_RPS} -limiter-burst=${GO_RATE_LIMITER_BURST} -limiter-enabled=${GO_RATE_LIMITER_ENABLED} -smtp-host=${GO_SMTP_HOST} -smtp-port=${GO_SMTP_PORT} -smtp-username=${GO_SMTP_USERNAME} -smtp-password=${GO_SMTP_PASSWORD} -smtp-sender="${GO_SMTP_SENDER}"
+CMD ${APP_PATH} -port ${GO_PORT} -env ${GO_ENV} -db-max-open-conns ${GO_DB_MAX_OPEN_CONNS} -db-max-idle-conns ${GO_DB_MAX_IDLE_CONNS} -db-max-idle-time ${GO_DB_MAX_IDLE_TIME} -limiter-rps=${GO_RATE_LIMITER_RPS} -limiter-burst=${GO_RATE_LIMITER_BURST} -limiter-enabled=${GO_RATE_LIMITER_ENABLED} -smtp-host=${GO_SMTP_HOST} -smtp-port=${GO_SMTP_PORT} -smtp-username=${GO_SMTP_USERNAME} -smtp-password=${GO_SMTP_PASSWORD} -smtp-sender="${GO_SMTP_SENDER}" -cors-trusted-origins="${CORS_TRUSTED_ORIGINS}"
