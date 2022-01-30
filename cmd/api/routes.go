@@ -46,6 +46,7 @@ func (app *application) routes() http.Handler {
 	}
 	handler = app.enableCORS(handler)
 	handler = app.recoverPanic(handler)
+	handler = app.metrics(handler)
 
 	return handler
 }
