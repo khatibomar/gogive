@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.9.4" use-changelog="false" last-position="0,529" last-zoom="0.95" max-obj-count="7"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="gogive" is-template="false" allow-conns="true">
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="categories" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1220" y="740"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="category_name" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="Category_pk" type="pk-constr" table="public.categories">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="category_name_unique" type="uq-constr" table="public.categories">
+		<columns names="category_name" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="items" layers="0" collapse-mode="2" max-obj-count="12" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="600" y="600"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="pcode">
+		<type name="text" length="0"/>
+	</column>
+	<column name="user_id" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="category_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="created_at" not-null="true" default-value="NOW()">
+		<type name="timestamp with time zone" length="0" with-timezone="true"/>
+	</column>
+	<column name="name" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="quantity" not-null="true" default-value="1">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="image_url" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="bdonation" not-null="true">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="version" not-null="true" default-value="1">
+		<type name="bigint" length="0"/>
+	</column>
+	<constraint name="items_pk" type="pk-constr" table="public.items">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="locations" layers="0" collapse-mode="2" max-obj-count="8" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1200" y="1040"/>
+	<column name="pcode" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="location_name_en" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="location_name_ar" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="latitude" not-null="true">
+		<type name="float" length="0"/>
+	</column>
+	<column name="longitude" not-null="true">
+		<type name="float" length="0"/>
+	</column>
+	<column name="governorate_en" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="governorate_ar" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="locations_pk" type="pk-constr" table="public.locations">
+		<columns names="pcode" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="unique_loc_name" type="uq-constr" table="public.locations">
+		<columns names="location_name_en,location_name_ar" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="tokens" layers="0" collapse-mode="2" max-obj-count="4" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="720" y="1220"/>
+	<column name="hash" not-null="true">
+		<type name="bytea" length="0"/>
+	</column>
+	<column name="user_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="expiry">
+		<type name="timestamp with time zone" length="0" with-timezone="true"/>
+	</column>
+	<column name="scope">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="tokens_pk" type="pk-constr" table="public.tokens">
+		<columns names="hash" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<usertype name="userclass" configuration="enumeration">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<enumeration label="user"/>
+	<enumeration label="admin"/>
+	<enumeration label="analytic"/>
+</usertype>
+
+<extension name="citex" handles-type="true">
+</extension>
+
+<table name="bans" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="140" y="660"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="banned_by">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="email">
+		<type name="citex" length="0"/>
+	</column>
+	<column name="ban_reason" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ban_expiry" not-null="true">
+		<type name="timestamp with time zone" length="0" with-timezone="true"/>
+	</column>
+	<constraint name="Bans_pk" type="pk-constr" table="public.bans">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="unique_user_email" type="uq-constr" table="public.bans">
+		<columns names="email" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="users" layers="0" collapse-mode="2" max-obj-count="14" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="140" y="1100"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="pcode">
+		<type name="text" length="0"/>
+	</column>
+	<column name="created_at" not-null="true" default-value="NOW()">
+		<type name="timestamp with time zone" length="0" with-timezone="true"/>
+	</column>
+	<column name="activated" not-null="true">
+		<type name="bool" length="0"/>
+	</column>
+	<column name="image_url">
+		<type name="text" length="0"/>
+	</column>
+	<column name="firstname" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="lastname" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="phone">
+		<type name="text" length="0"/>
+	</column>
+	<column name="email">
+		<type name="citex" length="0"/>
+	</column>
+	<column name="password_hash" not-null="true">
+		<type name="bytea" length="0"/>
+	</column>
+	<column name="usertype" not-null="true">
+		<type name="public.userclass" length="0"/>
+	</column>
+	<column name="version" default-value="1">
+		<type name="bigint" length="0"/>
+	</column>
+	<constraint name="users_pk" type="pk-constr" table="public.users">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="unique_userT_email" type="uq-constr" table="public.users">
+		<columns names="email" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<constraint name="item_pcode_FK" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="SET NULL" ref-table="public.locations" table="public.items">
+	<columns names="pcode" ref-type="src-columns"/>
+	<columns names="pcode" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="item_created_by_FK" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="SET NULL" ref-table="public.users" table="public.items">
+	<columns names="user_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="item_category_FK" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="SET NULL" ref-table="public.categories" table="public.items">
+	<columns names="category_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="user_token_FK" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="CASCADE" ref-table="public.users" table="public.tokens">
+	<columns names="user_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="bans_admin_id_FK" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="SET NULL" ref-table="public.users" table="public.bans">
+	<columns names="banned_by" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<relationship name="admin ban users" type="relfk" layers="0"
+	 src-table="public.bans"
+	 dst-table="public.users" reference-fk="bans_admin_id_FK"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<relationship name="exists in" type="relfk" layers="0"
+	 src-table="public.items"
+	 dst-table="public.locations" reference-fk="item_pcode_FK"
+	 src-required="false" dst-required="true">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<relationship name="user create item" type="relfk" layers="0"
+	 src-table="public.items"
+	 dst-table="public.users" reference-fk="item_created_by_FK"
+	 src-required="false" dst-required="true">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<relationship name="item belong to category" type="relfk" layers="0"
+	 src-table="public.items"
+	 dst-table="public.categories" reference-fk="item_category_FK"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<relationship name="have_tokens" type="relfk" layers="0"
+	 src-table="public.tokens"
+	 dst-table="public.users" reference-fk="user_token_FK"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+</dbmodel>
